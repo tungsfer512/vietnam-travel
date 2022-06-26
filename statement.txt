@@ -1,0 +1,312 @@
+sass style/style.scss style/css/style.css --watch
+sass style/header.scss style/css/header.css --watch
+sass style/footer.scss style/css/footer.css --watch
+sass style/search.scss style/css/search.css --watch
+sass style/advertisement.scss style/css/advertisement.css --watch
+sass style/cookie.scss style/css/cookie.css --watch
+
+
+let wannaGorightSecondData = [
+  {
+    area: 'Đông Á',
+    countries: [
+      {
+        country: `HỒNG KÔNG & MA CAO`,
+        cities: [
+          'Hồng Kông',
+          'Ma Cao',
+        ],
+      },
+      {
+        country: `ĐÀI LOAN`,
+        cities: [
+          'Đài Bắc',
+          'Nghi Lan',
+          'Hoa Liên',
+          'Đài Đông',
+          'Đài Trung',
+          'Cao Hùng',
+          'Bành Hồ',
+          'Đài Nam',
+          'Kinmen'
+        ],
+      },
+      {
+        country: `NHẬT BẢN`,
+        cities: [
+          'Tokyo',
+          'Osaka',
+          'Kyoto',
+          'Hokkaido',
+          'Kyushu',
+          'JRPass'
+        ],
+      },
+      {
+        country: `HÀN QUỐC`,
+        cities: [
+          'Seoul',
+          'Jeju',
+          'Busan',
+          'Gangwon-do',
+          'Gyeonggi-do',
+          'Incheon'
+        ],
+      }, {
+        country: `TRUNG QUỐC `,
+        cities: [
+          'Bắc Kinh',
+          'Thượng Hải',
+          'Tô Châu & Hàng Châu',
+          'Tây An',
+          'Thành Đô',
+          'Quế Lâm',
+          'Trương Gia Giới',
+          'Tam Á & Hải Khẩu',
+          'Hạ Môn',
+          'Trùng Khánh',
+          'Quý Châu',
+          'Nội Mông'
+        ]
+      }
+    ],
+  },
+  {
+    area: 'Đông Nam Á',
+    countries: [
+      {
+        country: 'SINGAPORE',
+        cities: [
+          'Singapore'
+        ]
+      },
+      {
+        country: 'THÁI LAN',
+        cities: [
+          'Bangkok',
+          'Pattaya', 'Chiang Mai', 'Phuket', 'Koh', 'Samui', 'Krabi', 'Hua', 'Hin', 'Koh Chang', 'Koh Phi Phi', 'Chiang Rai', 'Koh Pha Ngan & Surat Thani', 'Kanchanaburi', 'Sukhothai'
+        ]
+      },
+      {
+        country: 'MALAYSIA',
+        cities: [
+          'Kuala Lumpur', 'Penang', 'Sabah', 'Sarawak', 'Langkawi', 'Johor', 'Bahru', 'Ipoh', 'Melaka'
+        ]
+      },
+      {
+        country: 'INDONESIA',
+
+        cities: [
+          'Bali', 'Jakarta', 'Lombok', 'Batam', 'Yogyakarta'
+        ],
+      },
+      {
+        country: 'PHILIPPINES',
+        cities: [
+          'Boracay', 'Manila', 'Cebu', 'Palawan', 'Bohol'
+        ],
+      },
+      {
+        country: 'VIỆT NAM',
+        cities: [
+          'TP Hồ Chí Minh', 'Hà Nội', 'Huế', 'Hội An', 'Đà Nẵng', 'Phú Quốc', 'Đà Lạt', 'Nha Trang', 'Sapa', 'Quy Nhơn', 'Hạ Long', 'Đồng Hới - Quảng Bình', 'Vũng Tàu', 'Mũi Né - Phan Thiết', 'Cần Thơ - ĐB Sông Cửu Long'
+        ],
+      },
+      {
+        country: 'CAMPUCHIA',
+        cities: [
+          'Siem Reap', 'Phnom Penh'
+        ]
+      },
+      {
+        country: 'MYANMAR',
+        cities: [
+          'Yangon', 'Bagan', 'Mandalay', 'Inle Lake'
+        ]
+      },
+      {
+        country: 'LÀO',
+        cities: [
+          'Luang Prabang', 'Viêng Chăn'
+        ]
+      }
+    ],
+  },
+  {
+    area: 'Nam Á / Trung Đông',
+    countries: [
+      {
+        country: 'NEPAL',
+        cities: [
+          'Kathmandu', 'Pokhara'
+        ]
+      }
+      ,
+      {
+        country: 'BHUTAN',
+        cities: [
+          'Thimphu'
+        ]
+      },
+      {
+        country: 'ẤN ĐỘ',
+        cities: [
+          'Mumbai Delhi', 'Jaipur', 'Udaipur', 'Goa', 'Himachal Pradesh ', 'Pune'
+        ]
+      }
+      ,
+      {
+        country: 'CÁC TIỂU VƯƠNG QUỐC Ả RẬP THỐNG NHẤT',
+        cities: [
+          'Dubai', 'Abu Dhabi'
+        ]
+      }
+      ,
+      {
+        country: 'OMAN',
+        cities: [
+          'Muscat'
+        ]
+      }
+      ,
+      {
+        country: 'THỔ NHĨ KÌ',
+        cities: [
+          'Cappadocia'
+        ]
+      }
+      ,
+      {
+        country: 'ISRAEL',
+        cities: [
+          'Jerusalem', 'Tel Aviv'
+        ]
+      }
+      ,
+      {
+        country: 'SRI LANKA',
+        cities: [
+          'Colombo'
+        ]
+      }
+    ],
+  },
+  {
+    area: 'Châu Đại Dương / Châu Phi',
+    countries: [
+      {
+        country: 'ÚC',
+        cities: [
+          'Sydney', 'Melbourne', 'Cairns', 'Brisbane', 'Perth ', 'Gold ', 'Coast', 'Adelaide', 'Darwin'
+        ]
+      }
+      ,
+      {
+        country: 'NEW ZEALAND',
+        cities: [
+          'Christchurch', 'Queenstown', 'Auckland', 'Rotorua', 'Wellington', 'Marlborough', 'Sông băng Fox & Franz Josef'
+        ]
+      }
+    ],
+  },
+  {
+    area: 'Châu Âu',
+    countries: [
+      {
+        country: 'ANH',
+        cities: [
+          'London', 'Edinburgh'
+        ]
+      }
+      ,
+      {
+        country: 'PHÁP',
+        cities: [
+          'Paris', 'Alsace, Burgundy & Champagne'
+        ]
+      }
+      ,
+      {
+        country: 'HÀ LAN',
+        cities: [
+          'Amsterdam'
+        ]
+      }
+      ,
+      {
+        country: 'ĐỨC',
+        cities: [
+          'Berlin', 'Munich Hamburg'
+        ]
+      }
+      ,
+      {
+        country: 'ÁO',
+        cities: [
+          'Vienna'
+        ]
+      }
+      ,
+      {
+        country: 'THỤY SĨ',
+        cities: [
+          'Zurich'
+        ]
+      }
+      ,
+      {
+        country: 'Ý',
+        cities: [
+          'Rome', 'Milan', 'Florence', 'Venice', 'Naples'
+        ]
+      }
+      ,
+      {
+        country: 'TÂY BAN NHA',
+        cities: [
+          'Madrid', 'Barcelona', 'Seville', 'Malaga & Costa del Sol'
+        ]
+      }
+      ,
+      {
+        country: 'ICELAND',
+        cities: [
+          'Reykjavik', 'Bắc Iceland', 'South Iceland'
+        ]
+      }
+      ,
+      {
+        country: 'PHẦN LAN',
+        cities: [
+          'Helsinki', 'Lapland Phần Lan'
+        ]
+      }
+      ,
+      {
+        country: 'HY LẠP',
+        cities: [
+          'Athens'
+        ]
+      }
+    ],
+  },
+  {
+    area: 'Bắc Mỹ',
+    countries: [
+      {
+        country: 'MỸ',
+        cities: [
+          'New York', 'Los Angeles', 'San Francisco', 'Chicago', 'Las Vegas', 'Washington DC', 'Boston Miami'
+        ]
+      }
+    ]
+  }
+];
+
+
+
+
+
+
+
+

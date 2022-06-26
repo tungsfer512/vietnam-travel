@@ -1,0 +1,142 @@
+{
+    "sourceFile": "statement.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 31,
+            "patches": [
+                {
+                    "date": 1656072047803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1656072058047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,1 @@\n-\r\n-\r\n-.content {\r\n-\tmargin-top: 115px !important;\r\n-}\n\\ No newline at end of file\n+sass style/style.scss style/css/style.css --watch\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656072070029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,4 @@\n-sass style/style.scss style/css/style.css --watch\n\\ No newline at end of file\n+sass style/style.scss style/css/style.css --watch\r\n+sass style/style.scss style/css/style.css --watch\r\n+sass style/style.scss style/css/style.css --watch\r\n+sass style/style.scss style/css/style.css --watch\r\n"
+                },
+                {
+                    "date": 1656072077431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n sass style/style.scss style/css/style.css --watch\r\n+sass style/header.scss style/css/style.css --watch\r\n+sass style/footer.scss style/css/style.css --watch\r\n sass style/style.scss style/css/style.css --watch\r\n-sass style/style.scss style/css/style.css --watch\r\n-sass style/style.scss style/css/style.css --watch\r\n"
+                },
+                {
+                    "date": 1656072084622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n sass style/style.scss style/css/style.css --watch\r\n-sass style/header.scss style/css/style.css --watch\r\n-sass style/footer.scss style/css/style.css --watch\r\n+sass style/header.scss style/css/header.css --watch\r\n+sass style/footer.scss style/css/footer.css --watch\r\n sass style/style.scss style/css/style.css --watch\r\n"
+                },
+                {
+                    "date": 1656072091140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n sass style/style.scss style/css/style.css --watch\r\n sass style/header.scss style/css/header.css --watch\r\n sass style/footer.scss style/css/footer.css --watch\r\n-sass style/style.scss style/css/style.css --watch\r\n+sass style/search.scss style/css/style.css --watch\r\n"
+                },
+                {
+                    "date": 1656072098234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n sass style/style.scss style/css/style.css --watch\r\n sass style/header.scss style/css/header.css --watch\r\n sass style/footer.scss style/css/footer.css --watch\r\n-sass style/search.scss style/css/style.css --watch\r\n+sass style/search.scss style/css/search.css --watch\r\n"
+                },
+                {
+                    "date": 1656072104256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n sass style/style.scss style/css/style.css --watch\r\n sass style/header.scss style/css/header.css --watch\r\n sass style/footer.scss style/css/footer.css --watch\r\n-sass style/search.scss style/css/search.css --watch\r\n+sass style/search.scss style/css/search.css --watch\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656072116019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n sass style/style.scss style/css/style.css --watch\r\n sass style/header.scss style/css/header.css --watch\r\n sass style/footer.scss style/css/footer.css --watch\r\n+sass style/search.scss style/css/search.css --watch\r\n+sass style/advertisement.scss style/css/advertisement.css --watch\r\n sass style/search.scss style/css/search.css --watch\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656072124232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n sass style/header.scss style/css/header.css --watch\r\n sass style/footer.scss style/css/footer.css --watch\r\n sass style/search.scss style/css/search.css --watch\r\n sass style/advertisement.scss style/css/advertisement.css --watch\r\n-sass style/search.scss style/css/search.css --watch\n\\ No newline at end of file\n+sass style/cook.scss style/css/cook.css --watch\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656262688872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,6 @@\n sass style/header.scss style/css/header.css --watch\r\n sass style/footer.scss style/css/footer.css --watch\r\n sass style/search.scss style/css/search.css --watch\r\n sass style/advertisement.scss style/css/advertisement.css --watch\r\n-sass style/cook.scss style/css/cook.css --watch\n\\ No newline at end of file\n+sass style/cookie.scss style/css/cookie.css --watch\r\n+\r\n"
+                },
+                {
+                    "date": 1656262700070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,4 +4,15 @@\n sass style/search.scss style/css/search.css --watch\r\n sass style/advertisement.scss style/css/advertisement.css --watch\r\n sass style/cookie.scss style/css/cookie.css --watch\r\n \r\n+1\r\n+2\r\n+3\r\n+4\r\n+5\r\n+6\r\n+7\r\n+8\r\n+9\r\n+\r\n+1\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656262707342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,7 @@\n 6\r\n 7\r\n 8\r\n 9\r\n-\r\n+10\r\n+1\r\n 1\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656262713087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,5 +15,13 @@\n 8\r\n 9\r\n 10\r\n 1\r\n-1\n\\ No newline at end of file\n+2\r\n+3\r\n+4\r\n+5\r\n+6\r\n+7\r\n+8\r\n+9\r\n+0\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656262730222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,14 +14,18 @@\n 7\r\n 8\r\n 9\r\n 10\r\n+11\r\n+12\r\n+13\r\n+14\r\n+15\r\n+16\r\n+17\r\n+18\r\n+19\r\n+0\r\n\\ No newline at end of file\n 1\r\n 2\r\n 3\r\n-4\r\n-5\r\n-6\r\n-7\r\n-8\r\n-9\r\n-0\n+4\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656262737174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n 16\r\n 17\r\n 18\r\n 19\r\n-0\r\n-1\r\n-2\r\n-3\r\n-4\n\\ No newline at end of file\n+20\r\n+21\r\n+22\r\n+23\r\n+24\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656262742662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,5 +27,7 @@\n 20\r\n 21\r\n 22\r\n 23\r\n+24\r\n+24\r\n 24\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656262755360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,31 +3,4 @@\n sass style/footer.scss style/css/footer.css --watch\r\n sass style/search.scss style/css/search.css --watch\r\n sass style/advertisement.scss style/css/advertisement.css --watch\r\n sass style/cookie.scss style/css/cookie.css --watch\r\n-\r\n-1\r\n-2\r\n-3\r\n-4\r\n-5\r\n-6\r\n-7\r\n-8\r\n-9\r\n-10\r\n-11\r\n-12\r\n-13\r\n-14\r\n-15\r\n-16\r\n-17\r\n-18\r\n-19\r\n-20\r\n-21\r\n-22\r\n-23\r\n-24\r\n-24\r\n-24\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656266727106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,4 +3,14 @@\n sass style/footer.scss style/css/footer.css --watch\r\n sass style/search.scss style/css/search.css --watch\r\n sass style/advertisement.scss style/css/advertisement.css --watch\r\n sass style/cookie.scss style/css/cookie.css --watch\r\n+\r\n+Điểm tham quan)\r\n+Tour&ngắm cảnh\r\n+Thể thao&hoạt động\r\n+ngoài trời\r\n+Thư giãn)\r\n+Vui chơi&giải trí)\r\n+Hoạt động&thể thao\r\n+dưới nước\r\n+                    >\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656266732272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,5 @@\n Thể thao&hoạt động\r\n ngoài trời\r\n Thư giãn)\r\n Vui chơi&giải trí)\r\n-Hoạt động&thể thao\r\n-dưới nước\r\n-                    >\n\\ No newline at end of file\n+Hoạt động&thể thaodưới nước\r\n"
+                },
+                {
+                    "date": 1656266739562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,11 @@\n sass style/search.scss style/css/search.css --watch\r\n sass style/advertisement.scss style/css/advertisement.css --watch\r\n sass style/cookie.scss style/css/cookie.css --watch\r\n \r\n-Điểm tham quan)\r\n+Điểm tham quan\r\n Tour&ngắm cảnh\r\n Thể thao&hoạt động\r\n ngoài trời\r\n-Thư giãn)\r\n-Vui chơi&giải trí)\r\n-Hoạt động&thể thaodưới nước\r\n+Thư giãn\r\n+Vui chơi & giải trí\r\n+Hoạt động&thể thao dưới nước\r\n"
+                },
+                {
+                    "date": 1656266752160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n sass style/advertisement.scss style/css/advertisement.css --watch\r\n sass style/cookie.scss style/css/cookie.css --watch\r\n \r\n Điểm tham quan\r\n-Tour&ngắm cảnh\r\n+Tour & ngắm cảnh\r\n Thể thao&hoạt động\r\n ngoài trời\r\n Thư giãn\r\n Vui chơi & giải trí\r\n-Hoạt động&thể thao dưới nước\r\n+Hoạt động & thể thao dưới nước\r\n"
+                },
+                {
+                    "date": 1656266764072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,11 @@\n sass style/search.scss style/css/search.css --watch\r\n sass style/advertisement.scss style/css/advertisement.css --watch\r\n sass style/cookie.scss style/css/cookie.css --watch\r\n \r\n-Điểm tham quan\r\n-Tour & ngắm cảnh\r\n-Thể thao&hoạt động\r\n-ngoài trời\r\n-Thư giãn\r\n-Vui chơi & giải trí\r\n-Hoạt động & thể thao dưới nước\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1656268596588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,21 @@\n sass style/search.scss style/css/search.css --watch\r\n sass style/advertisement.scss style/css/advertisement.css --watch\r\n sass style/cookie.scss style/css/cookie.css --watch\r\n \r\n-\r\n-\r\n-\r\n-\r\n-\r\n-\r\n-\r\n+Tàu hoả\r\n+Vé tàu Nhật Bản\r\n+Vé tàu Châu Âu\r\n+Thuê xe tự lái)\r\n+Di chuyển sân bay)\r\n+Xe riêng đưa đón sân\r\n+bay\r\n+Tàu&xe buýt sân bay\r\n+Xe buýt&vé tàu\r\n+Xe buýt liên tỉnh Châu\r\n+Âu\r\n+Tàu cao tốc Việt Nam\r\n+Thuê xe riêng>\r\n+Thuê xe gồm tài xế\r\n+Giao thông công cộng>\r\n+Vé xe Thẻ di chuyển\r\n+Thuê xe máy)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656268603670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,14 +9,12 @@\n Vé tàu Nhật Bản\r\n Vé tàu Châu Âu\r\n Thuê xe tự lái)\r\n Di chuyển sân bay)\r\n-Xe riêng đưa đón sân\r\n-bay\r\n+Xe riêng đưa đón sânbay\r\n Tàu&xe buýt sân bay\r\n Xe buýt&vé tàu\r\n-Xe buýt liên tỉnh Châu\r\n-Âu\r\n+Xe buýt liên tỉnh Châu Âu\r\n Tàu cao tốc Việt Nam\r\n Thuê xe riêng>\r\n Thuê xe gồm tài xế\r\n Giao thông công cộng>\r\n"
+                },
+                {
+                    "date": 1656268615638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,13 @@\n \r\n Tàu hoả\r\n Vé tàu Nhật Bản\r\n Vé tàu Châu Âu\r\n-Thuê xe tự lái)\r\n-Di chuyển sân bay)\r\n-Xe riêng đưa đón sânbay\r\n-Tàu&xe buýt sân bay\r\n-Xe buýt&vé tàu\r\n+Thuê xe tự lái\r\n+Di chuyển sân bay\r\n+Xe riêng đưa đón sân bay\r\n+Tàu & xe buýt sân bay\r\n+Xe buýt & vé tàu\r\n Xe buýt liên tỉnh Châu Âu\r\n Tàu cao tốc Việt Nam\r\n Thuê xe riêng>\r\n Thuê xe gồm tài xế\r\n"
+                },
+                {
+                    "date": 1656268620964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n Tàu & xe buýt sân bay\r\n Xe buýt & vé tàu\r\n Xe buýt liên tỉnh Châu Âu\r\n Tàu cao tốc Việt Nam\r\n-Thuê xe riêng>\r\n+Thuê xe riêng\r\n Thuê xe gồm tài xế\r\n-Giao thông công cộng>\r\n+Giao thông công cộng\r\n\\ No newline at end of file\n Vé xe Thẻ di chuyển\r\n-Thuê xe máy)\n+Thuê xe máy\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656268638589,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,19 +4,19 @@\n sass style/search.scss style/css/search.css --watch\r\n sass style/advertisement.scss style/css/advertisement.css --watch\r\n sass style/cookie.scss style/css/cookie.css --watch\r\n \r\n-Tàu hoả\r\n-Vé tàu Nhật Bản\r\n-Vé tàu Châu Âu\r\n-Thuê xe tự lái\r\n-Di chuyển sân bay\r\n-Xe riêng đưa đón sân bay\r\n-Tàu & xe buýt sân bay\r\n-Xe buýt & vé tàu\r\n-Xe buýt liên tỉnh Châu Âu\r\n-Tàu cao tốc Việt Nam\r\n-Thuê xe riêng\r\n-Thuê xe gồm tài xế\r\n-Giao thông công cộng\r\n-Vé xe Thẻ di chuyển\r\n-Thuê xe máy\n\\ No newline at end of file\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1656272662590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,18 +5,308 @@\n sass style/advertisement.scss style/css/advertisement.css --watch\r\n sass style/cookie.scss style/css/cookie.css --watch\r\n \r\n \r\n+let wannaGorightSecondData = [\r\n+  {\r\n+    area: 'Đông Á',\r\n+    countries: [\r\n+      {\r\n+        country: `HỒNG KÔNG & MA CAO`,\r\n+        cities: [\r\n+          'Hồng Kông',\r\n+          'Ma Cao',\r\n+        ],\r\n+      },\r\n+      {\r\n+        country: `ĐÀI LOAN`,\r\n+        cities: [\r\n+          'Đài Bắc',\r\n+          'Nghi Lan',\r\n+          'Hoa Liên',\r\n+          'Đài Đông',\r\n+          'Đài Trung',\r\n+          'Cao Hùng',\r\n+          'Bành Hồ',\r\n+          'Đài Nam',\r\n+          'Kinmen'\r\n+        ],\r\n+      },\r\n+      {\r\n+        country: `NHẬT BẢN`,\r\n+        cities: [\r\n+          'Tokyo',\r\n+          'Osaka',\r\n+          'Kyoto',\r\n+          'Hokkaido',\r\n+          'Kyushu',\r\n+          'JRPass'\r\n+        ],\r\n+      },\r\n+      {\r\n+        country: `HÀN QUỐC`,\r\n+        cities: [\r\n+          'Seoul',\r\n+          'Jeju',\r\n+          'Busan',\r\n+          'Gangwon-do',\r\n+          'Gyeonggi-do',\r\n+          'Incheon'\r\n+        ],\r\n+      }, {\r\n+        country: `TRUNG QUỐC `,\r\n+        cities: [\r\n+          'Bắc Kinh',\r\n+          'Thượng Hải',\r\n+          'Tô Châu & Hàng Châu',\r\n+          'Tây An',\r\n+          'Thành Đô',\r\n+          'Quế Lâm',\r\n+          'Trương Gia Giới',\r\n+          'Tam Á & Hải Khẩu',\r\n+          'Hạ Môn',\r\n+          'Trùng Khánh',\r\n+          'Quý Châu',\r\n+          'Nội Mông'\r\n+        ]\r\n+      }\r\n+    ],\r\n+  },\r\n+  {\r\n+    area: 'Đông Nam Á',\r\n+    countries: [\r\n+      {\r\n+        country: 'SINGAPORE',\r\n+        cities: [\r\n+          'Singapore'\r\n+        ]\r\n+      },\r\n+      {\r\n+        country: 'THÁI LAN',\r\n+        cities: [\r\n+          'Bangkok',\r\n+          'Pattaya', 'Chiang Mai', 'Phuket', 'Koh', 'Samui', 'Krabi', 'Hua', 'Hin', 'Koh Chang', 'Koh Phi Phi', 'Chiang Rai', 'Koh Pha Ngan & Surat Thani', 'Kanchanaburi', 'Sukhothai'\r\n+        ]\r\n+      },\r\n+      {\r\n+        coutry: 'MALAYSIA',\r\n+        cities: [\r\n+          'Kuala Lumpur', 'Penang', 'Sabah', 'Sarawak', 'Langkawi', 'Johor', 'Bahru', 'Ipoh', 'Melaka'\r\n+        ]\r\n+      },\r\n+      {\r\n+        coutry: 'INDONESIA',\r\n \r\n+        cities: [\r\n+          'Bali', 'Jakarta', 'Lombok', 'Batam', 'Yogyakarta'\r\n+        ],\r\n+      },\r\n+      {\r\n+        coutry: 'PHILIPPINES',\r\n+        cities: [\r\n+          'Boracay', 'Manila', 'Cebu', 'Palawan', 'Bohol'\r\n+        ],\r\n+      },\r\n+      {\r\n+        coutry: 'VIỆT NAM',\r\n+        cities: [\r\n+          'TP Hồ Chí Minh', 'Hà Nội', 'Huế', 'Hội An', 'Đà Nẵng', 'Phú Quốc', 'Đà Lạt', 'Nha Trang', 'Sapa', 'Quy Nhơn', 'Hạ Long', 'Đồng Hới - Quảng Bình', 'Vũng Tàu', 'Mũi Né - Phan Thiết', 'Cần Thơ - ĐB Sông Cửu Long'\r\n+        ],\r\n+      },\r\n+      {\r\n+        country: 'CAMPUCHIA',\r\n+        cities: [\r\n+          'Siem Reap', 'Phnom Penh'\r\n+        ]\r\n+      },\r\n+      {\r\n+        country: 'MYANMAR',\r\n+        cities: [\r\n+          'Yangon', 'Bagan', 'Mandalay', 'Inle Lake'\r\n+        ]\r\n+      },\r\n+      {\r\n+        country: 'LÀO',\r\n+        cities: [\r\n+          'Luang Prabang', 'Viêng Chăn'\r\n+        ]\r\n+      }\r\n+    ],\r\n+  },\r\n+  {\r\n+    area: 'Nam Á / Trung Đông',\r\n+    countries: [\r\n+      {\r\n+        country: 'NEPAL',\r\n+        cities: [\r\n+          'Kathmandu', 'Pokhara'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'BHUTAN',\r\n+        cities: [\r\n+          'Thimphu'\r\n+        ]\r\n+      },\r\n+      {\r\n+        country: 'ẤN ĐỘ',\r\n+        cities: [\r\n+          'Mumbai Delhi', 'Jaipur', 'Udaipur', 'Goa', 'Himachal Pradesh ', 'Pune'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'CÁC TIỂU VƯƠNG QUỐC Ả RẬP THỐNG NHẤT',\r\n+        cities: [\r\n+          'Dubai', 'Abu Dhabi'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'OMAN',\r\n+        cities: [\r\n+          'Muscat'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'THỔ NHĨ KÌ',\r\n+        cities: [\r\n+          'Cappadocia'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'ISRAEL',\r\n+        cities: [\r\n+          'Jerusalem', 'Tel Aviv'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'SRI LANKA',\r\n+        cities: [\r\n+          'Colombo'\r\n+        ]\r\n+      }\r\n+    ],\r\n+  },\r\n+  {\r\n+    area: 'Châu Đại Dương / Châu Phi',\r\n+    countries: [\r\n+      {\r\n+        country: 'ÚC',\r\n+        cities: [\r\n+          'Sydney', 'Melbourne', 'Cairns', 'Brisbane', 'Perth ', 'Gold ', 'Coast', 'Adelaide', 'Darwin'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'NEW ZEALAND',\r\n+        cities: [\r\n+          'Christchurch', 'Queenstown', 'Auckland', 'Rotorua', 'Wellington', 'Marlborough', 'Sông băng Fox & Franz Josef'\r\n+        ]\r\n+      }\r\n+    ],\r\n+  },\r\n+  {\r\n+    area: 'Châu Âu',\r\n+    countries: [\r\n+      {\r\n+        country: 'ANH',\r\n+        cities: [\r\n+          'London', 'Edinburgh'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'PHÁP',\r\n+        cities: [\r\n+          'Paris', 'Alsace, Burgundy & Champagne'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'HÀ LAN',\r\n+        cities: [\r\n+          'Amsterdam'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'ĐỨC',\r\n+        cities: [\r\n+          'Berlin', 'Munich Hamburg'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'ÁO',\r\n+        cities: [\r\n+          'Vienna'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'THỤY SĨ',\r\n+        cities: [\r\n+          'Zurich'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'Ý',\r\n+        cities: [\r\n+          'Rome', 'Milan', 'Florence', 'Venice', 'Naples'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'TÂY BAN NHA',\r\n+        cities: [\r\n+          'Madrid', 'Barcelona', 'Seville', 'Malaga & Costa del Sol'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'ICELAND',\r\n+        cities: [\r\n+          'Reykjavik', 'Bắc Iceland', 'South Iceland'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'PHẦN LAN',\r\n+        cities: [\r\n+          'Helsinki', 'Lapland Phần Lan'\r\n+        ]\r\n+      }\r\n+      ,\r\n+      {\r\n+        country: 'HY LẠP',\r\n+        cities: [\r\n+          'Athens'\r\n+        ]\r\n+      }\r\n+    ],\r\n+  },\r\n+  {\r\n+    area: 'Bắc Mỹ',\r\n+    countries: [\r\n+      {\r\n+        coutry: 'MỸ',\r\n+        cities: [\r\n+          'New York', 'Los Angeles', 'San Francisco', 'Chicago', 'Las Vegas', 'Washington DC', 'Boston Miami'\r\n+        ]\r\n+      }\r\n+    ]\r\n+  }\r\n+];\r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n-\r\n-\r\n-\r\n-\r\n-\r\n"
+                },
+                {
+                    "date": 1656273193566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -293,9 +293,9 @@\n   {\r\n     area: 'Bắc Mỹ',\r\n     countries: [\r\n       {\r\n-        coutry: 'MỸ',\r\n+        country: 'MỸ',\r\n         cities: [\r\n           'New York', 'Los Angeles', 'San Francisco', 'Chicago', 'Las Vegas', 'Washington DC', 'Boston Miami'\r\n         ]\r\n       }\r\n"
+                },
+                {
+                    "date": 1656273218152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -106,9 +106,9 @@\n           'Boracay', 'Manila', 'Cebu', 'Palawan', 'Bohol'\r\n         ],\r\n       },\r\n       {\r\n-        coutry: 'VIỆT NAM',\r\n+        country: 'VIỆT NAM',\r\n         cities: [\r\n           'TP Hồ Chí Minh', 'Hà Nội', 'Huế', 'Hội An', 'Đà Nẵng', 'Phú Quốc', 'Đà Lạt', 'Nha Trang', 'Sapa', 'Quy Nhơn', 'Hạ Long', 'Đồng Hới - Quảng Bình', 'Vũng Tàu', 'Mũi Né - Phan Thiết', 'Cần Thơ - ĐB Sông Cửu Long'\r\n         ],\r\n       },\r\n"
+                },
+                {
+                    "date": 1656273223897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,16 +93,16 @@\n           'Kuala Lumpur', 'Penang', 'Sabah', 'Sarawak', 'Langkawi', 'Johor', 'Bahru', 'Ipoh', 'Melaka'\r\n         ]\r\n       },\r\n       {\r\n-        coutry: 'INDONESIA',\r\n+        country: 'INDONESIA',\r\n \r\n         cities: [\r\n           'Bali', 'Jakarta', 'Lombok', 'Batam', 'Yogyakarta'\r\n         ],\r\n       },\r\n       {\r\n-        coutry: 'PHILIPPINES',\r\n+        country: 'PHILIPPINES',\r\n         cities: [\r\n           'Boracay', 'Manila', 'Cebu', 'Palawan', 'Bohol'\r\n         ],\r\n       },\r\n"
+                }
+            ],
+            "date": 1656072047803,
+            "name": "Commit-0",
+            "content": "\r\n\r\n.content {\r\n\tmargin-top: 115px !important;\r\n}"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+<div class="scroll-top-up">
+  <i class="scroll-top-up-i">
+    <span class="material-icons">
+      arrow_upward
+    </span>
+  </i>
+</div>
+<div class="layout-default-footer margin-top">
+  <div class="container-default-footer">
+    <div class="container-default-footer-divider"></div>
+    <!--  -->
+    <div class="container-default-footer-bottom">
+      <div class="c-default-footer-bottom-infos">
+        <!-- items -->
+        <div class="c-d-f-bottom-info-item">
+          <div class="c-d-f-bottom-info-item-text
+                                margin-bottom-active">
+            <span class="copy-right">© 2014-2022 Việt Nam Travel. All
+              Rights Reserved.</span>
+          </div>
+          <div class="c-d-f-bottom-info-item-text
+                                margin-top-active">
+            <span class="country">Việt Nam</span>
+          </div>
+          <div class="c-d-f-bottom-info-item-link">
+            <a href="#" class="c-d-f-bottom-info-item-link-active"></a>
+          </div>
+        </div>
+        <!-- items -->
+        <div class="c-d-f-bottom-info-item active-flex">
+          <!-- item -->
+          <div class="c-d-f-bottom-info-item-internal">
+            <div class="c-d-f-bottom-info-item-internal-label">
+              <span>Về Việt Nam Travel</span>
+            </div>
+            <ul>
+              <li>Về chúng tôi</li>
+              <li>Blog</li>
+              <li>Cơ hội nghề nghiệp</li>
+              <li>Phiếu Quà Tặng</li>
+            </ul>
+          </div>
+
+          <div class="c-d-f-bottom-info-item-internal">
+            <div class="c-d-f-bottom-info-item-internal-label">
+              <span>ĐỐI TÁC</span>
+            </div>
+            <ul>
+              <li>Đăng ký nhà cung cấp</li>
+              <li>Đối tác đăng nhập</li>
+              <li>Đối tác liên kết</li>
+              <li>Chương trình cho người nổi tiếng</li>
+              <li>Chương trình cho Đại lý</li>
+              <li>Hợp tác marketing & phân phối</li>
+            </ul>
+          </div>
+
+          <div class="c-d-f-bottom-info-item-internal">
+            <div class="c-d-f-bottom-info-item-internal-label">
+              <span>Điều khoản sử dụng</span>
+            </div>
+            <ul>
+              <li>Điều khoản sử dụng</li>
+              <li>Chính sách bảo mật</li>
+              <li>Chính sách Cookie</li>
+              <li>Chương trình thưởng phát triển lỗi phần
+                mềm</li>
+              <li>Chính sách và quy định</li>
+            </ul>
+          </div>
+        </div>
+        <div class="c-d-f-bottom-info-item">
+          <div class="c-d-f-b-info-item-other">
+            <div class="c-d-f-b-info-item-other-top">
+              <div class="c-d-f-b-info-item-other-top-tips">
+                <span>Các deal du lịch giảm giá đến 60%
+                  sẽ được gửi đến inbox của bạn</span>
+                <p>
+                  Khi nhấp vào Đăng ký, bạn đồng ý với
+                  <a href="#">Các Điều kiện và Điều
+                    khoản</a>
+                  và
+                  <a href="#">Chính sách bảo mật</a>
+                  của chúng tôi
+                </p>
+              </div>
+              <div class="c-d-f-b-info-item-other-top-input">
+                <input type="text" placeholder="Nhập
+                                            email">
+                <button>Đăng ký</button>
+              </div>
+            </div>
+            <div class="c-d-f-b-info-item-other-bottom">
+              <div class="c-d-f-b-info-item-other-bottom-label">
+                <span>KÊNH THANH TOÁN</span>
+              </div>
+              <div class="c-d-f-b-info-item-other-bottom-link">
+                <a href="#">
+                  <img src="./assets/images/footer/btntfn8avhh5lmzftvvt.png" alt="">
+                </a>
+                <a href="#">
+                  <img src="./assets/images/footer/f08rx4qptjfrt5bqpkqu.png" alt="">
+                </a>
+                <a href="#">
+                  <img src="./assets/images/footer/izie51h8cglw7tp4xtcm.png" alt="">
+                </a>
+                <a href="#">
+                  <img src="./assets/images/footer/kxz1g1hqja0wphocpqsa.png" alt="">
+                </a>
+                <a href="#">
+                  <img src="./assets/images/footer/n6hfyhmzq0wahybi1oup.png" alt="">
+                </a>
+                <a href="#">
+                  <img src="./assets/images/footer/o2a7mqjltfeldbfffmn9.png" alt="">
+                </a>
+                <a href="#">
+                  <img src="./assets/images/footer/oz0s9miltrjsgjc271wo.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+  let scroll = 0;
+  window.onscroll = () => {
+    let currentScroll = document.documentElement.scrollTop;
+    // console.log(currentScroll);
+    if (currentScroll > 100) {
+      if ($(".scroll-top-up").hasClass("scroll-top-up-active") == false) {
+        $(".scroll-top-up").toggleClass("scroll-top-up-active");
+      }
+    } else {
+      if ($(".scroll-top-up").hasClass("scroll-top-up-active") == true) {
+        $(".scroll-top-up").removeClass("scroll-top-up-active");
+      }
+    }
+  }
+  $('.scroll-top-up').click(() => {
+    console.log('top');
+    document.body.scrollIntoView({ behavior: "smooth", block: "start" });
+  })
+</script>

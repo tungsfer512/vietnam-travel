@@ -1,0 +1,70 @@
+{
+    "sourceFile": "3_experiences/js/city.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1656152149666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1656164036694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,8 +85,21 @@\n   prevArrow: `<span class=\"material-icons slick-prev\">\r\n     chevron_left\r\n     </span>`\r\n });\r\n+$('.f3_category').slick({\r\n+  slidesToShow: 7,\r\n+  slidesToScroll: 7,\r\n+  // autoplay: true,\r\n+  // autoplaySpeed: 2000,\r\n+  infinite: false,\r\n+  nextArrow: `<span class=\"material-icons slick-next\">\r\n+      chevron_right\r\n+      </span>`,\r\n+  prevArrow: `<span class=\"material-icons slick-prev\">\r\n+    chevron_left\r\n+    </span>`\r\n+});\r\n \r\n \r\n let slider_5s = [\r\n   {\r\n"
+                },
+                {
+                    "date": 1656164042264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,21 +85,8 @@\n   prevArrow: `<span class=\"material-icons slick-prev\">\r\n     chevron_left\r\n     </span>`\r\n });\r\n-$('.f3_category').slick({\r\n-  slidesToShow: 7,\r\n-  slidesToScroll: 7,\r\n-  // autoplay: true,\r\n-  // autoplaySpeed: 2000,\r\n-  infinite: false,\r\n-  nextArrow: `<span class=\"material-icons slick-next\">\r\n-      chevron_right\r\n-      </span>`,\r\n-  prevArrow: `<span class=\"material-icons slick-prev\">\r\n-    chevron_left\r\n-    </span>`\r\n-});\r\n \r\n \r\n let slider_5s = [\r\n   {\r\n@@ -141,4 +128,19 @@\n   prevArrow: `<span class=\"material-icons slick-prev\">\r\n     chevron_left\r\n     </span>`\r\n });\r\n+\r\n+\r\n+$('.f3_category').slick({\r\n+  slidesToShow: 7,\r\n+  slidesToScroll: 7,\r\n+  // autoplay: true,\r\n+  // autoplaySpeed: 2000,\r\n+  infinite: false,\r\n+  nextArrow: `<span class=\"material-icons slick-next\">\r\n+      chevron_right\r\n+      </span>`,\r\n+  prevArrow: `<span class=\"material-icons slick-prev\">\r\n+    chevron_left\r\n+    </span>`\r\n+});\r\n"
+                },
+                {
+                    "date": 1656164056642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,9 +130,9 @@\n     </span>`\r\n });\r\n \r\n \r\n-$('.f3_category').slick({\r\n+$('.f3_slider-4-slider').slick({\r\n   slidesToShow: 7,\r\n   slidesToScroll: 7,\r\n   // autoplay: true,\r\n   // autoplaySpeed: 2000,\r\n"
+                },
+                {
+                    "date": 1656164064122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n });\r\n \r\n \r\n $('.f3_slider-4-slider').slick({\r\n-  slidesToShow: 7,\r\n+  slidesToShow: 4,\r\n   slidesToScroll: 7,\r\n   // autoplay: true,\r\n   // autoplaySpeed: 2000,\r\n   infinite: false,\r\n"
+                },
+                {
+                    "date": 1656164166125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,9 +132,9 @@\n \r\n \r\n $('.f3_slider-4-slider').slick({\r\n   slidesToShow: 4,\r\n-  slidesToScroll: 7,\r\n+  slidesToScroll: 1,\r\n   // autoplay: true,\r\n   // autoplaySpeed: 2000,\r\n   infinite: false,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n"
+                },
+                {
+                    "date": 1656166010024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,4 +143,6 @@\n   prevArrow: `<span class=\"material-icons slick-prev\">\r\n     chevron_left\r\n     </span>`\r\n });\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1656166017819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,6 +143,19 @@\n   prevArrow: `<span class=\"material-icons slick-prev\">\r\n     chevron_left\r\n     </span>`\r\n });\r\n+$('.f3_experiences-slider').slick({\r\n+  slidesToShow: 4,\r\n+  slidesToScroll: 1,\r\n+  // autoplay: true,\r\n+  // autoplaySpeed: 2000,\r\n+  infinite: false,\r\n+  nextArrow: `<span class=\"material-icons slick-next\">\r\n+      chevron_right\r\n+      </span>`,\r\n+  prevArrow: `<span class=\"material-icons slick-prev\">\r\n+    chevron_left\r\n+    </span>`\r\n+});\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1656166164951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -145,9 +145,9 @@\n     </span>`\r\n });\r\n $('.f3_experiences-slider').slick({\r\n   slidesToShow: 4,\r\n-  slidesToScroll: 1,\r\n+  slidesToScroll: 4,\r\n   // autoplay: true,\r\n   // autoplaySpeed: 2000,\r\n   infinite: false,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n@@ -156,6 +156,19 @@\n   prevArrow: `<span class=\"material-icons slick-prev\">\r\n     chevron_left\r\n     </span>`\r\n });\r\n+$('.f3_experiences-slider').slick({\r\n+  slidesToShow: 4,\r\n+  slidesToScroll: 4,\r\n+  // autoplay: true,\r\n+  // autoplaySpeed: 2000,\r\n+  infinite: false,\r\n+  nextArrow: `<span class=\"material-icons slick-next\">\r\n+      chevron_right\r\n+      </span>`,\r\n+  prevArrow: `<span class=\"material-icons slick-prev\">\r\n+    chevron_left\r\n+    </span>`\r\n+});\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1656166170193,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,9 +156,9 @@\n   prevArrow: `<span class=\"material-icons slick-prev\">\r\n     chevron_left\r\n     </span>`\r\n });\r\n-$('.f3_experiences-slider').slick({\r\n+$('.f3_near-slider').slick({\r\n   slidesToShow: 4,\r\n   slidesToScroll: 4,\r\n   // autoplay: true,\r\n   // autoplaySpeed: 2000,\r\n"
+                },
+                {
+                    "date": 1656166175359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,10 +157,10 @@\n     chevron_left\r\n     </span>`\r\n });\r\n $('.f3_near-slider').slick({\r\n-  slidesToShow: 4,\r\n-  slidesToScroll: 4,\r\n+  slidesToShow: 5,\r\n+  slidesToScroll: 1,\r\n   // autoplay: true,\r\n   // autoplaySpeed: 2000,\r\n   infinite: false,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n"
+                },
+                {
+                    "date": 1656168125532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -169,6 +169,19 @@\n   prevArrow: `<span class=\"material-icons slick-prev\">\r\n     chevron_left\r\n     </span>`\r\n });\r\n+$('.f3_near-slider').slick({\r\n+  slidesToShow: 5,\r\n+  slidesToScroll: 1,\r\n+  // autoplay: true,\r\n+  // autoplaySpeed: 2000,\r\n+  infinite: false,\r\n+  nextArrow: `<span class=\"material-icons slick-next\">\r\n+      chevron_right\r\n+      </span>`,\r\n+  prevArrow: `<span class=\"material-icons slick-prev\">\r\n+    chevron_left\r\n+    </span>`\r\n+});\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1656168134148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -169,10 +169,10 @@\n   prevArrow: `<span class=\"material-icons slick-prev\">\r\n     chevron_left\r\n     </span>`\r\n });\r\n-$('.f3_near-slider').slick({\r\n-  slidesToShow: 5,\r\n+$('.f3_comment-slider').slick({\r\n+  slidesToShow: 1,\r\n   slidesToScroll: 1,\r\n   // autoplay: true,\r\n   // autoplaySpeed: 2000,\r\n   infinite: false,\r\n"
+                },
+                {
+                    "date": 1656168552696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,4 +184,25 @@\n     </span>`\r\n });\r\n \r\n \r\n+function openDetail(evt, ColName) {\r\n+  // Declare all variables\r\n+  var i, tabcontent, tablinks;\r\n+\r\n+  // Get all elements with class=\"tabcontent\" and hide them\r\n+  tabcontent = document.getElementsByClassName(\"container-body-row-tabs-body-panel\");\r\n+  for (i = 0; i < tabcontent.length; i++) {\r\n+    tabcontent[i].style.display = \"none\";\r\n+  }\r\n+\r\n+  // Get all elements with class=\"tablinks\" and remove the class \"active\"\r\n+  tablinks = document.getElementsByClassName(\"container-body-row-tabs-header-items\");\r\n+  for (i = 0; i < tablinks.length; i++) {\r\n+    tablinks[i].className = tablinks[i].className.replace(\" active\", \"\");\r\n+  }\r\n+\r\n+  // Show the current tab, and add an \"active\" class to the button that opened the tab\r\n+  document.getElementById(ColName).style.display = \"block\";\r\n+  evt.currentTarget.className += \" active\";\r\n+}\r\n+document.getElementById(\"defaultOpen\").click();\r\n"
+                }
+            ],
+            "date": 1656152149666,
+            "name": "Commit-0",
+            "content": "let categories = [\r\n  {\r\n    icon: './assets/images/cate-all.webp',\r\n    text: 'Tất cả dịch vụ'\r\n  },\r\n  {\r\n    icon: './assets/images/cate-park.webp',\r\n    text: ' Công viên & công viên nước'\r\n  },\r\n  {\r\n    icon: './assets/images/cate-camp.webp',\r\n    text: 'Cắm trại'\r\n  },\r\n  {\r\n    icon: './assets/images/cate-ship.webp',\r\n    text: 'Tour thuyền & du thuyền'\r\n  },\r\n  {\r\n    icon: './assets/images/cate-museum.webp',\r\n    text: 'Bảo tàng & triển lãm'\r\n  },\r\n  {\r\n    icon: './assets/images/cate-spa.webp',\r\n    text: 'Spa & massages'\r\n  },\r\n  {\r\n    icon: './assets/images/cate-thrilling.webp',\r\n    text: 'Trải nghiệm cảm giác mạnh'\r\n  },\r\n  {\r\n    icon: './assets/images/cate-walk.webp',\r\n    text: 'Tour đi bộ & đạp xe'\r\n  },\r\n  {\r\n    icon: './assets/images/cate-vehicle.webp',\r\n    text: 'Tour phương tiện'\r\n  },\r\n  {\r\n    icon: './assets/images/cate-slot.webp',\r\n    text: 'Vé tham quan'\r\n  },\r\n  {\r\n    icon: './assets/images/cate-sling.webp',\r\n    text: 'Cáp treo & ngắm cảnh'\r\n  },\r\n  {\r\n    icon: './assets/images/cate-cook.webp',\r\n    text: 'Workshop & học nấu ăn'\r\n  },\r\n  {\r\n    icon: './assets/images/cate-airplane.webp',\r\n    text: 'Tour hàng không'\r\n  },\r\n  {\r\n    icon: './assets/images/cate-historical.webp',\r\n    text: 'Di tích lịch sử'\r\n  }\r\n]\r\n\r\nlet f3_category_container = document.querySelector('.f3_category');\r\nf3_category_container.innerHTML = '';\r\ncategories.forEach((category) => {\r\n  let categoryItem = `\r\n    <a href=\"../0_general/search.html\" class=\"f3_category-item\">\r\n      <div class=\"f3_category-item-img\">\r\n        <img src=\"${category.icon}\" alt=\"\">\r\n      </div>\r\n      <div class=\"f3_category-item-text\">\r\n        ${category.text}\r\n      </div>\r\n    </a>\r\n  `;\r\n  f3_category_container.innerHTML += categoryItem;\r\n});\r\n\r\n$('.f3_category').slick({\r\n  slidesToShow: 7,\r\n  slidesToScroll: 7,\r\n  // autoplay: true,\r\n  // autoplaySpeed: 2000,\r\n  infinite: false,\r\n  nextArrow: `<span class=\"material-icons slick-next\">\r\n      chevron_right\r\n      </span>`,\r\n  prevArrow: `<span class=\"material-icons slick-prev\">\r\n    chevron_left\r\n    </span>`\r\n});\r\n\r\n\r\nlet slider_5s = [\r\n  {\r\n    country: 'Việt Nam',\r\n    activities: [\r\n      {\r\n        image: '',\r\n        city: '',\r\n        title: '',\r\n        desc: '',\r\n        rate: {\r\n          star: 4.7,\r\n          comment: 259,\r\n          ordered: '3K+'\r\n        },\r\n        tag: {\r\n          hot: true,\r\n          immediatel: true\r\n        },\r\n        price: {\r\n          old: 128000,\r\n          new: 89000\r\n        },\r\n        sale: 34\r\n      },\r\n    ]\r\n  }\r\n]\r\n\r\n$('.f3_slider-5').slick({\r\n  slidesToShow: 5,\r\n  slidesToScroll: 5,\r\n  // autoplay: true,\r\n  // autoplaySpeed: 2000,\r\n  infinite: false,\r\n  nextArrow: `<span class=\"material-icons slick-next\">\r\n      chevron_right\r\n      </span>`,\r\n  prevArrow: `<span class=\"material-icons slick-prev\">\r\n    chevron_left\r\n    </span>`\r\n});\r\n"
+        }
+    ]
+}

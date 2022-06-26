@@ -1,0 +1,24 @@
+@mixin transition($part, $duration, $easing) {
+	transition: $part $duration $easing;
+}
+
+@mixin moveTop($top) {
+	transform: translateY($top);
+}
+
+@mixin hoverItem($tranY, $boxShadow, $zIndex) {
+	&:hover {
+		transform: translateY($tranY);
+		box-shadow: $boxShadow;
+		z-index: $zIndex;
+	}
+}
+
+@mixin text-truncate($line) {
+	display: -webkit-box;
+	-webkit-line-clamp: $line;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-word;
+}

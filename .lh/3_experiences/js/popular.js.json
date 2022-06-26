@@ -1,0 +1,66 @@
+{
+    "sourceFile": "3_experiences/js/popular.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1656170793797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1656170804817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-let \n\\ No newline at end of file\n+let tabs = document.querySelectorAll('.')\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656170818399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-let tabs = document.querySelectorAll('.')\n\\ No newline at end of file\n+let tabs = document.querySelectorAll('.f3_tab-tabs-item')\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656170825517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-let tabs = document.querySelectorAll('.f3_tab-tabs-item')\n\\ No newline at end of file\n+let tabs = document.querySelectorAll('.f3_tab-tabs-item')\r\n+\r\n+tabs.forEach()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656170841600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n let tabs = document.querySelectorAll('.f3_tab-tabs-item')\r\n \r\n-tabs.forEach()\n\\ No newline at end of file\n+tabs.forEach((item))\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656170846849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n let tabs = document.querySelectorAll('.f3_tab-tabs-item')\r\n \r\n-tabs.forEach((item))\n\\ No newline at end of file\n+tabs.forEach((tab) => {\r\n+  \r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656170858718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n let tabs = document.querySelectorAll('.f3_tab-tabs-item')\r\n \r\n tabs.forEach((tab) => {\r\n-  \r\n-})\n\\ No newline at end of file\n+  if(tab)\r\n+});\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656170866395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n let tabs = document.querySelectorAll('.f3_tab-tabs-item')\r\n \r\n tabs.forEach((tab) => {\r\n-  if(tab)\r\n+  if(tab.classList.contains())\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656170875197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n let tabs = document.querySelectorAll('.f3_tab-tabs-item')\r\n \r\n tabs.forEach((tab) => {\r\n-  if(tab.classList.contains())\r\n+  if(tab.classList.contains('..f3_tab-tabs-item'))\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656170885791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n let tabs = document.querySelectorAll('.f3_tab-tabs-item')\r\n \r\n tabs.forEach((tab) => {\r\n-  if(tab.classList.contains('..f3_tab-tabs-item'))\r\n+  \r\n+  if(tab.classList.contains('..f3_tab-tabs-item-active'))\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656170899564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n let tabs = document.querySelectorAll('.f3_tab-tabs-item')\r\n \r\n tabs.forEach((tab) => {\r\n-  \r\n+  tab.addEventListener(click)\r\n   if(tab.classList.contains('..f3_tab-tabs-item-active'))\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656170906493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n let tabs = document.querySelectorAll('.f3_tab-tabs-item')\r\n \r\n tabs.forEach((tab) => {\r\n-  tab.addEventListener('click', (e) = )\r\n+  tab.addEventListener('click', (e) = >)\r\n   if(tab.classList.contains('..f3_tab-tabs-item-active'))\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656170951448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n tabs.forEach((tab) => {\r\n   tab.addEventListener('click', (e) => {\r\n     if(!tab.classList.contains('.f3_tab-tabs-item-active')) {\r\n       tabs.forEach((tab2) => {\r\n-        tab2\r\n+        tab2.\r\n       })\r\n     }\r\n   });\r\n });\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1656170793796,
+            "name": "Commit-0",
+            "content": "let "
+        }
+    ]
+}

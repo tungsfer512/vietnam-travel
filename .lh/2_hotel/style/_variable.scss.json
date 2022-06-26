@@ -1,0 +1,18 @@
+{
+    "sourceFile": "2_hotel/style/_variable.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1656070795106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1656070795106,
+            "name": "Commit-0",
+            "content": "\r\n\r\n$primaryColor: #ff5b00;\r\n$whiteBackground: #ffffff;\r\n$backgroundColor: #fafafa;\r\n\r\n$primaryBorder: 1px solid #e0e0e0;\r\n\r\n$textBlack: #212121;\r\n$textBlue: #437dff;\r\n$textBlackLight: #333333;\r\n$textGray: #757575;\r\n$textGrayLight: #999999;\r\n$textOrange: #ff5b00;\r\n$textWhite: #ffffff;\r\n\r\n\r\n$primaryButtonColor: #ff5b00;\r\n$primaryHoverButtonColor: #e05000;\r\n\r\n\r\n$primaryBackgroundColor: #f5f5f5;\r\n$primaryHoverBackgroundColor: #eeeeee;\r\n\r\n$primaryBoxShadow: 0 6px 12px 0 rgb(0 0 0 / 12%), 0 -1px 2px 0 rgb(0 0 0 / 8%);\r\n"
+        }
+    ]
+}

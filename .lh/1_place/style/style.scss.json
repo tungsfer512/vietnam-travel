@@ -1,0 +1,34 @@
+{
+    "sourceFile": "1_place/style/style.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1656173413832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1656173420264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n @import \"./_variable\";\r\n @import \"./_general\";\r\n @import \"./_mixin\";\r\n \r\n-\r\n+@import \"./\";\r\n @import \"./country\";\r\n @import \"./city\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656173428254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n @import \"./_variable\";\r\n @import \"./_general\";\r\n @import \"./_mixin\";\r\n \r\n-@import \"./\";\r\n+@import \"../\";\r\n @import \"./country\";\r\n @import \"./city\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656173433413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n @import \"./_variable\";\r\n @import \"./_general\";\r\n @import \"./_mixin\";\r\n \r\n-@import \"../\";\r\n+@import \"../../0_general/\";\r\n @import \"./country\";\r\n @import \"./city\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656173438546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n @import \"./_variable\";\r\n @import \"./_general\";\r\n @import \"./_mixin\";\r\n \r\n-@import \"../../0_general/\";\r\n+@import \"../../0_general/style/s\";\r\n @import \"./country\";\r\n @import \"./city\";\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1656173413832,
+            "name": "Commit-0",
+            "content": "@import \"./_variable\";\r\n@import \"./_general\";\r\n@import \"./_mixin\";\r\n\r\n\r\n@import \"./country\";\r\n@import \"./city\";"
+        }
+    ]
+}

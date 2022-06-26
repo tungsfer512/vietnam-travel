@@ -1,0 +1,18 @@
+{
+    "sourceFile": "6_detail/style/_general.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1656071935836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1656071935836,
+            "name": "Commit-0",
+            "content": "* {\r\n\tbox-sizing: border-box;\r\n\tpadding: 0;\r\n\tmargin: 0;\r\n\tfont-size: 20px;\r\n\tfont-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n}\r\n\r\n.container {\r\n\twidth: 1160px;\r\n\tmargin: 0 auto;\r\n}\r\n\r\na {\r\n\ttext-decoration: none;\r\n\tcolor: black;\r\n}\r\n\r\n.site-container {\r\n\tbackground-color: #fff !important;\r\n}\r\n\r\n.area-active {\r\n\t// @include transition(height, 3s, ease-in-out);\r\n\theight: max-content !important;\r\n}\r\n\r\n.page-active {\r\n\tbackground-color: $primaryColor !important;\r\n\tborder-color: $primaryHoverButtonColor !important;\r\n\tcolor: $textWhite !important;\r\n}\r\n.page-etc {\r\n\tborder: none !important;\r\n\tbackground-color: transparent !important;\r\n}\r\n\r\n.content {\r\n\tmargin-top: 115px !important;\r\n}"
+        }
+    ]
+}

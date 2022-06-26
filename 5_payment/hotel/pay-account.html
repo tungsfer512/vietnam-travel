@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Payment 2</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../0_general/style/css/header.css">
+    <link rel="stylesheet" href="../../0_general/style/css/footer.css">
+    <link rel="stylesheet" href="../style/css/style.css">
+    <link rel="shortcut icon" href="../assets/images/logo_favicon.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <div class="site-container">
+      <header class="header" id="header"></header>
+      <div class="content">
+        <div class="pay">
+          <div class="path-pay-info">
+            <div class="path">
+              <div class="container">
+                <div class="path-item">
+                  <div class="path-item-icon">
+                    <svg t="1582600551616" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      p-id="4896" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"
+                      style="fill: currentcolor;">
+                      <defs></defs>
+                      <path
+                        d="M512 0c282.784 0 512 229.216 512 512s-229.216 512-512 512S0 794.784 0 512 229.216 0 512 0z m218.368 335.488l-286.016 301.92-139.2-142.208-34.304 33.6 174.08 177.792 320.288-338.08-34.848-33.024z"
+                        p-id="4897"></path>
+                    </svg>
+                  </div>
+                  <div class="path-item-text">
+                    Chọn đơn hàng
+                  </div>
+                </div>
+                <div class="path-line"></div>
+                <div class="path-item">
+                  <div class="path-item-icon">
+                    <svg t="1582600551616" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      p-id="4896" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"
+                      style="fill: currentcolor;">
+                      <defs></defs>
+                      <path
+                        d="M512 0c282.784 0 512 229.216 512 512s-229.216 512-512 512S0 794.784 0 512 229.216 0 512 0z m218.368 335.488l-286.016 301.92-139.2-142.208-34.304 33.6 174.08 177.792 320.288-338.08-34.848-33.024z"
+                        p-id="4897"></path>
+                    </svg>
+                  </div>
+                  <div class="path-item-text">
+                    Điền thông tin
+                  </div>
+                </div>
+                <div class="path-line"></div>
+                <div class="path-item">
+                  <div class="path-item-icon">
+                    <svg t="1582600127399" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      p-id="4619" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      style="fill: currentcolor;">
+                      <defs></defs>
+                      <path
+                        d="M512 0c282.784 0 512 229.216 512 512s-229.216 512-512 512S0 794.784 0 512 229.216 0 512 0zM312 448a56 56 0 1 0 0 112 56 56 0 0 0 0-112z m186.656 0a56 56 0 1 0 0 112 56 56 0 0 0 0-112z m186.688 0a56 56 0 1 0 0 112 56 56 0 0 0 0-112z"
+                        p-id="4620"></path>
+                    </svg>
+                  </div>
+                  <div class="path-item-text">
+                    Thanh toán
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="container">
+              <div class="content-left">
+                <div class="pay-info">
+                  <div class="content-left-heading">
+                    <span>Điền thông tin</span>
+                    <span class="material-icons">
+                      expand_more
+                    </span>
+                  </div>
+                  <div class="content-left-content">
+                    <div class="content-left-content-item">
+                      <div class="content-left-content-item-heading">Thông tin đơn hàng</div>
+                      <div class="content-left-content-item-content">
+                        <div class="content-left-content-item-content-item">
+                          <div class="content-left-content-item-content-item-img">
+                            <img src="../assets/images/item1.webp" alt="">
+                          </div>
+                          <div class="content-left-content-item-content-item-content">
+                            <span>
+                              Vé Vào Cửa Đài Quan Sát Lotte Hà Nội Sky
+                            </span>
+                            <span>[Khách Việt Nam] Vé Vào Cửa</span>
+                          </div>
+                        </div>
+                        <div class="content-left-content-item-content-item">
+                          <div class="content-left-content-item-content-item-img">
+                            <img src="../assets/images/item1.webp" alt="">
+                          </div>
+                          <div class="content-left-content-item-content-item-content">
+                            <span>
+                              Vé Vào Cửa Đài Quan Sát Lotte Hà Nội Sky
+                            </span>
+                            <span>[Khách Việt Nam] Vé Vào Cửa</span>
+                          </div>
+                        </div>
+                        <div class="customer-info">
+                          <div class="customer-info-heading">Thông tin khác</div>
+                          <div class="customer-info-content">
+                            <div class="customer-info-content-row">
+                              <div class="customer-info-content-row-item">
+                                <span>Khách sạn / Địa chỉ *</span>
+                                <span><input type="text" placeholder="Điền tên khách sạn và địa chỉ"></span>
+                              </div>
+                              <div class="customer-info-content-row-item">
+                                <span>Thời gian bạn muốn *</span>
+                                <span>
+                                  <select>
+                                    <option value="1">Sáng</option>
+                                    <option value="2">Trưa</option>
+                                    <option value="3">Chiều</option>
+                                    <option value="4">Tối</option>
+                                  </select>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content-left-content-item">
+                      <div class="content-left-content-item-heading">Thông tin liên lạc</div>
+                      <div class="content-left-content-item-content">
+                        <div class="customer-info">
+                          <div class="customer-info-content">
+                            <div class="customer-info-content-row">
+                              <div class="customer-info-content-row-item">
+                                <span>Họ *</span>
+                                <span><input type="text" placeholder="VD: Nguyễn"></span>
+                              </div>
+                              <div class="customer-info-content-row-item">
+                                <span>Tên *</span>
+                                <span><input type="text" placeholder="VD: Ngọc Anh"></span>
+                              </div>
+                            </div>
+                            <div class="customer-info-content-row">
+                              <div class="customer-info-content-row-item">
+                                <span>Quốc gia / khu vực *</span>
+                                <span>
+                                  <select>
+                                    <option value="1">Việt Nam</option>
+                                    <option value="2">Hàn Quốc</option>
+                                    <option value="3">Mỹ</option>
+                                    <option value="4">Nhật Bản</option>
+                                  </select>
+                                </span>
+                              </div>
+                              <div class="customer-info-content-row-item">
+                                <span>Email (để cập nhật thông tin đơn hàng của bạn) *</span>
+                                <span><input type="text" placeholder="Vui lòng nhập email của bạn"></span>
+                              </div>
+                            </div>
+                            <div class="customer-info-content-row">
+                              <div class="customer-info-content-row-item">
+                                <span>Mã số điện thoại</span>
+                                <span>
+                                  <select>
+                                    <option value="1">Việt Nam (+84)</option>
+                                    <option value="2">Hàn Quốc (+82)</option>
+                                    <option value="3">Mỹ (+1)</option>
+                                    <option value="4">Nhật Bản (+81)</option>
+                                  </select>
+                                </span>
+                              </div>
+                              <div class="customer-info-content-row-item">
+                                <span>Số điện thoại *</span>
+                                <span><input type="text" placeholder="Vui lòng nhập số điện thoại của bạn"></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content-left-content-item">
+                      <div class="content-left-content-item-heading">Các gói nâng cấp</div>
+                      <div class="content-left-content-item-content">
+                        <div class="upgrade">
+                          <div class="upgrade-heading">
+                            Được bảo vệ trong trường hợp thay đổi ở giây phút cuối hoặc tình huống không lường trước
+                          </div>
+                          <div class="upgrade-content">
+                            <div class="upgrade-content-item">
+                              <div class="upgrade-content-item-info">
+                                <div class="upgrade-content-item-info-img">
+                                  <img src="../assets/images/item4.webp" alt="">
+                                </div>
+                                <div class="upgrade-content-item-info-content">
+                                  <span>
+                                    Vé Vào Cửa Đài Quan Sát Lotte Hà Nội Sky
+                                  </span>
+                                  <span>[Khách Việt Nam] Vé Vào Cửa</span>
+                                  <span>24/6/2022 | 1 x Người</span>
+                                </div>
+                              </div>
+                              <div class="upgrade-content-item-plus">
+                                <div class="upgrade-content-item-plus-display">
+                                  <input type="checkbox" name="" id="">
+                                  <span>Klook Flex Plus</span>
+                                  <span>Linh hoạt hủy bỏ</span>
+                                  <span class="material-icons">
+                                    expand_more
+                                  </span>
+                                </div>
+                                <div class="upgrade-content-item-plus-hidden">
+                                  <div class="upgrade-content-item-plus-hidden-icon">
+                                    <img src="../assets/images/protect.png" alt="">
+                                  </div>
+                                  <div class="upgrade-content-item-plus-hidden-content">
+                                    <span>Nhận hoàn tiền 60% từ Klook Flex khi huỷ dịch vụ của mình - không thủ tục rườm
+                                      rà!</span>
+                                    <span>
+                                      <a href="javascript:void(0);">Xem chi tiết</a>
+                                      <a href="javascript:void(0);">Khu vực áp dụng</a>
+                                      <a href="javascript:void(0);">Xem Điều kiện và Điều khoản</a>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="upgrade-content-item-refund">
+                                <div class="upgrade-content-item-refund-icon">
+                                  <svg id="icon-a-PromocodeCredits" viewBox="0 0 1024 1024">
+                                    <path
+                                      d="M531.872 105.6a10.432 10.432 0 0 1 12.8 7.456l184.544 716.832a10.432 10.432 0 0 1-7.904 12.8l-152.096 33.088c-13.408-34.72-55.36-53.472-86.56-45.12-32.64 8.704-64.576 37.888-55.36 75.968L272.96 940.192a10.432 10.432 0 0 1-12.32-7.68L87.456 236.16a10.432 10.432 0 0 1 7.392-12.608L233.152 186.24c5.12 10.336 13.952 19.68 22.208 28.096 22.752 23.072 75.456 26.624 106.24-3.712 21.92-21.568 27.68-43.424 16.864-63.616l153.408-41.44z"
+                                      fill="#FFB700"></path>
+                                    <path
+                                      d="M599.456 325.888l-465.28 98.176-46.72-187.904a10.432 10.432 0 0 1 7.392-12.576L233.152 186.24c5.12 10.336 13.952 19.68 22.208 28.096 22.752 23.072 75.456 26.624 106.24-3.712 21.92-21.568 27.68-43.424 16.864-63.616l153.408-41.44a10.432 10.432 0 0 1 12.8 7.488l54.784 212.8z"
+                                      fill="#FF9C00"></path>
+                                    <path
+                                      d="M801.504 749.568c120.864-80.64 157.92-233.6 82.752-341.536-75.168-107.968-234.08-130.112-354.944-49.44-120.864 80.64-157.888 233.568-82.72 341.536 75.168 107.968 234.048 130.112 354.912 49.44z"
+                                      fill="#00CBD1"></path>
+                                    <path
+                                      d="M770.24 712.064c93.568-65.472 122.432-189.312 64.544-276.576-57.92-87.264-180.672-104.96-274.24-39.424-93.504 65.472-122.4 189.312-64.512 276.576 57.92 87.264 180.704 104.928 274.24 39.424z"
+                                      fill="#FFB700"></path>
+                                    <path
+                                      d="M622.624 715.52a17.664 17.664 0 0 1-7.36-1.152 16.32 16.32 0 0 1-5.984-4.032 14.176 14.176 0 0 1-3.36-6.016 13.024 13.024 0 0 1 0-6.72l3.456-13.856-4.736-1.088a66.048 66.048 0 0 1-38.976-28.064 54.528 54.528 0 0 1-6.496-44.416 22.624 22.624 0 0 1 9.6-12.48 27.104 27.104 0 0 1 16.192-4.16 17.952 17.952 0 0 1 7.36 1.28c2.304 0.96 4.352 2.368 5.984 4.128a14.4 14.4 0 0 1 3.36 6.08 13.312 13.312 0 0 1 0 6.72 30.4 30.4 0 0 0 0.192 15.776c1.472 5.184 4.256 9.984 8.16 14.016 3.904 4.064 8.832 7.2 14.336 9.216 5.504 1.984 11.456 2.784 17.312 2.336a61.12 61.12 0 0 0 37.248-10.016c10.688-7.168 18.208-17.504 21.216-29.248a30.624 30.624 0 0 0 0.256-15.68 32.96 32.96 0 0 0-7.584-14.176 37.92 37.92 0 0 0-13.824-9.632 41.408 41.408 0 0 0-17.12-3.04 78.976 78.976 0 0 1-32.64-5.024 72.64 72.64 0 0 1-26.784-17.664 63.232 63.232 0 0 1-15.232-26.56 58.272 58.272 0 0 1-0.448-29.76c5.344-16.992 15.584-32.32 29.664-44.512 14.112-12.16 31.584-20.736 50.624-24.8l4.48-1.664 3.584-12.48a23.232 23.232 0 0 1 9.664-12.32 27.776 27.776 0 0 1 16.128-4.288 17.952 17.952 0 0 1 7.36 1.28c2.304 0.928 4.352 2.336 5.984 4.096 1.6 1.76 2.752 3.84 3.328 6.08a13.248 13.248 0 0 1 0 6.72l-2.24 9.632 4.736 1.12c17.92 4.16 33.44 14.432 43.2 28.704 9.696 14.24 12.864 31.328 8.768 47.552a22.72 22.72 0 0 1-9.664 12.288 27.168 27.168 0 0 1-16.128 4.064 17.696 17.696 0 0 1-7.36-1.184 16.256 16.256 0 0 1-5.984-4.032 14.144 14.144 0 0 1-3.328-6.016 13.024 13.024 0 0 1 0-6.72 30.464 30.464 0 0 0-0.224-15.776 33.088 33.088 0 0 0-8.16-14.016 38.016 38.016 0 0 0-14.304-9.184 41.216 41.216 0 0 0-17.344-2.336 82.88 82.88 0 0 0-7.488-0.96l-9.216 0.576a60.8 60.8 0 0 0-35.296 15.072 50.24 50.24 0 0 0-16.64 31.872c0 4.768 1.056 9.472 3.104 13.888 2.08 4.384 5.12 8.384 8.928 11.712 3.808 3.36 8.32 5.952 13.248 7.68 4.928 1.728 10.24 2.56 15.488 2.4l9.248-0.544c10.976-0.448 21.952 1.44 32 5.504 10.112 4.064 19.008 10.208 26.016 17.92 6.976 7.68 11.904 16.768 14.336 26.464 2.432 9.664 2.304 19.712-0.32 29.312a95.776 95.776 0 0 1-31.712 46.944c-15.36 12.544-34.432 20.8-54.976 23.84l-6.144 0.384-3.552 12.48a21.376 21.376 0 0 1-8.672 12.096 25.664 25.664 0 0 1-15.264 4.416z"
+                                      fill="#FCF6E6"></path>
+                                  </svg>
+                                </div>
+                                <div class="upgrade-content-item-refund-text">Hoàn tiền hơn 20%</div>
+                              </div>
+                            </div>
+                            <div class="upgrade-content-item">
+                              <div class="upgrade-content-item-info">
+                                <div class="upgrade-content-item-info-img">
+                                  <img src="../assets/images/item4.webp" alt="">
+                                </div>
+                                <div class="upgrade-content-item-info-content">
+                                  <span>
+                                    Vé Vào Cửa Đài Quan Sát Lotte Hà Nội Sky
+                                  </span>
+                                  <span>[Khách Việt Nam] Vé Vào Cửa</span>
+                                  <span>24/6/2022 | 1 x Người</span>
+                                </div>
+                              </div>
+                              <div class="upgrade-content-item-plus">
+                                <div class="upgrade-content-item-plus-display">
+                                  <input type="checkbox" name="" id="">
+                                  <span>Klook Flex Plus</span>
+                                  <span>Linh hoạt hủy bỏ</span>
+                                  <span class="material-icons">
+                                    expand_more
+                                  </span>
+                                </div>
+                                <div class="upgrade-content-item-plus-hidden">
+                                  <div class="upgrade-content-item-plus-hidden-icon">
+                                    <img src="../assets/images/protect.png" alt="">
+                                  </div>
+                                  <div class="upgrade-content-item-plus-hidden-content">
+                                    <span>Nhận hoàn tiền 60% từ Klook Flex khi huỷ dịch vụ của mình - không thủ tục rườm
+                                      rà!</span>
+                                    <span>
+                                      <a href="javascript:void(0);">Xem chi tiết</a>
+                                      <a href="javascript:void(0);">Khu vực áp dụng</a>
+                                      <a href="javascript:void(0);">Xem Điều kiện và Điều khoản</a>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="upgrade-content-item-refund">
+                                <div class="upgrade-content-item-refund-icon">
+                                  <svg id="icon-a-PromocodeCredits" viewBox="0 0 1024 1024">
+                                    <path
+                                      d="M531.872 105.6a10.432 10.432 0 0 1 12.8 7.456l184.544 716.832a10.432 10.432 0 0 1-7.904 12.8l-152.096 33.088c-13.408-34.72-55.36-53.472-86.56-45.12-32.64 8.704-64.576 37.888-55.36 75.968L272.96 940.192a10.432 10.432 0 0 1-12.32-7.68L87.456 236.16a10.432 10.432 0 0 1 7.392-12.608L233.152 186.24c5.12 10.336 13.952 19.68 22.208 28.096 22.752 23.072 75.456 26.624 106.24-3.712 21.92-21.568 27.68-43.424 16.864-63.616l153.408-41.44z"
+                                      fill="#FFB700"></path>
+                                    <path
+                                      d="M599.456 325.888l-465.28 98.176-46.72-187.904a10.432 10.432 0 0 1 7.392-12.576L233.152 186.24c5.12 10.336 13.952 19.68 22.208 28.096 22.752 23.072 75.456 26.624 106.24-3.712 21.92-21.568 27.68-43.424 16.864-63.616l153.408-41.44a10.432 10.432 0 0 1 12.8 7.488l54.784 212.8z"
+                                      fill="#FF9C00"></path>
+                                    <path
+                                      d="M801.504 749.568c120.864-80.64 157.92-233.6 82.752-341.536-75.168-107.968-234.08-130.112-354.944-49.44-120.864 80.64-157.888 233.568-82.72 341.536 75.168 107.968 234.048 130.112 354.912 49.44z"
+                                      fill="#00CBD1"></path>
+                                    <path
+                                      d="M770.24 712.064c93.568-65.472 122.432-189.312 64.544-276.576-57.92-87.264-180.672-104.96-274.24-39.424-93.504 65.472-122.4 189.312-64.512 276.576 57.92 87.264 180.704 104.928 274.24 39.424z"
+                                      fill="#FFB700"></path>
+                                    <path
+                                      d="M622.624 715.52a17.664 17.664 0 0 1-7.36-1.152 16.32 16.32 0 0 1-5.984-4.032 14.176 14.176 0 0 1-3.36-6.016 13.024 13.024 0 0 1 0-6.72l3.456-13.856-4.736-1.088a66.048 66.048 0 0 1-38.976-28.064 54.528 54.528 0 0 1-6.496-44.416 22.624 22.624 0 0 1 9.6-12.48 27.104 27.104 0 0 1 16.192-4.16 17.952 17.952 0 0 1 7.36 1.28c2.304 0.96 4.352 2.368 5.984 4.128a14.4 14.4 0 0 1 3.36 6.08 13.312 13.312 0 0 1 0 6.72 30.4 30.4 0 0 0 0.192 15.776c1.472 5.184 4.256 9.984 8.16 14.016 3.904 4.064 8.832 7.2 14.336 9.216 5.504 1.984 11.456 2.784 17.312 2.336a61.12 61.12 0 0 0 37.248-10.016c10.688-7.168 18.208-17.504 21.216-29.248a30.624 30.624 0 0 0 0.256-15.68 32.96 32.96 0 0 0-7.584-14.176 37.92 37.92 0 0 0-13.824-9.632 41.408 41.408 0 0 0-17.12-3.04 78.976 78.976 0 0 1-32.64-5.024 72.64 72.64 0 0 1-26.784-17.664 63.232 63.232 0 0 1-15.232-26.56 58.272 58.272 0 0 1-0.448-29.76c5.344-16.992 15.584-32.32 29.664-44.512 14.112-12.16 31.584-20.736 50.624-24.8l4.48-1.664 3.584-12.48a23.232 23.232 0 0 1 9.664-12.32 27.776 27.776 0 0 1 16.128-4.288 17.952 17.952 0 0 1 7.36 1.28c2.304 0.928 4.352 2.336 5.984 4.096 1.6 1.76 2.752 3.84 3.328 6.08a13.248 13.248 0 0 1 0 6.72l-2.24 9.632 4.736 1.12c17.92 4.16 33.44 14.432 43.2 28.704 9.696 14.24 12.864 31.328 8.768 47.552a22.72 22.72 0 0 1-9.664 12.288 27.168 27.168 0 0 1-16.128 4.064 17.696 17.696 0 0 1-7.36-1.184 16.256 16.256 0 0 1-5.984-4.032 14.144 14.144 0 0 1-3.328-6.016 13.024 13.024 0 0 1 0-6.72 30.464 30.464 0 0 0-0.224-15.776 33.088 33.088 0 0 0-8.16-14.016 38.016 38.016 0 0 0-14.304-9.184 41.216 41.216 0 0 0-17.344-2.336 82.88 82.88 0 0 0-7.488-0.96l-9.216 0.576a60.8 60.8 0 0 0-35.296 15.072 50.24 50.24 0 0 0-16.64 31.872c0 4.768 1.056 9.472 3.104 13.888 2.08 4.384 5.12 8.384 8.928 11.712 3.808 3.36 8.32 5.952 13.248 7.68 4.928 1.728 10.24 2.56 15.488 2.4l9.248-0.544c10.976-0.448 21.952 1.44 32 5.504 10.112 4.064 19.008 10.208 26.016 17.92 6.976 7.68 11.904 16.768 14.336 26.464 2.432 9.664 2.304 19.712-0.32 29.312a95.776 95.776 0 0 1-31.712 46.944c-15.36 12.544-34.432 20.8-54.976 23.84l-6.144 0.384-3.552 12.48a21.376 21.376 0 0 1-8.672 12.096 25.664 25.664 0 0 1-15.264 4.416z"
+                                      fill="#FCF6E6"></path>
+                                  </svg>
+                                </div>
+                                <div class="upgrade-content-item-refund-text">Hoàn tiền hơn 20%</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content-left-content-item">
+                      <div class="content-left-content-item-heading">Loại ưu đãi</div>
+                      <div class="content-left-content-item-content">
+                        <div class="coupon">
+                          <div class="coupon-discount">
+                            <span>
+                              <span>Sử dụng Mã ưu đãi</span>
+                              <span>- ₫ 116,124</span>
+                              <span class="material-icons">
+                                expand_more
+                              </span>
+                            </span>
+                            <span>Đã được áp dụng mức giảm tối đa</span>
+                          </div>
+                          <div class="coupon-input">
+                            <div class="coupon-input-in">
+                              <p>Nhập mã ưu đãi của bạn để nhận giảm giá</p>
+                              <span>
+                                <span>
+                                  <input type="text" placeholder="Nhập mã khuyễn mãi">
+                                </span>
+                                <span>Sử dụng</span>
+                              </span>
+                            </div>
+                            <div class="coupon-input-recommended">
+                              <div class="coupon-input-recommended-heading">
+                                Áp dụng được
+                              </div>
+                              <div class="coupon-input-recommended-row">
+                                <div class="coupon-input-recommended-row-item">
+                                  <div class="coupon-input-recommended-row-item-heading">
+                                    Giảm 100.000đ với đơn hàng từ 570.000đ
+                                  </div>
+                                  <div class="coupon-input-recommended-row-item-content">
+                                    <span>Hết hạn : 18/7/2022 22:05</span>
+                                    <span>
+                                      <span>Mã ưu đãi: JLDZX7X5</span>
+                                      <span class="material-icons">
+                                        error_outline
+                                      </span>
+                                    </span>
+                                    <span><a href="../0_global/unavailable.html">Hoạt động không áp dụng</a></span>
+                                  </div>
+                                </div>
+                                <div class="coupon-input-recommended-row-item">
+                                  <div class="coupon-input-recommended-row-item-heading">
+                                    Giảm 100.000đ với đơn hàng từ 570.000đ
+                                  </div>
+                                  <div class="coupon-input-recommended-row-item-content">
+                                    <span>Hết hạn : 18/7/2022 22:05</span>
+                                    <span>
+                                      <span>Mã ưu đãi: JLDZX7X5</span>
+                                      <span class="material-icons">
+                                        error_outline
+                                      </span>
+                                    </span>
+                                    <span><a href="../0_global/unavailable.html">Hoạt động không áp dụng</a></span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="coupon-input-recommended-heading">
+                                Không áp dụng
+                              </div>
+                              <div class="coupon-input-recommended-row">
+                                <div class="coupon-input-recommended-row-item">
+                                  <div class="coupon-input-recommended-row-item-heading">
+                                    Giảm 100.000đ với đơn hàng từ 570.000đ
+                                  </div>
+                                  <div class="coupon-input-recommended-row-item-content">
+                                    <span>Hết hạn : 18/7/2022 22:05</span>
+                                    <span>
+                                      <span>Mã ưu đãi: JLDZX7X5</span>
+                                      <span class="material-icons">
+                                        error_outline
+                                      </span>
+                                    </span>
+                                    <span><a href="../0_global/unavailable.html">Hoạt động không áp dụng</a></span>
+                                  </div>
+                                </div>
+                                <div class="coupon-input-recommended-row-item">
+                                  <div class="coupon-input-recommended-row-item-heading">
+                                    Giảm 100.000đ với đơn hàng từ 570.000đ
+                                  </div>
+                                  <div class="coupon-input-recommended-row-item-content">
+                                    <span>Hết hạn : 18/7/2022 22:05</span>
+                                    <span>
+                                      <span>Mã ưu đãi: JLDZX7X5</span>
+                                      <span class="material-icons">
+                                        error_outline
+                                      </span>
+                                    </span>
+                                    <span><a href="../0_global/unavailable.html">Hoạt động không áp dụng</a></span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="coupon-input-recommended-row">
+                                <div class="coupon-input-recommended-row-item">
+                                  <div class="coupon-input-recommended-row-item-heading">
+                                    Giảm 100.000đ với đơn hàng từ 570.000đ
+                                  </div>
+                                  <div class="coupon-input-recommended-row-item-content">
+                                    <span>Hết hạn : 18/7/2022 22:05</span>
+                                    <span>
+                                      <span>Mã ưu đãi: JLDZX7X5</span>
+                                      <span class="material-icons">
+                                        error_outline
+                                      </span>
+                                    </span>
+                                    <span><a href="../0_global/unavailable.html">Hoạt động không áp dụng</a></span>
+                                  </div>
+                                </div>
+                                <div class="coupon-input-recommended-row-item">
+                                  <div class="coupon-input-recommended-row-item-heading">
+                                    Giảm 100.000đ với đơn hàng từ 570.000đ
+                                  </div>
+                                  <div class="coupon-input-recommended-row-item-content">
+                                    <span>Hết hạn : 18/7/2022 22:05</span>
+                                    <span>
+                                      <span>Mã ưu đãi: JLDZX7X5</span>
+                                      <span class="material-icons">
+                                        error_outline
+                                      </span>
+                                    </span>
+                                    <span><a href="../0_global/unavailable.html">Hoạt động không áp dụng</a></span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="coupon-confirm">
+                            Vui lòng điền thông tin chính xác. Một khi đã gửi thông tin, bạn sẽ không thay đổi được.
+                          </div>
+                          <div class="coupon-next">
+                            <span>Đơn hàng của bạn sẽ được gửi đi sau khi bạn nhấn "Tiếp tục". Bạn có thể chọn phương
+                              thức
+                              thanh toán ở trang tiếp theo</span>
+                            <a href="pay2.html">Tiếp tục</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pay-complete">
+                  <div class="content-left-heading">
+                    <span>Xác nhận để thanh toán</span>
+                  </div>
+                  <div class="content-left-content">
+                    <div class="content-left-content-promise">
+                      <span>
+                        <svg id="icon-pay-security" viewBox="0 0 19 22">
+                          <g fill="none">
+                            <path fill="#4985E6"
+                              d="M9.068.917C4.537.917.864 1.943.864 3.208v9.167h.014c.302 4.85 5.315 8.708 8.19 8.708 2.876 0 7.889-3.858 8.19-8.708h.015V3.208c0-1.265-3.674-2.291-8.205-2.291z">
+                            </path>
+                            <path fill="#FFF"
+                              d="M12.36 8.273c0-2.038-1.51-3.69-3.373-3.69-1.862 0-3.372 1.652-3.372 3.69v.406a.412.412 0 00-.307.137.494.494 0 00-.126.336v4.369c0 .126.044.247.126.336a.412.412 0 00.307.137h6.745c.233 0 .422-.206.422-.46V9.14c0-.255-.189-.461-.422-.461v-.406zm-6.183 0c0-1.698 1.258-3.075 2.81-3.075 1.553 0 2.811 1.377 2.811 3.075v.406H6.177v-.406z">
+                            </path>
+                          </g>
+                        </svg>
+                      </span>
+                      <span>Tất cả thông tin của card sẽ được mã hoá, bảo mật và bảo vệ</span>
+                    </div>
+                    <div class="content-left-content-radio">
+                      <div class="content-left-content-radio-item">
+                        <div class="content-left-content-radio-item-text">
+                          <span class="checked"></span>
+                          <span>MoMo E-Wallet</span>
+                        </div>
+                        <div class="content-left-content-radio-item-icon">
+                          <span class="momo"></span>
+                        </div>
+                      </div>
+                      <div class="content-left-content-radio-item">
+                        <div class="content-left-content-radio-item-text">
+                          <span></span>
+                          <span>ATM by MoMo</span>
+                        </div>
+                        <div class="content-left-content-radio-item-icon">
+                          <span class="momoatm"></span>
+                        </div>
+                      </div>
+                      <div class="content-left-content-radio-item">
+                        <div class="content-left-content-radio-item-text">
+                          <span></span>
+                          <span>Thẻ Credit/Debit</span>
+                        </div>
+                        <div class="content-left-content-radio-item-icon">
+                          <span class="credit"></span>
+                        </div>
+                      </div>
+                      <!-- <div class="content-left-content-radio-item-drop">
+                              bv
+                            </div> -->
+                      <div class="content-left-content-radio-item">
+                        <div class="content-left-content-radio-item-text">
+                          <span></span>
+                          <span>Thẻ Credit/Debit</span>
+                        </div>
+                        <div class="content-left-content-radio-item-icon">
+                          <span class="paypal"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pay-total">
+                  <div class="content-left-content">
+                    <span>Khi nhấp vào "Thanh toán", bạn đồng ý rằng bạn đã đọc và hiểu <a href="#">Điều khoản sử
+                        dụng</a>
+                      và <a href="#">Chính sách hoàn huỷ</a></span>
+                    <span>
+                      <span>₫ 1,692,000</span>
+                      <span><a href="../../index.html">Thanh toán ngay</a></span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="content-right">
+                <div class="content-right-items">
+                  <div class="content-right-items-item">
+                    <div class="content-right-items-item-heading">
+                      <span>Vé Vào Cửa Đài Quan Sát Lotte Hà Nội Sky</span>
+                      <span>[Khách Việt Nam] Vé Vào Cửa</span>
+                    </div>
+                    <div class="content-right-items-item-content">
+                      <span>
+                        <span>Ngày</span>
+                        <span>24/6/2022</span>
+                      </span>
+                      <span>
+                        <span>Đơn vị</span>
+                        <span>1 x Người</span>
+                      </span>
+                    </div>
+                    <div class="content-right-items-item-subtotal">
+                      <span>
+                        <span>Tổng cộng</span>
+                        <span>₫ 119,000</span>
+                      </span>
+                    </div>
+
+                  </div>
+                  <div class="content-right-items-item">
+                    <div class="content-right-items-item-heading">
+                      <span>Vé Vào Cửa Đài Quan Sát Lotte Hà Nội Sky</span>
+                      <span>[Khách Việt Nam] Vé Vào Cửa</span>
+                    </div>
+                    <div class="content-right-items-item-content">
+                      <span>
+                        <span>Ngày</span>
+                        <span>24/6/2022</span>
+                      </span>
+                      <span>
+                        <span>Đơn vị</span>
+                        <span>1 x Người</span>
+                      </span>
+                    </div>
+                    <div class="content-right-items-item-subtotal">
+                      <span>
+                        <span>Tổng cộng</span>
+                        <span>₫ 119,000</span>
+                      </span>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="content-right-total">
+                  <span>
+                    <span>
+                      <span>Tổng cộng
+                      </span>
+                      <span>₫ 1,692,000</span>
+                    </span>
+                    <span>
+                      <span>Số tiền thanh toán</span>
+                      <span>₫ 1,692,000</span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>Nhận 57 credit cho đơn hàng này</span>
+                    <span>
+                      <svg id="desktop-common-rebate-credits" viewBox="0 0 44 44">
+                        <g fill="none" fill-rule="evenodd">
+                          <path fill="#333" fill-rule="nonzero"
+                            d="M22 42.7c9.775 0 17.7-7.925 17.7-17.7 0-9.775-7.925-17.7-17.7-17.7-9.775 0-17.7 7.925-17.7 17.7 0 9.775 7.925 17.7 17.7 17.7zm0-1.4c-9.002 0-16.3-7.298-16.3-16.3S12.998 8.7 22 8.7 38.3 15.998 38.3 25 31.002 41.3 22 41.3z">
+                          </path>
+                          <path fill="#81E3D3"
+                            d="M25.43 37.129c7.218-2.771 10.969-10.49 8.198-17.709-2.77-7.218-11.014-11.203-18.233-8.432C8.177 13.76 4.717 22.236 7.488 29.455c2.77 7.218 10.723 10.444 17.942 7.674z">
+                          </path>
+                          <path fill="#333" fill-rule="nonzero"
+                            d="M40.508 13.124l2.267-2.085a.75.75 0 00-1.016-1.104l-2.267 2.085a.75.75 0 001.016 1.104zm-36.748 0L1.491 11.04a.75.75 0 011.016-1.104l2.267 2.085a.75.75 0 01-1.016 1.104zm18.579-9.231V.88a.75.75 0 00-1.5 0v3.013a.75.75 0 001.5 0zM18.638 32.03a1.575 1.575 0 01-2.285-1.66l.642-3.744-2.72-2.65a1.575 1.575 0 01.873-2.687l3.759-.547 1.68-3.405a1.575 1.575 0 012.825 0l1.681 3.405 3.759.547a1.575 1.575 0 01.873 2.686l-2.72 2.651.642 3.744a1.575 1.575 0 01-2.285 1.66L22 30.263l-3.362 1.767zm3.676-3.127l3.676 1.932a.225.225 0 00.327-.237l-.703-4.093a.675.675 0 01.195-.598l2.973-2.899a.225.225 0 00-.124-.383l-4.11-.598a.675.675 0 01-.508-.369l-1.838-3.724a.225.225 0 00-.404 0l-1.838 3.724a.675.675 0 01-.508.37l-4.11.597a.225.225 0 00-.124.383l2.973 2.9c.16.154.232.378.195.597l-.703 4.093a.225.225 0 00.327.237l3.676-1.932a.675.675 0 01.628 0z">
+                          </path>
+                          <path fill="#FFF"
+                            d="M21.204 19.145l3.278 10.911 1.458.808a.27.27 0 00.397-.28l-.694-4.21a.45.45 0 01.13-.394l3.003-2.94a.27.27 0 00-.152-.46l-4.13-.573a.45.45 0 01-.341-.245l-1.903-3.826a.27.27 0 00-.487.006l-.559 1.203z">
+                          </path>
+                          <path fill="#333" fill-rule="nonzero"
+                            d="M11.722 34.059a.7.7 0 011.05-.926c.185.21.377.412.575.609a.7.7 0 01-.985.995 13.78 13.78 0 01-.64-.678zm3.008 2.555a.7.7 0 01.744-1.186A12.238 12.238 0 0022 37.3c6.793 0 12.3-5.507 12.3-12.3 0-6.793-5.507-12.3-12.3-12.3-6.793 0-12.3 5.507-12.3 12.3 0 2.324.645 4.55 1.844 6.48a.7.7 0 01-1.19.74A13.638 13.638 0 018.3 25c0-7.566 6.134-13.7 13.7-13.7 7.566 0 13.7 6.134 13.7 13.7 0 7.566-6.134 13.7-13.7 13.7-2.607 0-5.108-.73-7.27-2.086z">
+                          </path>
+                        </g>
+                      </svg>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <footer class="footer" id="footer"></footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#header").load("../../0_general/header.txt");
+        $("#footer").load("../../0_general/footer.html");
+      });
+    </script>
+    <script src="../js/pay.js"></script>
+  </body>
+
+</html>

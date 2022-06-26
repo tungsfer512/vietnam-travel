@@ -1,0 +1,157 @@
+.searchs {
+    width: 100%;
+
+    &-item {
+        width: 100%;
+        position: relative;
+        background: #fff;
+        line-height: 1.2;
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        margin: 0;
+        padding: 32px 0;
+        box-shadow: none;
+        border-radius: 0;
+        cursor: unset;
+        transition: transform .2s ease;
+
+        &:not(:first-child) {
+            border-top: 1px solid #eee;
+        }
+
+        &-images {
+            width: 210px;
+            height: 190px;
+            flex-shrink: 0;
+            border-radius: 6px;
+            margin-right: 24px;
+            cursor: pointer;
+
+            img {
+                border-radius: 6px;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &-content {
+            display: flex;
+            flex: 1 1 auto;
+            flex-direction: row;
+            align-items: stretch;
+
+            &-col1 {
+                position: relative;
+                flex: 1 1 auto;
+                overflow: hidden;
+                border-right: 1px solid #eee;
+
+                >span {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    font-size: 12px;
+                    color: #550100;
+                    line-height: 16px;
+                }
+
+                >a {
+                    display: flex;
+                    align-items: center;
+
+                    >span {
+                        font-size: 20px;
+                        margin-right: 4px;
+                        color: $textOrange;
+                    }
+
+                    >h3 {
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 22px;
+                        color: #212121;
+
+                    }
+
+                    &:hover h3 {
+                        text-decoration: underline;
+                    }
+                }
+
+                >p {
+                    font-size: 12px;
+                    margin-top: 4px;
+                    line-height: 16px;
+                    color: #757575;
+                }
+            }
+
+            &-col2 {
+                flex: 0 0 208px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                text-align: right;
+                overflow: hidden;
+                align-items: flex-end;
+
+                .rate {
+                    width: max-content;
+                    position: relative;
+                    left: 0;
+                    bottom: 0;
+                    border: 1px solid rgba(255, 166, 40, .4);
+                    border-radius: 12px;
+                    display: inline-flex;
+                    align-items: center;
+                    color: #ff9d26;
+                    padding: 3px 8px;
+                    font-weight: 700;
+                    font-size: 10px;
+                    font-weight: normal;
+
+                    >span {
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                }
+
+                .col2-bottom {
+                    display: flex;
+                    gap: 8px;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-end;
+
+                    >h3 {
+                        >span {
+                            font-size: 14px;
+                            margin-right: 6px;
+                            font-weight: 400;
+                        }
+                    }
+
+                    .btn {
+                        margin-right: 0;
+                        width: 100%;
+                        color: #fff;
+                        font-weight: 700;
+                        background-color: #ff9d26;
+
+                        &:hover {
+                            background-color: $textOrange;
+                            color: $textWhite;
+                        }
+                    }
+
+                    >p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

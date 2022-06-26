@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+	width: 1160px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.site-container {
+	background-color: #fff !important;
+}
+
+.area-active {
+	// @include transition(height, 3s, ease-in-out);
+	height: max-content !important;
+}
+
+.page-active {
+	background-color: $primaryColor !important;
+	border-color: $primaryHoverButtonColor !important;
+	color: $textWhite !important;
+}
+.page-etc {
+	border: none !important;
+	background-color: transparent !important;
+}
+
+
+.content {
+	margin-top: 115px !important;
+}

@@ -1,0 +1,54 @@
+{
+    "sourceFile": "js/index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1656077922606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1656077928484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n $(document).ready(function () {\r\n-  $('.your-class').slick({\r\n+  $('.top-slider').slick({\r\n     setting- name: setting - value\r\n   });\r\n });\r\n"
+                },
+                {
+                    "date": 1656077949589,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,8 @@\n $(document).ready(function () {\r\n   $('.top-slider').slick({\r\n-    setting- name: setting - value\r\n+    slidesToShow: 3,\r\n+    slidesToScroll: 1,\r\n+    autoplay: true,\r\n+    autoplaySpeed: 2000,\r\n   });\r\n });\r\n"
+                },
+                {
+                    "date": 1656078307449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n $(document).ready(function () {\r\n   $('.top-slider').slick({\r\n-    slidesToShow: 3,\r\n+    slidesToShow: 1,\r\n     slidesToScroll: 1,\r\n     autoplay: true,\r\n     autoplaySpeed: 2000,\r\n+    pre\r\n   });\r\n });\r\n"
+                },
+                {
+                    "date": 1656078314298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n     slidesToShow: 1,\r\n     slidesToScroll: 1,\r\n     autoplay: true,\r\n     autoplaySpeed: 2000,\r\n-    pre\r\n+    prevArrow: ''\r\n   });\r\n });\r\n"
+                },
+                {
+                    "date": 1656078337605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,9 @@\n     slidesToShow: 1,\r\n     slidesToScroll: 1,\r\n     autoplay: true,\r\n     autoplaySpeed: 2000,\r\n-    prevArrow: ''\r\n+    prevArrow: '<span class=\"material-icons\">\r\n+chevron_right\r\n+</span> '\r\n   });\r\n });\r\n"
+                },
+                {
+                    "date": 1656078343375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,7 @@\n     slidesToShow: 1,\r\n     slidesToScroll: 1,\r\n     autoplay: true,\r\n     autoplaySpeed: 2000,\r\n-    prevArrow: '<span class=\"material-icons\">\r\n-chevron_right\r\n-</span> '\r\n+    prevArrow: ``\r\n   });\r\n });\r\n"
+                },
+                {
+                    "date": 1656078351841,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,9 @@\n     slidesToShow: 1,\r\n     slidesToScroll: 1,\r\n     autoplay: true,\r\n     autoplaySpeed: 2000,\r\n-    prevArrow: ``\r\n+    prevArrow: `<span class=\"material-icons\">\r\n+      chevron_right\r\n+      </span>`\r\n   });\r\n });\r\n"
+                },
+                {
+                    "date": 1656078360078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,7 @@\n     autoplaySpeed: 2000,\r\n     prevArrow: `<span class=\"material-icons\">\r\n       chevron_right\r\n       </span>`, \r\n-      nextArro\r\n+      nextArrow\r\n   });\r\n });\r\n"
+                },
+                {
+                    "date": 1656094561114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,9 +95,9 @@\n             $('.slider-search-form').toggleClass('slider-search-form-focus');\r\n           }\r\n         }\r\n       });\r\n-      document.qu.scrollIntoView({ behavior: \"smooth\", block: \"start\" });\r\n+      document.body.scrollIntoView({ behavior: \"smooth\", block: \"start\" });\r\n       $(window).scroll(function () {\r\n         if ($(window).scrollTop() > $(\".slider-content-title\").offset().top + $(\".slider-search-form-dropdown\").height() - 20) {\r\n           $('.slider-search-form-dropdown').fadeOut(500);\r\n \r\n"
+                }
+            ],
+            "date": 1656077922606,
+            "name": "Commit-0",
+            "content": "$(document).ready(function () {\r\n  $('.your-class').slick({\r\n    setting- name: setting - value\r\n  });\r\n});\r\n"
+        }
+    ]
+}

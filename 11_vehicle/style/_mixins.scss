@@ -1,0 +1,7 @@
+@mixin transition($part, $duration, $easing) {
+	transition: $part $duration $easing;
+}
+
+@mixin moveTop($top) {
+	transform: translateY($top);
+}

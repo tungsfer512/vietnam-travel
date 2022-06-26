@@ -1,0 +1,2373 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.round {
+  border-radius: 50px;
+}
+
+.round-8 {
+  border-radius: 8px;
+}
+
+.round-4 {
+  border-radius: 4px;
+}
+
+.container-airport_transfer {
+  position: relative;
+}
+.container-airport_transfer-top {
+  position: relative;
+}
+.container-airport_transfer-top .image {
+  width: 100%;
+  height: 309px;
+}
+.container-airport_transfer-top .image img {
+  width: 100%;
+  height: 309px;
+  z-index: 1;
+}
+.container-airport_transfer-top .image::after {
+  content: "";
+  width: 100%;
+  height: 309px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.38;
+  z-index: 2;
+}
+.container-airport_transfer-top .content-box {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  top: 80px;
+}
+.container-airport_transfer-top .content-box .title {
+  width: 1160px;
+  margin: 24px auto 0;
+}
+.container-airport_transfer-top .content-box .title span {
+  font-size: 44px;
+  font-weight: 600;
+  color: white;
+}
+.container-airport_transfer-top .content-box-depart {
+  width: 1160px;
+  margin: 40px auto 0;
+}
+.container-airport_transfer-top .content-box-depart-top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 305px;
+  padding: 5px 10px;
+}
+.container-airport_transfer-top .content-box-depart-top span {
+  position: relative;
+  left: -8px;
+  cursor: pointer;
+  padding: 0 15px;
+  z-index: 4;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff5b00;
+}
+.container-airport_transfer-top .content-box-depart-top span:last-child {
+  color: #757575;
+}
+.container-airport_transfer-top .content-box-depart-top img {
+  position: absolute;
+}
+.container-airport_transfer-top .content-box-depart-bottom {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.container-airport_transfer-top .content-box-depart-bottom-second {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 2px 2px 2px 10px;
+  margin-right: 10px;
+  width: 244px;
+  height: 58px;
+}
+.container-airport_transfer-top .content-box-depart-bottom-second input {
+  width: 244px;
+  height: 58px;
+  padding: 5px 10px 5px 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+}
+.container-airport_transfer-top .content-box-depart-bottom-second span {
+  color: #757575;
+}
+.container-airport_transfer-top .content-box-depart-bottom .button-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 2px 2px 2px 10px;
+  margin-right: 10px;
+  width: 244px;
+  height: 58px;
+}
+.container-airport_transfer-top .content-box-depart-bottom .button-box .button {
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-airport_transfer-top .content-box-depart-bottom .button-box .button span {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #212121;
+  font-weight: 500;
+}
+.container-airport_transfer-top .content-box-depart-bottom .button-box .button .material-symbols-outlined {
+  font-size: 18px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #75757549;
+}
+.container-airport_transfer-top .content-box-depart-bottom .search {
+  background-color: #ff5b00;
+  border-radius: 8px;
+  width: 106px;
+  height: 58px;
+}
+.container-airport_transfer-top .content-box-depart-bottom .search button {
+  border-radius: 8px;
+  width: 106px;
+  height: 58px;
+  border: none;
+  background-color: #ff5b00;
+  padding: 0px 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first {
+  position: relative;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 2px 2px 2px 10px;
+  margin-right: 10px;
+  width: 244px;
+  height: 58px;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first input {
+  width: 244px;
+  height: 58px;
+  padding: 5px 10px 5px 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first input:focus + .marker-move {
+  display: flex;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first span {
+  color: #757575;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move {
+  display: none;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  width: 797px;
+  height: 413px;
+  position: absolute;
+  border-radius: 6px;
+  top: 60px;
+  left: 0;
+  background-color: white;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-left {
+  width: 320px;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-left .marker-move-left-content-one {
+  border-top-left-radius: 6px;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-left .marker-move-left-content-seven {
+  border-bottom-left-radius: 6px;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-left-content {
+  height: 59px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #00000011;
+  cursor: pointer;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-left-content span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-left-content-active {
+  background-color: #ff5b00;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-left-content-active span {
+  color: white;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-right {
+  padding: 20px;
+  padding-top: 2px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-right-content {
+  display: flex;
+  padding-top: 16px;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-right-content p {
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-right-content p span {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #212121;
+  font-weight: 500;
+  cursor: pointer;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-right-content p span:hover {
+  color: #ff5b00;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-right-content p:first-child {
+  width: 137px;
+  cursor: default;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-right-content p:first-child span {
+  font-size: 14px;
+  color: #757575;
+  font-weight: 400;
+}
+.container-airport_transfer-top .content-box-depart-bottom-first .marker-move-right-content p:first-child span:hover {
+  color: #757575;
+}
+.container-airport_transfer-top-back {
+  position: relative;
+  height: 250px;
+  background-color: #edf5ff;
+  padding-top: 50px;
+  position: relative;
+}
+.container-airport_transfer-top-back-content {
+  width: 1160px;
+  margin: 0 auto;
+}
+.container-airport_transfer-top-back-content nav {
+  background-color: #437dff;
+  padding: 3px 10px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+.container-airport_transfer-top-back-content nav span {
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+}
+.container-airport_transfer-top-back-content .title {
+  display: flex;
+  margin: 10px 0 10px 0;
+  align-items: flex-start;
+}
+.container-airport_transfer-top-back-content .title div:first-child {
+  flex: 0 0 333px;
+  font-size: 24px;
+  margin-right: 40px;
+  color: #437dff;
+  font-weight: 500;
+}
+.container-airport_transfer-top-back-content .title div:last-child {
+  font-size: 14px;
+  color: #437dff;
+}
+.container-airport_transfer-top-back-content .title div:last-child span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-airport_transfer-top-back-content .list {
+  width: 1160px;
+  position: absolute;
+  bottom: 0;
+  background-color: #437dff;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.container-airport_transfer-top-back-content .list ul {
+  display: flex;
+}
+.container-airport_transfer-top-back-content .list ul li {
+  margin: 0px 20px;
+  font-size: 14px;
+  color: white;
+}
+.container-airport_transfer-top-back-content .list ul li p {
+  font-size: 14px;
+  color: white;
+}
+.container-airport_transfer-top-bottom {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+}
+.container-airport_transfer-top-bottom-content {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.container-airport_transfer-top-bottom-content-box {
+  display: flex;
+  align-items: center;
+}
+.container-airport_transfer-top-bottom-content-box div .material-symbols-outlined {
+  font-size: 28px;
+  margin-right: 20px;
+  border: 1px solid #ff5b00;
+  border-radius: 50%;
+  color: #ff5b00;
+  padding: 5px;
+}
+.container-airport_transfer-top-bottom-content-box div p:first-child span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-airport_transfer-top-bottom-content-box div p:last-child span {
+  font-size: 14px;
+  color: #757575;
+}
+.container-airport_transfer-shuttle {
+  width: 1160px;
+  margin: 0px auto;
+  padding-top: 80px;
+}
+.container-airport_transfer-shuttle nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-airport_transfer-shuttle-content {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.container-airport_transfer-shuttle-content .material-symbols-outlined {
+  font-size: 38px;
+  color: #757575;
+  margin: 0 20px;
+}
+.container-airport_transfer-shuttle-content div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-airport_transfer-shuttle-content div .box-img-one {
+  width: 80px;
+  height: 80px;
+  background-image: url(../../images/airport/transfer-d14a6373c6.png);
+  background-position: 0px -244px;
+}
+.container-airport_transfer-shuttle-content div .box-img-two {
+  width: 80px;
+  height: 80px;
+  background-image: url(../../images/airport/transfer-d14a6373c6.png);
+  background-position: 0px -159px;
+}
+.container-airport_transfer-shuttle-content div .box-img-three {
+  width: 80px;
+  height: 80px;
+  background-image: url(../../images/airport/transfer-d14a6373c6.png);
+  background-position: 0px -414px;
+}
+.container-airport_transfer-shuttle-content div .box-img-four {
+  width: 80px;
+  height: 80px;
+  background-image: url(../../images/airport/transfer-d14a6373c6.png);
+  background-position: 0px -329px;
+}
+.container-airport_transfer-shuttle-content div .text {
+  margin-top: 20px;
+  text-align: center;
+}
+.container-airport_transfer-shuttle-content div .text span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.container-airport_transfer-review {
+  width: 1160px;
+  margin: 0px auto;
+  padding-top: 80px;
+}
+.container-airport_transfer-review nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-airport_transfer-review-content {
+  margin-top: 24px;
+}
+.container-airport_transfer-review-content-star {
+  display: flex;
+  align-items: flex-start;
+}
+.container-airport_transfer-review-content-star div:first-child {
+  margin-right: 20px;
+}
+.container-airport_transfer-review-content-star div:first-child span:first-child {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 0.99;
+  color: #ff9c00;
+}
+.container-airport_transfer-review-content-star div:first-child span:last-child {
+  font-size: 16px;
+  color: #ff9c00;
+  font-weight: 500;
+}
+.container-airport_transfer-review-content-star div:last-child p:first-child span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.container-airport_transfer-review-content-star div:last-child p:last-child span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+}
+.container-airport_transfer-review-content-list {
+  display: flex;
+  margin-top: 35px;
+}
+.container-airport_transfer-review-content-list-item {
+  margin-right: 10px;
+  width: 373px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+}
+.container-airport_transfer-review-content-list-item .avatar {
+  display: flex;
+  align-items: center;
+}
+.container-airport_transfer-review-content-list-item .avatar-img {
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+}
+.container-airport_transfer-review-content-list-item .avatar-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.container-airport_transfer-review-content-list-item .avatar-name p:first-child span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-airport_transfer-review-content-list-item .avatar-name p:last-child span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+}
+.container-airport_transfer-review-content-list-item .suggest-review p {
+  margin: 5px 0;
+}
+.container-airport_transfer-review-content-list-item .suggest-review p span:first-child {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff9c00;
+}
+.container-airport_transfer-review-content-list-item .suggest-review p .second {
+  font-size: 14px;
+}
+.container-airport_transfer-review-content-list-item .suggest-review p span:last-child {
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-airport_transfer-review-content-list-item .suggest .textGray span {
+  font-size: 14px;
+  color: #757575;
+}
+.container-airport_transfer-review-content-list-item .suggest p:last-child span {
+  font-size: 14px;
+}
+.container-airport_transfer-review-content-bottom {
+  text-align: center;
+  margin-top: 30px;
+}
+.container-airport_transfer-review-content-bottom span {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 60px;
+  border: 1px solid #757575;
+  border-radius: 6px;
+}
+.container-airport_transfer-popular {
+  width: 1160px;
+  margin: 0px auto;
+  padding-top: 80px;
+}
+.container-airport_transfer-popular nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-airport_transfer-popular-content {
+  margin-top: 15px;
+}
+.container-airport_transfer-popular-content-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-airport_transfer-popular-content-list-item {
+  padding: 20px 20px 20px 20px;
+  width: 275px;
+  margin-right: 15px;
+  margin-top: 25px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.container-airport_transfer-popular-content-list-item p:first-child span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.container-airport_transfer-popular-content-list-item p:last-child {
+  float: right;
+}
+.container-airport_transfer-popular-content-list-item p:last-child span:first-child {
+  font-size: 14px;
+  color: #757575;
+}
+.container-airport_transfer-popular-content-list-item p:last-child span:last-child {
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-airport_transfer-popular-content-list-item:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08), 0 -1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.container-airport_transfer-question {
+  width: 1160px;
+  margin: 0px auto;
+  padding-top: 80px;
+}
+.container-airport_transfer-question nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-airport_transfer-question-content {
+  margin-top: 25px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+.container-airport_transfer-question-content .p-container .accordion {
+  background-color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.container-airport_transfer-question-content .p-container .accordion-last {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.container-airport_transfer-question-content .p-container .accordion:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.container-airport_transfer-question-content .p-container .accordion:after {
+  content: "+";
+  color: #777;
+  font-size: 16px;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.container-airport_transfer-question-content .p-container .active:after {
+  content: "−";
+}
+.container-airport_transfer-question-content .p-container .panel {
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+.container-airport_transfer-question-content .p-container .panel p {
+  font-size: 14px;
+  padding: 20px;
+}
+.container-airport_transfer-question-button {
+  margin-top: 20px;
+  text-align: center;
+}
+.container-airport_transfer-question-button button {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 50px;
+  background-color: white;
+  border: 1px solid #757575;
+  font-size: 16px;
+}
+
+.container-vehicle {
+  position: relative;
+}
+.container-vehicle-top {
+  position: relative;
+}
+.container-vehicle-top .image {
+  width: 100%;
+  height: 309px;
+}
+.container-vehicle-top .image img {
+  width: 100%;
+  height: 309px;
+  z-index: 1;
+}
+.container-vehicle-top .image::after {
+  content: "";
+  width: 100%;
+  height: 309px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.38;
+  z-index: 2;
+}
+.container-vehicle-top .content-box {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  top: 80px;
+}
+.container-vehicle-top .content-box .title {
+  width: 1160px;
+  margin: 24px auto 0;
+}
+.container-vehicle-top .content-box .title span {
+  font-size: 44px;
+  font-weight: 600;
+  color: white;
+}
+.container-vehicle-top .content-box-depart {
+  width: 1160px;
+  margin: 80px auto 0;
+}
+.container-vehicle-top .content-box-depart-bottom {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+}
+.container-vehicle-top .content-box-depart-bottom-second {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 2px 2px 2px 10px;
+  margin-right: 10px;
+  width: 244px;
+  height: 58px;
+}
+.container-vehicle-top .content-box-depart-bottom-second-width {
+  width: 500px;
+  justify-content: space-between;
+}
+.container-vehicle-top .content-box-depart-bottom-second-width span {
+  font-size: 14px;
+}
+.container-vehicle-top .content-box-depart-bottom-second input {
+  width: 244px;
+  height: 58px;
+  padding: 5px 10px 5px 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+}
+.container-vehicle-top .content-box-depart-bottom-second span {
+  color: #757575;
+}
+.container-vehicle-top .content-box-depart-bottom .button-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 2px 2px 2px 10px;
+  margin-right: 10px;
+  width: 244px;
+  height: 58px;
+}
+.container-vehicle-top .content-box-depart-bottom .button-box .button {
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-vehicle-top .content-box-depart-bottom .button-box .button span {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #212121;
+  font-weight: 500;
+}
+.container-vehicle-top .content-box-depart-bottom .button-box .button .material-symbols-outlined {
+  font-size: 18px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #75757549;
+}
+.container-vehicle-top .content-box-depart-bottom .search {
+  background-color: #ff5b00;
+  border-radius: 8px;
+  width: 106px;
+  height: 58px;
+}
+.container-vehicle-top .content-box-depart-bottom .search button {
+  border-radius: 8px;
+  width: 106px;
+  height: 58px;
+  border: none;
+  background-color: #ff5b00;
+  padding: 0px 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.container-vehicle-top .content-box-depart-bottom-first {
+  position: relative;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 2px 2px 2px 10px;
+  margin-right: 10px;
+  width: 244px;
+  height: 58px;
+}
+.container-vehicle-top .content-box-depart-bottom-first input {
+  width: 244px;
+  height: 58px;
+  padding: 5px 10px 5px 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+}
+.container-vehicle-top .content-box-depart-bottom-first input:focus + .marker-move {
+  display: flex;
+}
+.container-vehicle-top .content-box-depart-bottom-first span {
+  color: #757575;
+}
+.container-vehicle-top-bottom {
+  margin-top: 40px;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+}
+.container-vehicle-top-bottom-content {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.container-vehicle-top-bottom-content-box {
+  display: flex;
+  align-items: center;
+}
+.container-vehicle-top-bottom-content-box .images {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.container-vehicle-top-bottom-content-box .images img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.container-vehicle-top-bottom-content-box div p:first-child span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-vehicle-top-bottom-content-box div p:last-child span {
+  font-size: 12px;
+  color: #757575;
+}
+.container-vehicle-content-popular {
+  width: 1160px;
+  margin: 60px auto;
+}
+.container-vehicle-content-popular nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-vehicle-content-popular-feature {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.container-vehicle-content-popular-feature .item {
+  margin: 20px 15px 0 0;
+  width: 275px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+.container-vehicle-content-popular-feature .item p:first-child span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.container-vehicle-content-popular-feature .item p:nth-child(2) span {
+  font-size: 12px;
+  color: #757575;
+}
+.container-vehicle-content-popular-feature .item p:nth-child(3) span {
+  font-size: 14px;
+  color: #ff5b00;
+  font-weight: 500;
+}
+.container-vehicle-content-popular-feature .item:hover {
+  border: 1px solid #212121;
+}
+.container-vehicle-content-guide {
+  width: 1160px;
+  margin: 60px auto;
+}
+.container-vehicle-content-guide nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-vehicle-content-guide-feature {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-vehicle-content-guide-feature .item {
+  cursor: pointer;
+  margin: 20px 20px 0 0;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  width: 275px;
+  transition: all 0.2s ease-in-out;
+}
+.container-vehicle-content-guide-feature .item .title p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+}
+.container-vehicle-content-guide-feature .item .content {
+  display: flex;
+  align-items: center;
+}
+.container-vehicle-content-guide-feature .item .content-img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+.container-vehicle-content-guide-feature .item .content-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.container-vehicle-content-guide-feature .item .content span {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.container-vehicle-content-guide-feature .item .bottom-img {
+  margin-top: 10px;
+  height: 160px;
+}
+.container-vehicle-content-guide-feature .item .bottom-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 8px;
+}
+.container-vehicle-content-guide-feature .item:hover {
+  transform: translateY(-5px);
+  transition: all 0.2s ease-in-out;
+}
+.container-vehicle-content-review {
+  width: 1160px;
+  margin: 60px auto;
+}
+.container-vehicle-content-review nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-vehicle-content-review-feature {
+  margin-top: 30px;
+}
+.container-vehicle-content-review-feature-star {
+  display: flex;
+  align-items: flex-start;
+}
+.container-vehicle-content-review-feature-star div:first-child {
+  margin-right: 20px;
+}
+.container-vehicle-content-review-feature-star div:first-child span:first-child {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 0.99;
+  color: #ff9c00;
+}
+.container-vehicle-content-review-feature-star div:first-child span:last-child {
+  font-size: 16px;
+  color: #ff9c00;
+  font-weight: 500;
+}
+.container-vehicle-content-review-feature-star div:last-child p:first-child span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.container-vehicle-content-review-feature-star div:last-child p:last-child span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+}
+.container-vehicle-content-review-feature-list {
+  display: flex;
+  margin-top: 30px;
+}
+.container-vehicle-content-review-feature-list-item {
+  cursor: pointer;
+  margin-right: 10px;
+  width: 373px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+  padding-bottom: 60px;
+}
+.container-vehicle-content-review-feature-list-item .avatar {
+  display: flex;
+  align-items: center;
+}
+.container-vehicle-content-review-feature-list-item .avatar-img {
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+}
+.container-vehicle-content-review-feature-list-item .avatar-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.container-vehicle-content-review-feature-list-item .avatar-name p:first-child span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-vehicle-content-review-feature-list-item .avatar-name p:last-child span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+}
+.container-vehicle-content-review-feature-list-item .suggest-review p {
+  margin: 5px 0;
+}
+.container-vehicle-content-review-feature-list-item .suggest-review p .first {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff9c00;
+}
+.container-vehicle-content-review-feature-list-item .suggest-review p .second {
+  font-size: 14px;
+  color: #ff9c00;
+  font-weight: 500;
+}
+.container-vehicle-content-review-feature-list-item .suggest-review p .last {
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-vehicle-content-review-feature-list-item .suggest .p-last {
+  font-size: 14px;
+}
+.container-vehicle-content-review-feature-bottom {
+  text-align: center;
+  margin-top: 30px;
+}
+.container-vehicle-content-review-feature-bottom span {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 60px;
+  border: 1px solid #757575;
+  border-radius: 6px;
+}
+.container-vehicle-content-question {
+  width: 1160px;
+  margin: 60px auto;
+}
+.container-vehicle-content-question nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-vehicle-content-question-feature {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.container-vehicle-content-question-feature-item {
+  width: 560px;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 30px;
+  margin-top: 30px;
+}
+.container-vehicle-content-question-feature-item .material-symbols-outlined {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.container-vehicle-content-question-feature-item-answer {
+  width: 560px;
+}
+.container-vehicle-content-question-feature-item-answer p:first-child span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-vehicle-content-question-feature-item-answer p {
+  margin-top: 8px;
+  font-size: 14px;
+}
+.container-vehicle-content-question-bottom {
+  margin-top: 30px;
+  text-align: center;
+}
+.container-vehicle-content-question-bottom button {
+  background-color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #212121;
+  border-radius: 6px;
+  padding: 5px 50px;
+}
+.container-vehicle-content-boat {
+  width: 1160px;
+  margin: 60px auto;
+}
+.container-vehicle-content-boat nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-vehicle-content-boat-feature {
+  display: flex;
+  margin-top: 20px;
+}
+.container-vehicle-content-boat-feature-right {
+  width: 748px;
+  max-height: 280px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.container-vehicle-content-boat-feature-right::-webkit-scrollbar {
+  width: 5px;
+}
+.container-vehicle-content-boat-feature-right::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+.container-vehicle-content-boat-feature-right::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+.container-vehicle-content-boat-feature-right::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 3px;
+}
+.container-vehicle-content-boat-feature-right div {
+  margin-bottom: 20px;
+}
+.container-vehicle-content-boat-feature-right div p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.container-vehicle-content-boat-feature-right div span {
+  font-size: 14px;
+}
+.container-vehicle-content-boat-feature-left {
+  background-image: url(../../images/airport/vleagjmxdtfhq0m1lfod.webp);
+  -webkit-box-flex: 0;
+  width: 372px;
+  height: 280px;
+  background-size: cover;
+  background-position: 50%;
+  margin-left: 40px;
+  border-radius: 8px;
+}
+.container-vehicle-content-discover {
+  width: 1160px;
+  margin: 80px auto;
+}
+.container-vehicle-content-discover nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-vehicle-content-discover-feature {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+}
+.container-vehicle-content-discover-feature div {
+  width: 1px;
+  height: 12px;
+  background-color: #757575;
+}
+.container-vehicle-content-discover-feature a {
+  margin: 5px;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 12px;
+  color: #212121;
+}
+
+.container-car_rental {
+  position: relative;
+}
+.container-car_rental-top {
+  position: relative;
+}
+.container-car_rental-top .image {
+  width: 100%;
+  height: 309px;
+}
+.container-car_rental-top .image img {
+  width: 100%;
+  height: 309px;
+  z-index: 1;
+}
+.container-car_rental-top .image::after {
+  content: "";
+  width: 100%;
+  height: 309px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.38;
+  z-index: 2;
+}
+.container-car_rental-top .content-box {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  top: 80px;
+}
+.container-car_rental-top .content-box .title {
+  width: 1160px;
+  margin: 24px auto 0;
+}
+.container-car_rental-top .content-box .title span {
+  font-size: 44px;
+  font-weight: 600;
+  color: white;
+}
+.container-car_rental-top .content-box-depart {
+  width: 1160px;
+  margin: 40px auto 0;
+}
+.container-car_rental-top .content-box-depart-top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 44px;
+  width: 305px;
+  padding: 5px 10px;
+}
+.container-car_rental-top .content-box-depart-top span {
+  position: relative;
+  left: -8px;
+  cursor: pointer;
+  padding: 15px 30px;
+  z-index: 4;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff5b00;
+}
+.container-car_rental-top .content-box-depart-top span:last-child {
+  color: #757575;
+}
+.container-car_rental-top .content-box-depart-top img {
+  position: absolute;
+}
+.container-car_rental-top .content-box-depart .between {
+  border-top-right-radius: 6px;
+  background-color: white;
+  padding: 10px 5px;
+}
+.container-car_rental-top .content-box-depart .between input {
+  margin-left: 20px;
+}
+.container-car_rental-top .content-box-depart .between span {
+  font-size: 14px;
+}
+.container-car_rental-top .content-box-depart-bottom {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.container-car_rental-top .content-box-depart-bottom-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 2px 2px 2px 10px;
+  margin-right: 10px;
+  width: 244px;
+  height: 58px;
+}
+.container-car_rental-top .content-box-depart-bottom-second input {
+  width: 220px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+}
+.container-car_rental-top .content-box-depart-bottom-second span {
+  color: #757575;
+  font-size: 12px;
+}
+.container-car_rental-top .content-box-depart-bottom .button-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 2px 2px 2px 10px;
+  margin-right: 10px;
+  width: 244px;
+  height: 58px;
+}
+.container-car_rental-top .content-box-depart-bottom .button-box .button {
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-car_rental-top .content-box-depart-bottom .button-box .button span {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #212121;
+  font-weight: 500;
+}
+.container-car_rental-top .content-box-depart-bottom .button-box .button .material-symbols-outlined {
+  font-size: 18px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #75757549;
+}
+.container-car_rental-top .content-box-depart-bottom .search {
+  background-color: #ff5b00;
+  border-radius: 8px;
+  width: 106px;
+  height: 58px;
+}
+.container-car_rental-top .content-box-depart-bottom .search button {
+  border-radius: 8px;
+  width: 106px;
+  height: 58px;
+  border: none;
+  background-color: #ff5b00;
+  padding: 0px 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.container-car_rental-top .content-box-depart-bottom-first {
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 2px 2px 2px 10px;
+  margin-right: 10px;
+  width: 244px;
+  height: 58px;
+}
+.container-car_rental-top .content-box-depart-bottom-first input {
+  width: 220px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+}
+.container-car_rental-top .content-box-depart-bottom-first span {
+  color: #757575;
+  font-size: 12px;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move {
+  display: none;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  width: 797px;
+  height: 413px;
+  position: absolute;
+  border-radius: 6px;
+  top: 60px;
+  left: 0;
+  background-color: white;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-left {
+  width: 320px;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-left .marker-move-left-content-one {
+  border-top-left-radius: 6px;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-left .marker-move-left-content-seven {
+  border-bottom-left-radius: 6px;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-left-content {
+  height: 59px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-left-content span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-left-content-active {
+  background-color: #ff5b00;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-left-content-active span {
+  color: white;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-right {
+  padding: 20px;
+  padding-top: 2px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-right-content {
+  display: flex;
+  padding-top: 16px;
+  flex-wrap: wrap;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-right-content p {
+  width: 480px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-right-content p span {
+  width: 200px;
+  margin: 5px;
+  font-size: 14px;
+  color: #212121;
+  font-weight: 500;
+  cursor: pointer;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-right-content p span:hover {
+  color: #ff5b00;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-right-content p:first-child {
+  width: 137px;
+  cursor: default;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-right-content p:first-child span {
+  font-size: 14px;
+  color: #757575;
+  font-weight: 400;
+}
+.container-car_rental-top .content-box-depart-bottom-first .marker-move-right-content p:first-child span:hover {
+  color: #757575;
+}
+.container-car_rental-top-back {
+  position: relative;
+  height: 250px;
+  background-color: #edf5ff;
+  padding-top: 50px;
+  position: relative;
+}
+.container-car_rental-top-back-content {
+  width: 1160px;
+  margin: 0 auto;
+}
+.container-car_rental-top-back-content nav {
+  background-color: #437dff;
+  padding: 3px 10px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+.container-car_rental-top-back-content nav span {
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+}
+.container-car_rental-top-back-content .title {
+  display: flex;
+  margin: 10px 0 10px 0;
+  align-items: flex-start;
+}
+.container-car_rental-top-back-content .title div:first-child {
+  flex: 0 0 333px;
+  font-size: 24px;
+  margin-right: 40px;
+  color: #437dff;
+  font-weight: 500;
+}
+.container-car_rental-top-back-content .title div:last-child {
+  font-size: 14px;
+  color: #437dff;
+}
+.container-car_rental-top-back-content .title div:last-child span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-car_rental-top-back-content .list {
+  width: 1160px;
+  position: absolute;
+  bottom: 0;
+  background-color: #437dff;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.container-car_rental-top-back-content .list ul {
+  display: flex;
+}
+.container-car_rental-top-back-content .list ul li {
+  margin: 0px 20px;
+  font-size: 14px;
+  color: white;
+}
+.container-car_rental-top-back-content .list ul li p {
+  font-size: 14px;
+  color: white;
+}
+.container-car_rental-top-bottom {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+}
+.container-car_rental-top-bottom-content {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.container-car_rental-top-bottom-content-box {
+  display: flex;
+  align-items: center;
+}
+.container-car_rental-top-bottom-content-box .images-car {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.container-car_rental-top-bottom-content-box .images-car img {
+  width: 100%;
+  height: 100%;
+}
+.container-car_rental-top-bottom-content-box .text p:first-child span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-car_rental-top-bottom-content-box .text p:last-child span {
+  font-size: 14px;
+  color: #757575;
+}
+.container-car_rental-logo {
+  width: 1160px;
+  margin: 0px auto;
+  padding-top: 80px;
+}
+.container-car_rental-logo nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-car_rental-logo-content {
+  margin-top: 20px;
+  display: flex;
+}
+.container-car_rental-logo-content div {
+  width: 136px;
+  height: 70px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+.container-car_rental-logo-content div img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  object-fit: contain;
+}
+.container-car_rental-question {
+  width: 1160px;
+  margin: 0px auto;
+  padding-top: 80px;
+}
+.container-car_rental-question nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-car_rental-question-content {
+  margin-top: 25px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+.container-car_rental-question-content .p-container .accordion {
+  background-color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.container-car_rental-question-content .p-container .accordion-last {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.container-car_rental-question-content .p-container .accordion:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.container-car_rental-question-content .p-container .accordion:after {
+  content: "+";
+  color: #777;
+  font-size: 16px;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.container-car_rental-question-content .p-container .active:after {
+  content: "−";
+}
+.container-car_rental-question-content .p-container .panel {
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+.container-car_rental-question-content .p-container .panel p {
+  font-size: 14px;
+  padding: 20px;
+}
+.container-car_rental-question-button {
+  margin-top: 20px;
+  text-align: center;
+}
+.container-car_rental-question-button button {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 110px;
+  background-color: white;
+  border: 1px solid #757575;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container-japan_rails {
+  position: relative;
+}
+.container-japan_rails-top {
+  position: relative;
+}
+.container-japan_rails-top .image {
+  width: 100%;
+  height: 309px;
+}
+.container-japan_rails-top .image img {
+  width: 100%;
+  height: 309px;
+  z-index: 1;
+}
+.container-japan_rails-top .content-box {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  top: 80px;
+}
+.container-japan_rails-top .content-box .title {
+  width: 1160px;
+  margin: 24px auto 0;
+}
+.container-japan_rails-top .content-box .title span {
+  font-size: 44px;
+  font-weight: 600;
+  color: white;
+}
+.container-japan_rails-top .content-box-depart {
+  width: 1160px;
+  margin: 40px auto 0;
+}
+.container-japan_rails-top .content-box-depart-bottom {
+  width: 780px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  height: 58px;
+  background-color: #f5f5f5;
+}
+.container-japan_rails-top .content-box-depart-bottom .search {
+  border-radius: 8px;
+  width: 156px;
+}
+.container-japan_rails-top .content-box-depart-bottom .search button {
+  border-radius: 8px;
+  width: 156px;
+  height: 100%;
+  border: none;
+  background-color: #ff5b00;
+  padding: 0px 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.container-japan_rails-top .content-box-depart-bottom-first {
+  position: relative;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 2px 2px 2px 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+.container-japan_rails-top .content-box-depart-bottom-first input {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+}
+.container-japan_rails-top .content-box-depart-bottom-first span {
+  color: #757575;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move {
+  display: none;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  width: 797px;
+  height: 413px;
+  position: absolute;
+  border-radius: 6px;
+  top: 60px;
+  left: 0;
+  background-color: white;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-left {
+  width: 320px;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-left .marker-move-left-content-one {
+  border-top-left-radius: 6px;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-left .marker-move-left-content-seven {
+  border-bottom-left-radius: 6px;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-left-content {
+  height: 59px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-left-content span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-left-content-active {
+  background-color: #ff5b00;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-left-content-active span {
+  color: white;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-right {
+  padding: 20px;
+  padding-top: 2px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-right-content {
+  display: flex;
+  padding-top: 16px;
+  flex-wrap: wrap;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-right-content p {
+  width: 480px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-right-content p span {
+  width: 200px;
+  margin: 5px;
+  font-size: 14px;
+  color: #212121;
+  font-weight: 500;
+  cursor: pointer;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-right-content p span:hover {
+  color: #ff5b00;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-right-content p:first-child {
+  width: 137px;
+  cursor: default;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-right-content p:first-child span {
+  font-size: 14px;
+  color: #757575;
+  font-weight: 400;
+}
+.container-japan_rails-top .content-box-depart-bottom-first .marker-move-right-content p:first-child span:hover {
+  color: #757575;
+}
+.container-japan_rails-top-bottom {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+}
+.container-japan_rails-top-bottom-content {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.container-japan_rails-top-bottom-content-box {
+  display: flex;
+  align-items: center;
+  width: 350px;
+}
+.container-japan_rails-top-bottom-content-box .images-car {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.container-japan_rails-top-bottom-content-box .images-car img {
+  width: 100%;
+  height: 100%;
+}
+.container-japan_rails-top-bottom-content-box .text p:first-child span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-japan_rails-top-bottom-content-box .text p:last-child {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #757575;
+}
+.container-japan_rails-move {
+  width: 1160px;
+  margin: 0px auto;
+  margin-top: 80px;
+}
+.container-japan_rails-move nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-japan_rails-move-content span {
+  font-size: 16px;
+}
+.container-japan_rails-move-content-feature {
+  position: relative;
+  margin-top: 20px;
+}
+.container-japan_rails-move-content-feature-img {
+  width: 1160px;
+  height: 280px;
+}
+.container-japan_rails-move-content-feature-img img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container-japan_rails-move-content-feature-bottom {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  color: white;
+}
+.container-japan_rails-move-content-feature-bottom span {
+  font-size: 44px;
+  font-weight: 500;
+}
+.container-japan_rails-move-content-feature-bottom ul {
+  margin-left: 18px;
+}
+.container-japan_rails-move-content-feature-bottom ul li {
+  font-size: 14px;
+}
+.container-japan_rails-move-content-feature-bottom .button {
+  margin-top: 20px;
+}
+.container-japan_rails-move-content-feature-bottom .button button {
+  border: none;
+  border-radius: 6px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  font-weight: 500;
+  color: #ff5b00;
+}
+.container-japan_rails-move-content-feature-bottom .button button span {
+  margin-top: 3px;
+  font-weight: 400;
+}
+.container-japan_rails-discover {
+  width: 1160px;
+  margin: 0px auto;
+  margin-top: 80px;
+}
+.container-japan_rails-discover nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-japan_rails-discover-content .text {
+  font-size: 16px;
+}
+.container-japan_rails-discover-content-feature {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container-japan_rails-discover-content-feature .item {
+  margin-top: 20px;
+  width: 374px;
+  padding: 20px;
+  border-radius: 8px;
+  transition: all 0.1s ease-in-out;
+  border: 1px solid #e0e0e0;
+}
+.container-japan_rails-discover-content-feature .item .content .title span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.container-japan_rails-discover-content-feature .item .content-between {
+  display: flex;
+  align-items: center;
+}
+.container-japan_rails-discover-content-feature .item .content-between ul {
+  width: 238px;
+  margin-left: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-japan_rails-discover-content-feature .item .content-between ul li {
+  width: 100px;
+  padding: 5px;
+  color: #86c687;
+  font-size: 12px;
+}
+.container-japan_rails-discover-content-feature .item .content-between ul li span {
+  font-size: 12px;
+  color: #757575;
+}
+.container-japan_rails-discover-content-feature .item .content-between .img {
+  width: 94px;
+  height: 94px;
+}
+.container-japan_rails-discover-content-feature .item .content-between .img img {
+  width: 100%;
+  height: 100%;
+}
+.container-japan_rails-discover-content-feature .item .line {
+  margin-top: 15px;
+  height: 1px;
+  width: 100%;
+  background-color: #e0e0e0;
+}
+.container-japan_rails-discover-content-feature .item .bottom {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.container-japan_rails-discover-content-feature .item .bottom .text span {
+  font-size: 14px;
+}
+.container-japan_rails-discover-content-feature .item .bottom-bottom {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.container-japan_rails-discover-content-feature .item .bottom-bottom span {
+  font-size: 14px;
+  color: #437dff;
+}
+.container-japan_rails-discover-content-feature .item .bottom-bottom .material-symbols-outlined {
+  margin-top: 1px;
+  font-size: 24px;
+}
+.container-japan_rails-discover-content-feature .item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.12), 0 -1px 2px 0 rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease-in-out;
+}
+.container-japan_rails-discover-content .button {
+  margin-top: 30px;
+  text-align: center;
+}
+.container-japan_rails-discover-content .button button {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 6px;
+  padding: 10px 80px;
+  border: 1px solid #757575;
+}
+.container-japan_rails-category {
+  width: 100%;
+  background-color: #f5f5f5;
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+.container-japan_rails-category-content {
+  width: 1160px;
+  margin: 0px auto;
+  padding-top: 80px;
+}
+.container-japan_rails-category-content nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-japan_rails-category-content-feature {
+  margin-top: 20px;
+}
+.container-japan_rails-category-content-feature .top span {
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.container-japan_rails-category-content-feature .top .active {
+  border-bottom: 2px solid #ff5b00;
+  color: #ff5b00;
+}
+.container-japan_rails-category-content-feature .bottom {
+  margin-top: 30px;
+  display: flex;
+}
+.container-japan_rails-category-content-feature .bottom-left {
+  width: 706px;
+  max-height: 640px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  flex: none;
+  display: none;
+  margin-right: 10px;
+}
+.container-japan_rails-category-content-feature .bottom-left.implement {
+  display: block;
+}
+.container-japan_rails-category-content-feature .bottom-left::-webkit-scrollbar {
+  width: 5px;
+}
+.container-japan_rails-category-content-feature .bottom-left::-webkit-scrollbar-thumb {
+  background-color: rgba(170, 218, 255, 0.6);
+  border-radius: 2.5px;
+}
+.container-japan_rails-category-content-feature .bottom-left::-webkit-scrollbar-track {
+  border-radius: 12px;
+}
+.container-japan_rails-category-content-feature .bottom-left .item {
+  margin-bottom: 10px;
+  padding: 20px;
+  margin-right: 6px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-top {
+  display: flex;
+  justify-content: space-between;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-top-top p:first-child {
+  font-size: 12px;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-top-top p:last-child {
+  font-size: 16px;
+  font-weight: 500;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-top-bottom p:first-child span:first-child {
+  font-size: 16px;
+  color: #ff9c00;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-top-bottom p:first-child span:first-child .material-symbols-outlined {
+  color: #ff9c00;
+  font-size: 16px;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-top-bottom p:first-child span:last-child {
+  font-size: 14px;
+  color: #757575;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-top-bottom p:last-child {
+  font-size: 14px;
+  color: #757575;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-between {
+  display: flex;
+  flex-direction: column;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-between p span {
+  font-size: 12px;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-between p:first-child span {
+  color: #40bb30;
+  background-color: #f0fffa;
+  padding: 8px;
+  border-radius: 4px;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-between p:last-child {
+  margin-top: 5px;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-between p:last-child span {
+  padding: 6px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  color: #757575;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-price {
+  text-align: right;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-price span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-bottom {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-bottom .front p:first-child {
+  font-size: 12px;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-bottom .front p:first-child span {
+  font-size: 14px;
+  color: #ff9c00;
+  font-weight: 500;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-bottom .front p:last-child {
+  font-size: 12px;
+}
+.container-japan_rails-category-content-feature .bottom-left .item-bottom .under button {
+  font-size: 14px;
+  padding: 5px 20px;
+  background-color: #ff5b00;
+  color: white;
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.container-japan_rails-category-content-feature .bottom-left .item:hover {
+  border: 1px solid #ff5b00;
+}
+.container-japan_rails-category-content-feature .bottom-right {
+  flex-grow: 1;
+}
+.container-japan_rails-category-content-feature .bottom-right-img img {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container-japan_rails-questionJRPASS {
+  width: 1160px;
+  margin: 0px auto;
+  padding-top: 80px;
+}
+.container-japan_rails-questionJRPASS nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-japan_rails-questionJRPASS-content {
+  position: relative;
+  margin-top: 20px;
+}
+.container-japan_rails-questionJRPASS-content .content-img {
+  width: 100%;
+}
+.container-japan_rails-questionJRPASS-content .content-img img {
+  width: 100%;
+  object-fit: cover;
+}
+.container-japan_rails-questionJRPASS-content .content {
+  position: absolute;
+  top: 60%;
+  text-align: center;
+}
+.container-japan_rails-questionJRPASS-content .content span {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.container-japan_rails-questionJRPASS-content .content p {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 14px;
+  color: white;
+}
+.container-japan_rails-use {
+  width: 1160px;
+  margin: 0px auto;
+  padding-top: 80px;
+}
+.container-japan_rails-use nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-japan_rails-use-content {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-japan_rails-use-content .item {
+  border: 1px solid #e0e0e0;
+  height: 343px;
+  width: 216px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.container-japan_rails-use-content .item-img {
+  width: 80px;
+  height: 80px;
+}
+.container-japan_rails-use-content .item-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container-japan_rails-use-content .item-title span {
+  font-size: 14px;
+  color: #ff9c00;
+  font-weight: 500;
+}
+.container-japan_rails-use-content .item .text {
+  font-size: 14px;
+  margin: 10px 0;
+}
+.container-japan_rails-use-content .item p:last-child {
+  font-size: 12px;
+  color: #757575;
+}
+.container-japan_rails-content-guide {
+  width: 1160px;
+  margin: 0px auto;
+  padding-top: 80px;
+}
+.container-japan_rails-content-guide nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-japan_rails-content-guide-feature {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-japan_rails-content-guide-feature .item {
+  cursor: pointer;
+  margin: 20px 20px 0 0;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  width: 275px;
+  transition: all 0.2s ease-in-out;
+}
+.container-japan_rails-content-guide-feature .item .title p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+}
+.container-japan_rails-content-guide-feature .item .content {
+  display: flex;
+  align-items: center;
+}
+.container-japan_rails-content-guide-feature .item .content-img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+.container-japan_rails-content-guide-feature .item .content-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.container-japan_rails-content-guide-feature .item .content span {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.container-japan_rails-content-guide-feature .item .bottom-img {
+  margin-top: 10px;
+  height: 160px;
+}
+.container-japan_rails-content-guide-feature .item .bottom-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 8px;
+}
+.container-japan_rails-content-guide-feature .item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.12), 0 -1px 2px 0 rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease-in-out;
+}
+.container-japan_rails-travel {
+  width: 1160px;
+  margin: 0px auto;
+  padding-top: 80px;
+}
+.container-japan_rails-travel nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-japan_rails-travel-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.container-japan_rails-travel-content div {
+  width: 368px;
+  margin-bottom: 10px;
+}
+.container-japan_rails-travel-content div a {
+  font-size: 14px;
+  color: #437dff;
+  text-decoration: none;
+}
+.container-japan_rails-question {
+  width: 1160px;
+  margin: 0px auto;
+  padding-top: 80px;
+}
+.container-japan_rails-question nav span {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container-japan_rails-question-content {
+  margin-top: 25px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+.container-japan_rails-question-content .p-container .accordion {
+  background-color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.container-japan_rails-question-content .p-container .accordion-last {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.container-japan_rails-question-content .p-container .accordion:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.container-japan_rails-question-content .p-container .accordion:after {
+  content: "+";
+  color: #777;
+  font-size: 16px;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.container-japan_rails-question-content .p-container .active:after {
+  content: "−";
+}
+.container-japan_rails-question-content .p-container .panel {
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+.container-japan_rails-question-content .p-container .panel p {
+  font-size: 14px;
+  padding: 20px;
+}
+.container-japan_rails-question-content .p-container .panel p a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #437dff;
+}
+
+/*# sourceMappingURL=style.css.map */

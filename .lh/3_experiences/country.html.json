@@ -1,0 +1,86 @@
+{
+    "sourceFile": "3_experiences/country.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 17,
+            "patches": [
+                {
+                    "date": 1656117382749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1656117564769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,59 @@\n-<!-- https://www.klook.com/vi/experiences/coureg/13-vietnam/?spm=Experience_Vertical.CountryCard&clickId=9c575aa276 -->\n\\ No newline at end of file\n+<!-- https://www.klook.com/vi/experiences/coureg/13-vietnam/?spm=Experience_Vertical.CountryCard&clickId=9c575aa276 -->\r\n+\r\n+<!-- https://www.klook.com/vi/experiences/?spm=Experience_Vertical.CategoryBar_L2_LIST&clickId=5ebc16bea9 -->\r\n+\r\n+<!DOCTYPE html>\r\n+<html lang=\"en\">\r\n+\r\n+  <head>\r\n+    <meta charset=\"UTF-8\">\r\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+    <title>Trang chủ</title>\r\n+\r\n+    <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\r\n+    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\" />\r\n+    <link rel=\"stylesheet\" href=\"./0_general/style/css/header.css\">\r\n+    <link rel=\"stylesheet\" href=\"./0_general/style/css/footer.css\">\r\n+    <link rel=\"stylesheet\" href=\"./style/css/style.css\">\r\n+    <link rel=\"shortcut icon\" href=\"./assets/images/logo_favicon.png\" type=\"image/x-icon\">\r\n+  </head>\r\n+\r\n+  <body>\r\n+    <div class=\"site-container\">\r\n+      <header class=\"header\" id=\"header\"></header>\r\n+      <div class=\"content\" id=\"content\">\r\n+        <div class=\"3_breadcrump\">\r\n+      \r\n+        </div>\r\n+        <div class=\"3_category\"></div>\r\n+        <div class=\"3_slider\">\r\n+          <div class=\"3_slider-top-5\"></div>\r\n+          <div class=\"3_slider-4\"></div>\r\n+          <div class=\"3_slider-4\"></div>\r\n+          <div class=\"3_slider-4\"></div>\r\n+          <div class=\"3_slider-4\"></div>\r\n+          <div class=\"3_slider-4\"></div>\r\n+          <div class=\"3_slider-4\"></div>\r\n+        </div>\r\n+        <div class=\"3_experiences-slider\">\r\n+      \r\n+        </div>\r\n+        <div class=\"3_comment-slider\"></div>\r\n+      </div>\r\n+      <footer class=\"footer\" id=\"footer\"></footer>\r\n+    </div>\r\n+\r\n+    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>\r\n+    <script type=\"text/javascript\" src=\"https://code.jquery.com/jquery-migrate-1.2.1.min.js\"></script>\r\n+    <script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"></script>\r\n+    <script>\r\n+      $(document).ready(function () {\r\n+        $(\"#header\").load(\"./0_general/header.txt\");\r\n+        $(\"#footer\").load(\"./0_general/footer.html\");\r\n+      });\r\n+    </script>\r\n+    <script src=\"./js/index.js\"></script>\r\n+  </body>\r\n+\r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656117575805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,8 @@\n       \r\n         </div>\r\n         <div class=\"3_category\"></div>\r\n         <div class=\"3_slider\">\r\n-          <div class=\"3_slider-top-5\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n"
+                },
+                {
+                    "date": 1656117598815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,11 +32,11 @@\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n-          <div class=\"3_slider-4\"></div>\r\n         </div>\r\n         <div class=\"3_experiences-slider\">\r\n+        <div class=\"3_experiences-slider\">\r\n       \r\n         </div>\r\n         <div class=\"3_comment-slider\"></div>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1656117606191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,12 +34,12 @@\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n         </div>\r\n         <div class=\"3_experiences-slider\">\r\n-        <div class=\"3_experiences-slider\">\r\n       \r\n         </div>\r\n         <div class=\"3_comment-slider\"></div>\r\n+        <div class=\"3_comment-slider\"></div>\r\n       </div>\r\n       <footer class=\"footer\" id=\"footer\"></footer>\r\n     </div>\r\n \r\n"
+                },
+                {
+                    "date": 1656117612515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,10 +36,10 @@\n         </div>\r\n         <div class=\"3_experiences-slider\">\r\n       \r\n         </div>\r\n+        <div class=\"3_near-slider\"></div>\r\n         <div class=\"3_comment-slider\"></div>\r\n-        <div class=\"3_comment-slider\"></div>\r\n       </div>\r\n       <footer class=\"footer\" id=\"footer\"></footer>\r\n     </div>\r\n \r\n"
+                },
+                {
+                    "date": 1656117689923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,8 @@\n         </div>\r\n         <div class=\"3_experiences-slider\">\r\n       \r\n         </div>\r\n-        <div class=\"3_near-slider\"></div>\r\n         <div class=\"3_comment-slider\"></div>\r\n       </div>\r\n       <footer class=\"footer\" id=\"footer\"></footer>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1656117729268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,15 +27,29 @@\n       \r\n         </div>\r\n         <div class=\"3_category\"></div>\r\n         <div class=\"3_slider\">\r\n+          <div class=\"3_slider-top-5\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n+          <div class=\"3_slider-4\"></div>\r\n         </div>\r\n         <div class=\"3_experiences-slider\">\r\n+        \r\n+        </div>\r\n+        <div class=\"3_near-slider\"></div>\r\n+        <div class=\"3_comment-slider\"></div>\r\n+        <div class=\"3_slider\">\r\n+          <div class=\"3_slider-4\"></div>\r\n+          <div class=\"3_slider-4\"></div>\r\n+          <div class=\"3_slider-4\"></div>\r\n+          <div class=\"3_slider-4\"></div>\r\n+          <div class=\"3_slider-4\"></div>\r\n+        </div>\r\n+        <div class=\"3_experiences-slider\">\r\n       \r\n         </div>\r\n         <div class=\"3_comment-slider\"></div>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1656117739463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,19 +40,9 @@\n         \r\n         </div>\r\n         <div class=\"3_near-slider\"></div>\r\n         <div class=\"3_comment-slider\"></div>\r\n-        <div class=\"3_slider\">\r\n-          <div class=\"3_slider-4\"></div>\r\n-          <div class=\"3_slider-4\"></div>\r\n-          <div class=\"3_slider-4\"></div>\r\n-          <div class=\"3_slider-4\"></div>\r\n-          <div class=\"3_slider-4\"></div>\r\n-        </div>\r\n-        <div class=\"3_experiences-slider\">\r\n-      \r\n-        </div>\r\n-        <div class=\"3_comment-slider\"></div>\r\n+        \r\n       </div>\r\n       <footer class=\"footer\" id=\"footer\"></footer>\r\n     </div>\r\n \r\n"
+                },
+                {
+                    "date": 1656117767236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,23 +26,20 @@\n         <div class=\"3_breadcrump\">\r\n       \r\n         </div>\r\n         <div class=\"3_category\"></div>\r\n+        \r\n         <div class=\"3_slider\">\r\n-          <div class=\"3_slider-top-5\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n-          <div class=\"3_slider-4\"></div>\r\n         </div>\r\n         <div class=\"3_experiences-slider\">\r\n-        \r\n+      \r\n         </div>\r\n-        <div class=\"3_near-slider\"></div>\r\n         <div class=\"3_comment-slider\"></div>\r\n-        \r\n       </div>\r\n       <footer class=\"footer\" id=\"footer\"></footer>\r\n     </div>\r\n \r\n"
+                },
+                {
+                    "date": 1656117787454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,15 +26,16 @@\n         <div class=\"3_breadcrump\">\r\n       \r\n         </div>\r\n         <div class=\"3_category\"></div>\r\n-        \r\n         <div class=\"3_slider\">\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n+          <div class=\"3_slider-4\"></div>\r\n+          <div class=\"3_slider-4\"></div>\r\n         </div>\r\n         <div class=\"3_experiences-slider\">\r\n       \r\n         </div>\r\n"
+                },
+                {
+                    "date": 1656117796770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,15 +27,15 @@\n       \r\n         </div>\r\n         <div class=\"3_category\"></div>\r\n         <div class=\"3_slider\">\r\n+          <div class=\"3_slider-top-5\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n-          <div class=\"3_slider-4\"></div>\r\n         </div>\r\n         <div class=\"3_experiences-slider\">\r\n       \r\n         </div>\r\n"
+                },
+                {
+                    "date": 1656117943324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,8 +39,9 @@\n         <div class=\"3_experiences-slider\">\r\n       \r\n         </div>\r\n         <div class=\"3_comment-slider\"></div>\r\n+        <div class=\"3_recommended-slider\"></div>\r\n       </div>\r\n       <footer class=\"footer\" id=\"footer\"></footer>\r\n     </div>\r\n \r\n"
+                },
+                {
+                    "date": 1656118494798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,11 @@\n       <div class=\"content\" id=\"content\">\r\n         <div class=\"3_breadcrump\">\r\n       \r\n         </div>\r\n+        <div class=\"container\">\r\n+          \r\n+        </div>\r\n         <div class=\"3_category\"></div>\r\n         <div class=\"3_slider\">\r\n           <div class=\"3_slider-top-5\"></div>\r\n           <div class=\"3_slider-4\"></div>\r\n"
+                },
+                {
+                    "date": 1656118501108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,25 +26,25 @@\n         <div class=\"3_breadcrump\">\r\n       \r\n         </div>\r\n         <div class=\"container\">\r\n-          \r\n+          <div class=\"3_category\"></div>\r\n+          <div class=\"3_slider\">\r\n+            <div class=\"3_slider-top-5\"></div>\r\n+            <div class=\"3_slider-4\"></div>\r\n+            <div class=\"3_slider-4\"></div>\r\n+            <div class=\"3_slider-4\"></div>\r\n+            <div class=\"3_slider-4\"></div>\r\n+            <div class=\"3_slider-4\"></div>\r\n+            <div class=\"3_slider-4\"></div>\r\n+          </div>\r\n+          <div class=\"3_experiences-slider\">\r\n+        \r\n+          </div>\r\n+          <div class=\"3_comment-slider\"></div>\r\n+          <div class=\"3_recommended-slider\"></div>\r\n+\r\n         </div>\r\n-        <div class=\"3_category\"></div>\r\n-        <div class=\"3_slider\">\r\n-          <div class=\"3_slider-top-5\"></div>\r\n-          <div class=\"3_slider-4\"></div>\r\n-          <div class=\"3_slider-4\"></div>\r\n-          <div class=\"3_slider-4\"></div>\r\n-          <div class=\"3_slider-4\"></div>\r\n-          <div class=\"3_slider-4\"></div>\r\n-          <div class=\"3_slider-4\"></div>\r\n-        </div>\r\n-        <div class=\"3_experiences-slider\">\r\n-      \r\n-        </div>\r\n-        <div class=\"3_comment-slider\"></div>\r\n-        <div class=\"3_recommended-slider\"></div>\r\n       </div>\r\n       <footer class=\"footer\" id=\"footer\"></footer>\r\n     </div>\r\n \r\n"
+                },
+                {
+                    "date": 1656118513847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,10 +40,16 @@\n           <div class=\"3_experiences-slider\">\r\n         \r\n           </div>\r\n           <div class=\"3_comment-slider\"></div>\r\n-          <div class=\"3_recommended-slider\"></div>\r\n-\r\n+          <div class=\"3_heading\">\r\n+            Các dịch vụ nổi bật\r\n+          </div>\r\n+          <div class=\"3_tab-tabs\">\r\n+            <div class=\"3_tab-tabs-item 3_tab-tabs-active\">Tất cả</div>\r\n+            <div class=\"3_tab-tabs-item\">Tour & ngắm cảnh</div>\r\n+          </div>\r\n+          <div class=\"3_tab-content\"></div>\r\n         </div>\r\n       </div>\r\n       <footer class=\"footer\" id=\"footer\"></footer>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1656118581786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n         \r\n           </div>\r\n           <div class=\"3_comment-slider\"></div>\r\n           <div class=\"3_heading\">\r\n-            Các dịch vụ nổi bật\r\n+            Hấp dẫn không kém\r\n           </div>\r\n           <div class=\"3_tab-tabs\">\r\n             <div class=\"3_tab-tabs-item 3_tab-tabs-active\">Tất cả</div>\r\n             <div class=\"3_tab-tabs-item\">Tour & ngắm cảnh</div>\r\n"
+                },
+                {
+                    "date": 1656118612407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     <div class=\"site-container\">\r\n       <header class=\"header\" id=\"header\"></header>\r\n       <div class=\"content\" id=\"content\">\r\n         <div class=\"3_breadcrump\">\r\n-          \r\n+          .\r\n         </div>\r\n         <div class=\"container\">\r\n           <div class=\"3_category\"></div>\r\n           <div class=\"3_slider\">\r\n"
+                }
+            ],
+            "date": 1656117382749,
+            "name": "Commit-0",
+            "content": "<!-- https://www.klook.com/vi/experiences/coureg/13-vietnam/?spm=Experience_Vertical.CountryCard&clickId=9c575aa276 -->"
+        }
+    ]
+}

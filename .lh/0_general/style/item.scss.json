@@ -1,0 +1,230 @@
+{
+    "sourceFile": "0_general/style/item.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 53,
+            "patches": [
+                {
+                    "date": 1656071433927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1656071441430,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,102 +1,102 @@\n-&-item {\r\n-\t\t\t\t\tdisplay: block;\r\n-\t\t\t\t\twidth: 100%;\r\n-\t\t\t\t\tborder-radius: 8px;\r\n-\t\t\t\t\toverflow: hidden;\r\n-\t\t\t\t\t@include transition(transform, 0.2s, ease-in-out);\r\n-\t\t\t\t\t&:hover {\r\n-\t\t\t\t\t\ttransform: translateY(-5px);\r\n-\t\t\t\t\t\tbox-shadow: $primaryBoxShadow;\r\n+.item {\r\n+\tdisplay: block;\r\n+\twidth: 100%;\r\n+\tborder-radius: 8px;\r\n+\toverflow: hidden;\r\n+\t@include transition(transform, 0.2s, ease-in-out);\r\n+\t&:hover {\r\n+\t\ttransform: translateY(-5px);\r\n+\t\tbox-shadow: $primaryBoxShadow;\r\n+\t}\r\n+\t&-img {\r\n+\t\twidth: 100%;\r\n+\t\timg {\r\n+\t\t\twidth: 100%;\r\n+\t\t\tobject-fit: contain;\r\n+\t\t}\r\n+\t}\r\n+\t&-content {\r\n+\t\tpadding: 12px 16px 16px;\r\n+\t\t&-city {\r\n+\t\t\tfont-size: 12px;\r\n+\t\t\tline-height: 19px;\r\n+\t\t\tcolor: $textGray;\r\n+\t\t}\r\n+\t\t&-title {\r\n+\t\t\tfont-size: 16px;\r\n+\t\t\tline-height: 24px;\r\n+\t\t\tcolor: $textBlack;\r\n+\t\t\tfont-weight: 500;\r\n+\t\t}\r\n+\t\t&-desc {\r\n+\t\t\tpadding-top: 6px;\r\n+\t\t\tfont-size: 12px;\r\n+\t\t\tline-height: 17px;\r\n+\t\t\t@include text-truncate(1);\r\n+\t\t\tcolor: $textGray;\r\n+\t\t}\r\n+\t\t&-rate {\r\n+\t\t\tpadding-top: 6px;\r\n+\t\t\t> span {\r\n+\t\t\t\tfont-size: 12px;\r\n+\t\t\t\tline-height: 17px;\r\n+\t\t\t\tcolor: $textGray;\r\n+\t\t\t\t> span {\r\n+\t\t\t\t\tfont-size: 12px;\r\n+\t\t\t\t\tline-height: 17px;\r\n+\t\t\t\t\tcolor: #ff9c00;\r\n+\t\t\t\t\tfont-weight: 600;\r\n+\t\t\t\t}\r\n+\t\t\t}\r\n+\t\t}\r\n+\t\t&-tag {\r\n+\t\t\tpadding-top: 6px;\r\n+\t\t\tspan {\r\n+\t\t\t\tfont-size: 12px;\r\n+\t\t\t\tline-height: 17px;\r\n+\t\t\t\tcolor: $textGray;\r\n+\t\t\t\tpadding: 1px 6px;\r\n+\t\t\t\tbackground-color: $primaryBackgroundColor;\r\n+\t\t\t\tborder: $primaryBorder;\r\n+\t\t\t\tborder-radius: 4px;\r\n+\t\t\t\tfont-weight: 600;\r\n+\t\t\t\t&:first-of-type {\r\n+\t\t\t\t\tcolor: #00b371;\r\n+\t\t\t\t\tbackground-color: #f0fffa;\r\n+\t\t\t\t}\r\n+\t\t\t}\r\n+\t\t}\r\n+\t\t&-price {\r\n+\t\t\tpadding-top: 12px;\r\n+\t\t\t> span {\r\n+\t\t\t\tfont-size: 12px;\r\n+\t\t\t\tline-height: 17px;\r\n+\t\t\t\tcolor: $textGray;\r\n+\t\t\t\t&:first-of-type {\r\n+\t\t\t\t\ttext-decoration: line-through;\r\n+\t\t\t\t}\r\n+\t\t\t}\r\n+\t\t\tdiv {\r\n+\t\t\t\tdisplay: flex;\r\n+\t\t\t\tjustify-content: space-between;\r\n+\t\t\t\talign-items: center;\r\n+\t\t\t\t> span {\r\n+\t\t\t\t\tfont-size: 14px;\r\n+\t\t\t\t\tline-height: 20px;\r\n+\t\t\t\t\tcolor: $textBlack;\r\n+\t\t\t\t\tfont-weight: 500;\r\n+\t\t\t\t\t&:last-of-type {\r\n+\t\t\t\t\t\tfont-size: 12px;\r\n+\t\t\t\t\t\tline-height: 17px;\r\n+\t\t\t\t\t\tcolor: $primaryColor;\r\n+\t\t\t\t\t\tbackground-color: #fff0e5;\r\n+\t\t\t\t\t\tborder: $primaryBorder;\r\n\\ No newline at end of file\n+\t\t\t\t\t\tborder-radius: 4px;\r\n+\t\t\t\t\t\tpadding: 1px 6px;\r\n+\t\t\t\t\t\tborder-color: $primaryColor;\r\n \t\t\t\t\t}\r\n-\t\t\t\t\t&-img {\r\n-\t\t\t\t\t\twidth: 100%;\r\n-\t\t\t\t\t\timg {\r\n-\t\t\t\t\t\t\twidth: 100%;\r\n-\t\t\t\t\t\t\tobject-fit: contain;\r\n-\t\t\t\t\t\t}\r\n-\t\t\t\t\t}\r\n-\t\t\t\t\t&-content {\r\n-\t\t\t\t\t\tpadding: 12px 16px 16px;\r\n-\t\t\t\t\t\t&-city {\r\n-\t\t\t\t\t\t\tfont-size: 12px;\r\n-\t\t\t\t\t\t\tline-height: 19px;\r\n-\t\t\t\t\t\t\tcolor: $textGray;\r\n-\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t&-title {\r\n-\t\t\t\t\t\t\tfont-size: 16px;\r\n-\t\t\t\t\t\t\tline-height: 24px;\r\n-\t\t\t\t\t\t\tcolor: $textBlack;\r\n-\t\t\t\t\t\t\tfont-weight: 500;\r\n-\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t&-desc {\r\n-\t\t\t\t\t\t\tpadding-top: 6px;\r\n-\t\t\t\t\t\t\tfont-size: 12px;\r\n-\t\t\t\t\t\t\tline-height: 17px;\r\n-\t\t\t\t\t\t\t@include text-truncate(1);\r\n-\t\t\t\t\t\t\tcolor: $textGray;\r\n-\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t&-rate {\r\n-\t\t\t\t\t\t\tpadding-top: 6px;\r\n-\t\t\t\t\t\t\t> span {\r\n-\t\t\t\t\t\t\t\tfont-size: 12px;\r\n-\t\t\t\t\t\t\t\tline-height: 17px;\r\n-\t\t\t\t\t\t\t\tcolor: $textGray;\r\n-\t\t\t\t\t\t\t\t> span {\r\n-\t\t\t\t\t\t\t\t\tfont-size: 12px;\r\n-\t\t\t\t\t\t\t\t\tline-height: 17px;\r\n-\t\t\t\t\t\t\t\t\tcolor: #ff9c00;\r\n-\t\t\t\t\t\t\t\t\tfont-weight: 600;\r\n-\t\t\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t&-tag {\r\n-\t\t\t\t\t\t\tpadding-top: 6px;\r\n-\t\t\t\t\t\t\tspan {\r\n-\t\t\t\t\t\t\t\tfont-size: 12px;\r\n-\t\t\t\t\t\t\t\tline-height: 17px;\r\n-\t\t\t\t\t\t\t\tcolor: $textGray;\r\n-\t\t\t\t\t\t\t\tpadding: 1px 6px;\r\n-\t\t\t\t\t\t\t\tbackground-color: $primaryBackgroundColor;\r\n-\t\t\t\t\t\t\t\tborder: $primaryBorder;\r\n-\t\t\t\t\t\t\t\tborder-radius: 4px;\r\n-\t\t\t\t\t\t\t\tfont-weight: 600;\r\n-\t\t\t\t\t\t\t\t&:first-of-type {\r\n-\t\t\t\t\t\t\t\t\tcolor: #00b371;\r\n-\t\t\t\t\t\t\t\t\tbackground-color: #f0fffa;\r\n-\t\t\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t&-price {\r\n-\t\t\t\t\t\t\tpadding-top: 12px;\r\n-\t\t\t\t\t\t\t> span {\r\n-\t\t\t\t\t\t\t\tfont-size: 12px;\r\n-\t\t\t\t\t\t\t\tline-height: 17px;\r\n-\t\t\t\t\t\t\t\tcolor: $textGray;\r\n-\t\t\t\t\t\t\t\t&:first-of-type {\r\n-\t\t\t\t\t\t\t\t\ttext-decoration: line-through;\r\n-\t\t\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t\tdiv {\r\n-\t\t\t\t\t\t\t\tdisplay: flex;\r\n-\t\t\t\t\t\t\t\tjustify-content: space-between;\r\n-\t\t\t\t\t\t\t\talign-items: center;\r\n-\t\t\t\t\t\t\t\t> span {\r\n-\t\t\t\t\t\t\t\t\tfont-size: 14px;\r\n-\t\t\t\t\t\t\t\t\tline-height: 20px;\r\n-\t\t\t\t\t\t\t\t\tcolor: $textBlack;\r\n-\t\t\t\t\t\t\t\t\tfont-weight: 500;\r\n-\t\t\t\t\t\t\t\t\t&:last-of-type {\r\n-\t\t\t\t\t\t\t\t\t\tfont-size: 12px;\r\n-\t\t\t\t\t\t\t\t\t\tline-height: 17px;\r\n-\t\t\t\t\t\t\t\t\t\tcolor: $primaryColor;\r\n-\t\t\t\t\t\t\t\t\t\tbackground-color: #fff0e5;\r\n-\t\t\t\t\t\t\t\t\t\tborder: $primaryBorder;\r\n-\t\t\t\t\t\t\t\t\t\tborder-radius: 4px;\r\n-\t\t\t\t\t\t\t\t\t\tpadding: 1px 6px;\r\n-\t\t\t\t\t\t\t\t\t\tborder-color: $primaryColor;\r\n-\t\t\t\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t\t}\r\n-\t\t\t\t\t\t}\r\n-\t\t\t\t\t}\r\n-\t\t\t\t}\n+\t\t\t\t}\r\n+\t\t\t}\r\n+\t\t}\r\n+\t}\r\n+}\r\n"
+                },
+                {
+                    "date": 1656071610730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+\r\n .item {\r\n \tdisplay: block;\r\n \twidth: 100%;\r\n \tborder-radius: 8px;\r\n@@ -98,5 +99,5 @@\n \t\t\t\t}\r\n \t\t\t}\r\n \t\t}\r\n \t}\r\n-}\n\\ No newline at end of file\n+}\r\n"
+                },
+                {
+                    "date": 1656071618028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n-\r\n+.grid-item {\r\n+  \r\n+}\r\n .item {\r\n \tdisplay: block;\r\n \twidth: 100%;\r\n \tborder-radius: 8px;\r\n"
+                },
+                {
+                    "date": 1656071626242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n .grid-item {\r\n-  \r\n+  display: grid;\r\n+\t\t\t\tgrid-template-columns: repeat(auto-fit, minmax(240px, 1fr));\r\n+\t\t\t\tgap: 20px;\r\n }\r\n .item {\r\n \tdisplay: block;\r\n \twidth: 100%;\r\n"
+                },
+                {
+                    "date": 1656081529904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,15 @@\n .grid-item {\r\n-  display: grid;\r\n-\t\t\t\tgrid-template-columns: repeat(auto-fit, minmax(240px, 1fr));\r\n-\t\t\t\tgap: 20px;\r\n+\tdisplay: grid;\r\n+\tgrid-template-columns: repeat(auto-fit, minmax(240px, 1fr));\r\n+\tgap: 20px;\r\n }\r\n .item {\r\n \tdisplay: block;\r\n \twidth: 100%;\r\n \tborder-radius: 8px;\r\n \toverflow: hidden;\r\n+\t\r\n \t@include transition(transform, 0.2s, ease-in-out);\r\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n"
+                },
+                {
+                    "date": 1656081537272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \tdisplay: block;\r\n \twidth: 100%;\r\n \tborder-radius: 8px;\r\n \toverflow: hidden;\r\n-\t\r\n+\tmargin: 0 12px\r\n \t@include transition(transform, 0.2s, ease-in-out);\r\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n"
+                },
+                {
+                    "date": 1656081549873,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \tdisplay: block;\r\n \twidth: 100%;\r\n \tborder-radius: 8px;\r\n \toverflow: hidden;\r\n-\tmargin: 0 12px\r\n+\t// margin: 0 12px;\r\n \t@include transition(transform, 0.2s, ease-in-out);\r\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n"
+                },
+                {
+                    "date": 1656081561823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \tdisplay: block;\r\n \twidth: 100%;\r\n \tborder-radius: 8px;\r\n \toverflow: hidden;\r\n-\t// margin: 0 12px;\r\n+\tmargin: 0 12px;\r\n \t@include transition(transform, 0.2s, ease-in-out);\r\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n"
+                },
+                {
+                    "date": 1656141143368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,4 +105,6 @@\n \t\t\t}\r\n \t\t}\r\n \t}\r\n }\r\n+\r\n+.item-\r\n"
+                },
+                {
+                    "date": 1656141184827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -106,5 +106,7 @@\n \t\t}\r\n \t}\r\n }\r\n \r\n-.item-\r\n+.item-city {\r\n+\t\r\n+}\r\n"
+                },
+                {
+                    "date": 1656141210733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,6 +107,15 @@\n \t}\r\n }\r\n \r\n .item-city {\r\n-\t\r\n+\tdisplay: block;\r\n+\twidth: 100%;\r\n+\tborder-radius: 8px;\r\n+\toverflow: hidden;\r\n+\tmargin: 0 12px;\r\n+\t@include transition(transform, 0.2s, ease-in-out);\r\n+\t&:hover {\r\n+\t\ttransform: translateY(-5px);\r\n+\t\tbox-shadow: $primaryBoxShadow;\r\n+\t}\r\n }\r\n"
+                },
+                {
+                    "date": 1656142191822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -106,9 +106,9 @@\n \t\t}\r\n \t}\r\n }\r\n \r\n-.item-city {\r\n+.item-place {\r\n \tdisplay: block;\r\n \twidth: 100%;\r\n \tborder-radius: 8px;\r\n \toverflow: hidden;\r\n@@ -117,5 +117,6 @@\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n \t}\r\n+\r\n }\r\n"
+                },
+                {
+                    "date": 1656144501903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -117,6 +117,5 @@\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n \t}\r\n-\r\n }\r\n"
+                },
+                {
+                    "date": 1656144545784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -116,6 +116,7 @@\n \t@include transition(transform, 0.2s, ease-in-out);\r\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n+\t\t\r\n \t}\r\n }\r\n"
+                },
+                {
+                    "date": 1656144678127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -116,7 +116,6 @@\n \t@include transition(transform, 0.2s, ease-in-out);\r\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n-\t\t\r\n \t}\r\n }\r\n"
+                },
+                {
+                    "date": 1656144768660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,8 +110,9 @@\n .item-place {\r\n \tdisplay: block;\r\n \twidth: 100%;\r\n \tborder-radius: 8px;\r\n+\t\tborder: $primaryBorder;\r\n \toverflow: hidden;\r\n \tmargin: 0 12px;\r\n \t@include transition(transform, 0.2s, ease-in-out);\r\n \t&:hover {\r\n"
+                },
+                {
+                    "date": 1656144827121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n \tgrid-template-columns: repeat(auto-fit, minmax(240px, 1fr));\r\n \tgap: 20px;\r\n }\r\n .item {\r\n+\tborder: $primaryBorder;\r\n \tdisplay: block;\r\n \twidth: 100%;\r\n \tborder-radius: 8px;\r\n \toverflow: hidden;\r\n@@ -110,9 +111,9 @@\n .item-place {\r\n \tdisplay: block;\r\n \twidth: 100%;\r\n \tborder-radius: 8px;\r\n-\t\tborder: $primaryBorder;\r\n+\tborder: $primaryBorder;\r\n \toverflow: hidden;\r\n \tmargin: 0 12px;\r\n \t@include transition(transform, 0.2s, ease-in-out);\r\n \t&:hover {\r\n"
+                },
+                {
+                    "date": 1656146371573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,8 +110,9 @@\n \r\n .item-place {\r\n \tdisplay: block;\r\n \twidth: 100%;\r\n+\theight: 100%;\r\n \tborder-radius: 8px;\r\n \tborder: $primaryBorder;\r\n \toverflow: hidden;\r\n \tmargin: 0 12px;\r\n"
+                },
+                {
+                    "date": 1656146394134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -120,5 +120,6 @@\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n \t}\r\n+\t\r\n }\r\n"
+                },
+                {
+                    "date": 1656146407089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -120,6 +120,7 @@\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n \t}\r\n-\t\r\n+\tspan Ơ\r\n+\t&:\r\n }\r\n"
+                },
+                {
+                    "date": 1656146415857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -120,7 +120,10 @@\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n \t}\r\n-\tspan Ơ\r\n-\t&:\r\n+\tspan  {\r\n+\t\t\r\n+\t}\r\n+\t&:first-of-type Ơ\r\n+\r\n }\r\n"
+                },
+                {
+                    "date": 1656146421097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -121,9 +121,10 @@\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n \t}\r\n \tspan  {\r\n-\t\t\r\n+\t\t&:first-of-type  {\r\n+\t\t\t\r\n+\t\t}\r\n \t}\r\n-\t&:first-of-type Ơ\r\n \r\n }\r\n"
+                },
+                {
+                    "date": 1656146435928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -121,10 +121,11 @@\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n \t}\r\n \tspan  {\r\n+\t\tcolor: $text;\r\n \t\t&:first-of-type  {\r\n-\t\t\t\r\n+\r\n \t\t}\r\n \t}\r\n \r\n }\r\n"
+                },
+                {
+                    "date": 1656146441909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -121,11 +121,11 @@\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n \t}\r\n \tspan  {\r\n-\t\tcolor: $text;\r\n+\t\tcolor: $textWhite;\r\n \t\t&:first-of-type  {\r\n-\r\n+\t\t\tfont-size: 202;\r\n \t\t}\r\n \t}\r\n \r\n }\r\n"
+                },
+                {
+                    "date": 1656146447114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -123,9 +123,11 @@\n \t}\r\n \tspan  {\r\n \t\tcolor: $textWhite;\r\n \t\t&:first-of-type  {\r\n-\t\t\tfont-size: 202;\r\n+\t\t\tfont-size: 20px;\r\n+\t\t\tline-height: 26px;\r\n+\t\t\t\r\n \t\t}\r\n \t}\r\n \r\n }\r\n"
+                },
+                {
+                    "date": 1656146455122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,10 @@\n \t\tcolor: $textWhite;\r\n \t\t&:first-of-type  {\r\n \t\t\tfont-size: 20px;\r\n \t\t\tline-height: 26px;\r\n-\t\t\t\r\n+\t\t\tfont-weight: 600;\r\n+\t\t\ttext-transform: ;\r\n \t\t}\r\n \t}\r\n \r\n }\r\n"
+                },
+                {
+                    "date": 1656146461106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,9 +126,10 @@\n \t\t&:first-of-type  {\r\n \t\t\tfont-size: 20px;\r\n \t\t\tline-height: 26px;\r\n \t\t\tfont-weight: 600;\r\n-\t\t\ttext-transform: ;\r\n+\t\t\ttext-transform: uppercase;\r\n \t\t}\r\n+\t\t&:\r\n \t}\r\n \r\n }\r\n"
+                },
+                {
+                    "date": 1656146472577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -128,8 +128,8 @@\n \t\t\tline-height: 26px;\r\n \t\t\tfont-weight: 600;\r\n \t\t\ttext-transform: uppercase;\r\n \t\t}\r\n-\t\t&:\r\n+\t\t&:las\r\n \t}\r\n \r\n }\r\n"
+                },
+                {
+                    "date": 1656146489793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -128,8 +128,12 @@\n \t\t\tline-height: 26px;\r\n \t\t\tfont-weight: 600;\r\n \t\t\ttext-transform: uppercase;\r\n \t\t}\r\n-\t\t&:las\r\n+\t\t&:last-of-type {\r\n+\t\t\tfont-size: 16px;\r\n+\t\t\tline-height: 22px;\r\n+\t\t\t\r\n+\t\t}\r\n \t}\r\n \r\n }\r\n"
+                },
+                {
+                    "date": 1656146587950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n \t\t}\r\n \t\t&:last-of-type {\r\n \t\t\tfont-size: 16px;\r\n \t\t\tline-height: 22px;\r\n-\t\t\t\r\n+\r\n \t\t}\r\n \t}\r\n-\r\n+\tbackground-color: ;\r\n }\r\n"
+                },
+                {
+                    "date": 1656146594055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,6 +134,6 @@\n \t\t\tline-height: 22px;\r\n \r\n \t\t}\r\n \t}\r\n-\tbackground-color: ;\r\n+\tbackground-image: ;\r\n }\r\n"
+                },
+                {
+                    "date": 1656146599869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,6 +134,6 @@\n \t\t\tline-height: 22px;\r\n \r\n \t\t}\r\n \t}\r\n-\tbackground-image: ;\r\n+\tbackground-image: url('../');\r\n }\r\n"
+                },
+                {
+                    "date": 1656146606020,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,6 +134,6 @@\n \t\t\tline-height: 22px;\r\n \r\n \t\t}\r\n \t}\r\n-\tbackground-image: url('../');\r\n+\tbackground-image: url('../assets/images/item1.webp');\r\n }\r\n"
+                },
+                {
+                    "date": 1656146846171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,9 +110,9 @@\n \r\n .item-place {\r\n \tdisplay: block;\r\n \twidth: 100%;\r\n-\theight: 100%;\r\n+\theight: 397.1px;\r\n \tborder-radius: 8px;\r\n \tborder: $primaryBorder;\r\n \toverflow: hidden;\r\n \tmargin: 0 12px;\r\n"
+                },
+                {
+                    "date": 1656146905120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,6 +134,6 @@\n \t\t\tline-height: 22px;\r\n \r\n \t\t}\r\n \t}\r\n-\tbackground-image: url('../assets/images/item1.webp');\r\n+\tbackground-image: url('./assets/images/item1.webp');\r\n }\r\n"
+                },
+                {
+                    "date": 1656146999154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,6 +134,5 @@\n \t\t\tline-height: 22px;\r\n \r\n \t\t}\r\n \t}\r\n-\tbackground-image: url('./assets/images/item1.webp');\r\n }\r\n"
+                },
+                {
+                    "date": 1656147477124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -116,8 +116,9 @@\n \tborder: $primaryBorder;\r\n \toverflow: hidden;\r\n \tmargin: 0 12px;\r\n \t@include transition(transform, 0.2s, ease-in-out);\r\n+\tflex-ce\r\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n \t}\r\n"
+                },
+                {
+                    "date": 1656147497109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -116,9 +116,12 @@\n \tborder: $primaryBorder;\r\n \toverflow: hidden;\r\n \tmargin: 0 12px;\r\n \t@include transition(transform, 0.2s, ease-in-out);\r\n-\tflex-ce\r\n+\tdisplay:flex !important;\r\n+\talign-items:center;\r\n+\tjustify-content:center;\r\n+\tflex-direction:column;\r\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n \t}\r\n"
+                },
+                {
+                    "date": 1656147542176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -117,9 +117,9 @@\n \toverflow: hidden;\r\n \tmargin: 0 12px;\r\n \t@include transition(transform, 0.2s, ease-in-out);\r\n \tdisplay:flex !important;\r\n-\talign-items:center;\r\n+\talign-items:fs;\r\n \tjustify-content:center;\r\n \tflex-direction:column;\r\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n"
+                },
+                {
+                    "date": 1656147548145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -117,10 +117,10 @@\n \toverflow: hidden;\r\n \tmargin: 0 12px;\r\n \t@include transition(transform, 0.2s, ease-in-out);\r\n \tdisplay:flex !important;\r\n-\talign-items:fs;\r\n-\tjustify-content:center;\r\n+\talign-items:flex-start;\r\n+\tjustify-content:flex-end;\r\n \tflex-direction:column;\r\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n \t\tbox-shadow: $primaryBoxShadow;\r\n"
+                },
+                {
+                    "date": 1656147611486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,8 +126,9 @@\n \t\tbox-shadow: $primaryBoxShadow;\r\n \t}\r\n \tspan  {\r\n \t\tcolor: $textWhite;\r\n+\t\tmargin-left: ;\r\n \t\t&:first-of-type  {\r\n \t\t\tfont-size: 20px;\r\n \t\t\tline-height: 26px;\r\n \t\t\tfont-weight: 600;\r\n"
+                },
+                {
+                    "date": 1656147618311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,9 +126,10 @@\n \t\tbox-shadow: $primaryBoxShadow;\r\n \t}\r\n \tspan  {\r\n \t\tcolor: $textWhite;\r\n-\t\tmargin-left: ;\r\n+\t\tmargin-left: 20px;\r\n+\t\tmat\r\n \t\t&:first-of-type  {\r\n \t\t\tfont-size: 20px;\r\n \t\t\tline-height: 26px;\r\n \t\t\tfont-weight: 600;\r\n"
+                },
+                {
+                    "date": 1656147629035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,9 +127,9 @@\n \t}\r\n \tspan  {\r\n \t\tcolor: $textWhite;\r\n \t\tmargin-left: 20px;\r\n-\t\tmat\r\n+\t\tmargin-bottom: 10px;\r\n \t\t&:first-of-type  {\r\n \t\t\tfont-size: 20px;\r\n \t\t\tline-height: 26px;\r\n \t\t\tfont-weight: 600;\r\n"
+                },
+                {
+                    "date": 1656147643642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,8 +137,8 @@\n \t\t}\r\n \t\t&:last-of-type {\r\n \t\t\tfont-size: 16px;\r\n \t\t\tline-height: 22px;\r\n-\r\n+\t\t\tmargin-bottom: ;\r\n \t\t}\r\n \t}\r\n }\r\n"
+                },
+                {
+                    "date": 1656148386096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,9 +110,9 @@\n \r\n .item-place {\r\n \tdisplay: block;\r\n \twidth: 100%;\r\n-\theight: 397.1px;\r\n+\theight: 100p;\r\n \tborder-radius: 8px;\r\n \tborder: $primaryBorder;\r\n \toverflow: hidden;\r\n \tmargin: 0 12px;\r\n@@ -137,8 +137,8 @@\n \t\t}\r\n \t\t&:last-of-type {\r\n \t\t\tfont-size: 16px;\r\n \t\t\tline-height: 22px;\r\n-\t\t\tmargin-bottom: ;\r\n+\t\t\tmargin-bottom: 30px;\r\n \t\t}\r\n \t}\r\n }\r\n"
+                },
+                {
+                    "date": 1656149958413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \t&-img {\r\n \t\twidth: 100%;\r\n \t\timg {\r\n \t\t\twidth: 100%;\r\n-\t\t\tobject-fit: contain;\r\n+\t\t\tobject-fit: cover;\r\n \t\t}\r\n \t}\r\n \t&-content {\r\n \t\tpadding: 12px 16px 16px;\r\n@@ -110,9 +110,9 @@\n \r\n .item-place {\r\n \tdisplay: block;\r\n \twidth: 100%;\r\n-\theight: 100p;\r\n+\theight: 100%;\r\n \tborder-radius: 8px;\r\n \tborder: $primaryBorder;\r\n \toverflow: hidden;\r\n \tmargin: 0 12px;\r\n"
+                },
+                {
+                    "date": 1656150041852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,9 @@\n \t\tbox-shadow: $primaryBoxShadow;\r\n \t}\r\n \t&-img {\r\n \t\twidth: 100%;\r\n+\t\th150px\r\n \t\timg {\r\n \t\t\twidth: 100%;\r\n \t\t\tobject-fit: cover;\r\n \t\t}\r\n"
+                },
+                {
+                    "date": 1656150049009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n \t&-img {\r\n \t\twidth: 100%;\r\n \t\th150px\r\n \t\timg {\r\n+\t\t\theight: 100%;\r\n \t\t\twidth: 100%;\r\n \t\t\tobject-fit: cover;\r\n \t\t}\r\n \t}\r\n"
+                },
+                {
+                    "date": 1656150057029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n \t\timg {\r\n \t\t\theight: 100%;\r\n \t\t\twidth: 100%;\r\n \t\t\tobject-fit: cover;\r\n+\t\t\tobjec\r\n \t\t}\r\n \t}\r\n \t&-content {\r\n \t\tpadding: 12px 16px 16px;\r\n"
+                },
+                {
+                    "date": 1656150064503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n \t\timg {\r\n \t\t\theight: 100%;\r\n \t\t\twidth: 100%;\r\n \t\t\tobject-fit: cover;\r\n-\t\t\tobjec\r\n+\t\t\tobject-position: center;\r\n \t\t}\r\n \t}\r\n \t&-content {\r\n \t\tpadding: 12px 16px 16px;\r\n"
+                },
+                {
+                    "date": 1656150092127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n \t\tbox-shadow: $primaryBoxShadow;\r\n \t}\r\n \t&-img {\r\n \t\twidth: 100%;\r\n-\t\th150px\r\n+\t\theight: 150px;\r\n \t\timg {\r\n \t\t\theight: 100%;\r\n \t\t\twidth: 100%;\r\n \t\t\tobject-fit: cover;\r\n"
+                },
+                {
+                    "date": 1656150189375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n \t\theight: 150px;\r\n \t\timg {\r\n \t\t\theight: 100%;\r\n \t\t\twidth: 100%;\r\n-\t\t\tobject-fit: cover;\r\n+\t\t\tobject-fit: contain;\r\n \t\t\tobject-position: center;\r\n \t\t}\r\n \t}\r\n \t&-content {\r\n"
+                },
+                {
+                    "date": 1656150436520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n \t\t\tfont-size: 16px;\r\n \t\t\tline-height: 24px;\r\n \t\t\tcolor: $textBlack;\r\n \t\t\tfont-weight: 500;\r\n-\t\t\t\r\n+\t\t\t@\r\n \t\t}\r\n \t\t&-desc {\r\n \t\t\tpadding-top: 6px;\r\n \t\t\tfont-size: 12px;\r\n"
+                }
+            ],
+            "date": 1656071433927,
+            "name": "Commit-0",
+            "content": "&-item {\r\n\t\t\t\t\tdisplay: block;\r\n\t\t\t\t\twidth: 100%;\r\n\t\t\t\t\tborder-radius: 8px;\r\n\t\t\t\t\toverflow: hidden;\r\n\t\t\t\t\t@include transition(transform, 0.2s, ease-in-out);\r\n\t\t\t\t\t&:hover {\r\n\t\t\t\t\t\ttransform: translateY(-5px);\r\n\t\t\t\t\t\tbox-shadow: $primaryBoxShadow;\r\n\t\t\t\t\t}\r\n\t\t\t\t\t&-img {\r\n\t\t\t\t\t\twidth: 100%;\r\n\t\t\t\t\t\timg {\r\n\t\t\t\t\t\t\twidth: 100%;\r\n\t\t\t\t\t\t\tobject-fit: contain;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t\t&-content {\r\n\t\t\t\t\t\tpadding: 12px 16px 16px;\r\n\t\t\t\t\t\t&-city {\r\n\t\t\t\t\t\t\tfont-size: 12px;\r\n\t\t\t\t\t\t\tline-height: 19px;\r\n\t\t\t\t\t\t\tcolor: $textGray;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\t&-title {\r\n\t\t\t\t\t\t\tfont-size: 16px;\r\n\t\t\t\t\t\t\tline-height: 24px;\r\n\t\t\t\t\t\t\tcolor: $textBlack;\r\n\t\t\t\t\t\t\tfont-weight: 500;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\t&-desc {\r\n\t\t\t\t\t\t\tpadding-top: 6px;\r\n\t\t\t\t\t\t\tfont-size: 12px;\r\n\t\t\t\t\t\t\tline-height: 17px;\r\n\t\t\t\t\t\t\t@include text-truncate(1);\r\n\t\t\t\t\t\t\tcolor: $textGray;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\t&-rate {\r\n\t\t\t\t\t\t\tpadding-top: 6px;\r\n\t\t\t\t\t\t\t> span {\r\n\t\t\t\t\t\t\t\tfont-size: 12px;\r\n\t\t\t\t\t\t\t\tline-height: 17px;\r\n\t\t\t\t\t\t\t\tcolor: $textGray;\r\n\t\t\t\t\t\t\t\t> span {\r\n\t\t\t\t\t\t\t\t\tfont-size: 12px;\r\n\t\t\t\t\t\t\t\t\tline-height: 17px;\r\n\t\t\t\t\t\t\t\t\tcolor: #ff9c00;\r\n\t\t\t\t\t\t\t\t\tfont-weight: 600;\r\n\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\t&-tag {\r\n\t\t\t\t\t\t\tpadding-top: 6px;\r\n\t\t\t\t\t\t\tspan {\r\n\t\t\t\t\t\t\t\tfont-size: 12px;\r\n\t\t\t\t\t\t\t\tline-height: 17px;\r\n\t\t\t\t\t\t\t\tcolor: $textGray;\r\n\t\t\t\t\t\t\t\tpadding: 1px 6px;\r\n\t\t\t\t\t\t\t\tbackground-color: $primaryBackgroundColor;\r\n\t\t\t\t\t\t\t\tborder: $primaryBorder;\r\n\t\t\t\t\t\t\t\tborder-radius: 4px;\r\n\t\t\t\t\t\t\t\tfont-weight: 600;\r\n\t\t\t\t\t\t\t\t&:first-of-type {\r\n\t\t\t\t\t\t\t\t\tcolor: #00b371;\r\n\t\t\t\t\t\t\t\t\tbackground-color: #f0fffa;\r\n\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\t&-price {\r\n\t\t\t\t\t\t\tpadding-top: 12px;\r\n\t\t\t\t\t\t\t> span {\r\n\t\t\t\t\t\t\t\tfont-size: 12px;\r\n\t\t\t\t\t\t\t\tline-height: 17px;\r\n\t\t\t\t\t\t\t\tcolor: $textGray;\r\n\t\t\t\t\t\t\t\t&:first-of-type {\r\n\t\t\t\t\t\t\t\t\ttext-decoration: line-through;\r\n\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\tdiv {\r\n\t\t\t\t\t\t\t\tdisplay: flex;\r\n\t\t\t\t\t\t\t\tjustify-content: space-between;\r\n\t\t\t\t\t\t\t\talign-items: center;\r\n\t\t\t\t\t\t\t\t> span {\r\n\t\t\t\t\t\t\t\t\tfont-size: 14px;\r\n\t\t\t\t\t\t\t\t\tline-height: 20px;\r\n\t\t\t\t\t\t\t\t\tcolor: $textBlack;\r\n\t\t\t\t\t\t\t\t\tfont-weight: 500;\r\n\t\t\t\t\t\t\t\t\t&:last-of-type {\r\n\t\t\t\t\t\t\t\t\t\tfont-size: 12px;\r\n\t\t\t\t\t\t\t\t\t\tline-height: 17px;\r\n\t\t\t\t\t\t\t\t\t\tcolor: $primaryColor;\r\n\t\t\t\t\t\t\t\t\t\tbackground-color: #fff0e5;\r\n\t\t\t\t\t\t\t\t\t\tborder: $primaryBorder;\r\n\t\t\t\t\t\t\t\t\t\tborder-radius: 4px;\r\n\t\t\t\t\t\t\t\t\t\tpadding: 1px 6px;\r\n\t\t\t\t\t\t\t\t\t\tborder-color: $primaryColor;\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t}"
+        }
+    ]
+}

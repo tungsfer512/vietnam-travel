@@ -1,0 +1,25 @@
+.breadcrump {
+  height: 320px;
+  width: 100%;
+  background-image: linear-gradient( to right,#00000060, #00000060), url("../../assets/images/breadcrump.webp");
+  background-position: center;
+  background-size: cover;
+  .container {
+    height: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    span {
+      color: $textWhite;
+      font-weight: 600;
+      &:first-of-type {
+        font-size: 14px;
+        line-height: 16px;
+      }
+      &:last-of-type {
+        font-size: 60px;
+      }
+    }
+  }
+}

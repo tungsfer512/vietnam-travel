@@ -1,0 +1,58 @@
+{
+    "sourceFile": "3_experiences/style/style.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1656118661870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1656118666932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n @import \"./_variable\";\r\n @import \"./_general\";\r\n @import \"./_mixin\";\r\n \r\n+@import \"../\";\r\n @import \"./home\";\r\n-@import \"./home\";\r\n @import \"./country\";\r\n @import \"./city\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656118673631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n @import \"./_variable\";\r\n @import \"./_general\";\r\n @import \"./_mixin\";\r\n \r\n-@import \"../\";\r\n+@import \"../../0_general/style/\";\r\n @import \"./home\";\r\n @import \"./country\";\r\n @import \"./city\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656118679256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n @import \"./_variable\";\r\n @import \"./_general\";\r\n @import \"./_mixin\";\r\n \r\n-@import \"../../0_general/style/\";\r\n+@import \"../../0_general/style/item\";\r\n @import \"./home\";\r\n @import \"./country\";\r\n @import \"./city\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656118701927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n @import \"./_variable\";\r\n+@import \"../../0_general/style/item\";\r\n @import \"./_general\";\r\n @import \"./_mixin\";\r\n \r\n-@import \"../../0_general/style/item\";\r\n @import \"./home\";\r\n @import \"./country\";\r\n @import \"./city\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656118711201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n @import \"./_variable\";\r\n-@import \"../../0_general/style/item\";\r\n @import \"./_general\";\r\n @import \"./_mixin\";\r\n \r\n+@import \"../../0_general/style/item\";\r\n @import \"./home\";\r\n @import \"./country\";\r\n @import \"./city\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656118717121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,6 @@\n \r\n @import \"../../0_general/style/item\";\r\n @import \"./home\";\r\n @import \"./country\";\r\n+@import \"./city\";\r\n @import \"./city\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656118738350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,5 @@\n @import \"../../0_general/style/item\";\r\n @import \"./home\";\r\n @import \"./country\";\r\n @import \"./city\";\r\n-@import \"./city\";\n\\ No newline at end of file\n+@import \"./popular\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656118745593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n @import \"./_general\";\r\n @import \"./_mixin\";\r\n \r\n @import \"../../0_general/style/item\";\r\n-@import \"./home\";\r\n+@import \"./3_\";\r\n @import \"./country\";\r\n @import \"./city\";\r\n @import \"./popular\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656118754142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n @import \"./_general\";\r\n @import \"./_mixin\";\r\n \r\n @import \"../../0_general/style/item\";\r\n-@import \"./3_\";\r\n+@import \"./3_style\";\r\n+@import \"./3_style\";\r\n @import \"./country\";\r\n @import \"./city\";\r\n @import \"./popular\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656118760781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,8 @@\n @import \"./_general\";\r\n @import \"./_mixin\";\r\n \r\n @import \"../../0_general/style/item\";\r\n-@import \"./3_style\";\r\n-@import \"./3_style\";\r\n+@import \"./home\";\r\n @import \"./country\";\r\n @import \"./city\";\r\n @import \"./popular\";\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1656118661870,
+            "name": "Commit-0",
+            "content": "@import \"./_variable\";\r\n@import \"./_general\";\r\n@import \"./_mixin\";\r\n\r\n@import \"./home\";\r\n@import \"./home\";\r\n@import \"./country\";\r\n@import \"./city\";"
+        }
+    ]
+}

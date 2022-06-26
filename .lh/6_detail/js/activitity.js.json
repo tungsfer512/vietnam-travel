@@ -1,0 +1,94 @@
+{
+    "sourceFile": "6_detail/js/activitity.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 19,
+            "patches": [
+                {
+                    "date": 1656101447767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1656101476712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-$('.center').slick({\r\n+$('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n   centerPadding: '60px',\r\n   slidesToShow: 3,\r\n   responsive: [\r\n"
+                },
+                {
+                    "date": 1656101542668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n $('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n   centerPadding: '60px',\r\n-  slidesToShow: 3,\r\n+  slidesToShow: 1,\r\n   responsive: [\r\n     {\r\n       breakpoint: 768,\r\n       settings: {\r\n"
+                },
+                {
+                    "date": 1656101550299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,25 +1,5 @@\n $('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n   centerPadding: '60px',\r\n   slidesToShow: 1,\r\n-  responsive: [\r\n-    {\r\n-      breakpoint: 768,\r\n-      settings: {\r\n-        arrows: false,\r\n-        centerMode: true,\r\n-        centerPadding: '40px',\r\n-        slidesToShow: 3\r\n-      }\r\n-    },\r\n-    {\r\n-      breakpoint: 480,\r\n-      settings: {\r\n-        arrows: false,\r\n-        centerMode: true,\r\n-        centerPadding: '40px',\r\n-        slidesToShow: 1\r\n-      }\r\n-    }\r\n-  ]\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656101802039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n $('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n   centerPadding: '60px',\r\n   slidesToShow: 1,\r\n+  \r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656101817292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,11 @@\n $('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n   centerPadding: '60px',\r\n   slidesToShow: 1,\r\n-  \r\n+  nextArrow: `<span class=\"material-icons slick-next\">\r\n+      chevron_right\r\n+      </span>`,\r\n+  prevArrow: `<span class=\"material-icons slick-prev\">\r\n+    chevron_left\r\n+    </span>`\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656101861294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n $('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n-  centerPadding: '60px',\r\n+  centerPadding: '20px',\r\n   slidesToShow: 1,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n       chevron_right\r\n       </span>`,\r\n"
+                },
+                {
+                    "date": 1656102331311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n $('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n-  centerPadding: '20px',\r\n+  centerPadding: '50px',\r\n   slidesToShow: 1,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n       chevron_right\r\n       </span>`,\r\n"
+                },
+                {
+                    "date": 1656102398338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n $('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n-  centerPadding: '50px',\r\n+  centerPadding: '20px',\r\n   slidesToShow: 1,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n       chevron_right\r\n       </span>`,\r\n"
+                },
+                {
+                    "date": 1656102408339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n $('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n-  centerPadding: '20px',\r\n+  centerPadding: '100px',\r\n   slidesToShow: 1,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n       chevron_right\r\n       </span>`,\r\n"
+                },
+                {
+                    "date": 1656102483770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n $('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n   centerPadding: '100px',\r\n+  \r\n   slidesToShow: 1,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n       chevron_right\r\n       </span>`,\r\n"
+                },
+                {
+                    "date": 1656102489607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n $('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n   centerPadding: '100px',\r\n-  \r\n+  ceterMargin:\r\n   slidesToShow: 1,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n       chevron_right\r\n       </span>`,\r\n"
+                },
+                {
+                    "date": 1656102496295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n $('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n   centerPadding: '100px',\r\n-  ceterMargin:\r\n+  ceterMargin:'10px',\r\n   slidesToShow: 1,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n       chevron_right\r\n       </span>`,\r\n"
+                },
+                {
+                    "date": 1656102560389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n $('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n   centerPadding: '100px',\r\n-  ceterMargin:'10px',\r\n   slidesToShow: 1,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n       chevron_right\r\n       </span>`,\r\n"
+                },
+                {
+                    "date": 1656102570331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n $('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n   centerPadding: '100px',\r\n+  centerMargin:'10px',\r\n   slidesToShow: 1,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n       chevron_right\r\n       </span>`,\r\n"
+                },
+                {
+                    "date": 1656102591301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n $('.swiper-wrapper').slick({\r\n   centerMode: true,\r\n   centerPadding: '100px',\r\n-  centerMargin:'10px',\r\n   slidesToShow: 1,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n       chevron_right\r\n       </span>`,\r\n"
+                },
+                {
+                    "date": 1656103125437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,18 @@\n       </span>`,\r\n   prevArrow: `<span class=\"material-icons slick-prev\">\r\n     chevron_left\r\n     </span>`\r\n+});\r\n+\r\n+$('.top-slider').slick({\r\n+  slidesToShow: 1,\r\n+  slidesToScroll: 1,\r\n+  autoplay: true,\r\n+  autoplaySpeed: 2000,\r\n+  nextArrow: `<span class=\"material-icons slick-next\">\r\n+      chevron_right\r\n+      </span>`,\r\n+  prevArrow: `<span class=\"material-icons slick-prev\">\r\n+    chevron_left\r\n+    </span>`\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656103131496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n     chevron_left\r\n     </span>`\r\n });\r\n \r\n-$('.top-slider').slick({\r\n-  slidesToShow: 1,\r\n+$('.like-slider').slick({\r\n+  slidesToShow: 3,\r\n   slidesToScroll: 1,\r\n   autoplay: true,\r\n   autoplaySpeed: 2000,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n"
+                },
+                {
+                    "date": 1656103164170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n });\r\n \r\n $('.like-slider').slick({\r\n   slidesToShow: 3,\r\n-  slidesToScroll: 1,\r\n+  slidesToScroll: 3,\r\n   autoplay: true,\r\n   autoplaySpeed: 2000,\r\n   nextArrow: `<span class=\"material-icons slick-next\">\r\n       chevron_right\r\n"
+                },
+                {
+                    "date": 1656103403882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,5 +20,27 @@\n       </span>`,\r\n   prevArrow: `<span class=\"material-icons slick-prev\">\r\n     chevron_left\r\n     </span>`\r\n-});\n\\ No newline at end of file\n+});\r\n+\r\n+function openDetail(evt, ColName) {\r\n+  // Declare all variables\r\n+  var i, tabcontent, tablinks;\r\n+\r\n+  // Get all elements with class=\"tabcontent\" and hide them\r\n+  tabcontent = document.getElementsByClassName(\"container-body-row-tabs-body-panel\");\r\n+  for (i = 0; i < tabcontent.length; i++) {\r\n+    tabcontent[i].style.display = \"none\";\r\n+  }\r\n+\r\n+  // Get all elements with class=\"tablinks\" and remove the class \"active\"\r\n+  tablinks = document.getElementsByClassName(\"container-body-row-tabs-header-items\");\r\n+  for (i = 0; i < tablinks.length; i++) {\r\n+    tablinks[i].className = tablinks[i].className.replace(\" active\", \"\");\r\n+  }\r\n+\r\n+  // Show the current tab, and add an \"active\" class to the button that opened the tab\r\n+  document.getElementById(ColName).style.display = \"block\";\r\n+  evt.currentTarget.className += \" active\";\r\n+}\r\n+document.getElementById(\"defaultOpen\").click();\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1656101447767,
+            "name": "Commit-0",
+            "content": "$('.center').slick({\r\n  centerMode: true,\r\n  centerPadding: '60px',\r\n  slidesToShow: 3,\r\n  responsive: [\r\n    {\r\n      breakpoint: 768,\r\n      settings: {\r\n        arrows: false,\r\n        centerMode: true,\r\n        centerPadding: '40px',\r\n        slidesToShow: 3\r\n      }\r\n    },\r\n    {\r\n      breakpoint: 480,\r\n      settings: {\r\n        arrows: false,\r\n        centerMode: true,\r\n        centerPadding: '40px',\r\n        slidesToShow: 1\r\n      }\r\n    }\r\n  ]\r\n});"
+        }
+    ]
+}

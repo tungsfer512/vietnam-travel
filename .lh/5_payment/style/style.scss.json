@@ -1,0 +1,18 @@
+{
+    "sourceFile": "5_payment/style/style.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1656069727529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1656069727529,
+            "name": "Commit-0",
+            "content": "@import \"./_variable\";\r\n@import \"./_general\";\r\n@import \"./_mixin\";\r\n\r\n@import \"./pay\";\r\n@import \"./pay-account\";\r\n"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "9_other/invite.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1656096019062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1656096019062,
+            "name": "Commit-0",
+            "content": "https://www.klook.com/vi/invite?spm=Home.MoreToExplore%3Aany%3A%3AMoreToExplore%3APromoteCard&clickId=da01d3826b"
+        }
+    ]
+}

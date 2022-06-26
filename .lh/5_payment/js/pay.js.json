@@ -1,0 +1,18 @@
+{
+    "sourceFile": "5_payment/js/pay.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1656070510445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1656070510445,
+            "name": "Commit-0",
+            "content": "let upgradeDrops = document.querySelectorAll('.upgrade-content-item-plus-display span:last-of-type');\r\nupgradeDrops.forEach((trigger) => {\r\n  trigger.addEventListener('click', (e) => {\r\n    let target = e.target;\r\n    let targetContent = target.parentElement.nextElementSibling;\r\n    if (targetContent.style.display === 'flex') {\r\n      targetContent.style.display = 'none';\r\n    } else {\r\n      targetContent.style.display = 'flex';\r\n    }\r\n  });\r\n});\r\n\r\nlet couponTrigger = document.querySelector('.coupon-discount>span>span:last-child');\r\ncouponTrigger.addEventListener('click', (e) => {\r\n  let couponDrop = e.target.parentElement.parentElement.nextElementSibling;\r\n  if (couponDrop.style.display === 'block') {\r\n    couponDrop.style.display = 'none';\r\n  } else {\r\n    couponDrop.style.display = 'block';\r\n  }\r\n});\r\n\r\nlet payInfos = document.querySelector('.pay-info .content-left-heading>span:last-child');\r\npayInfos.addEventListener('click', (e) => {\r\n  let target = e.target.parentElement.nextElementSibling;\r\n  console.log(target);\r\n  if (target.style.display === 'block') {\r\n    target.style.setProperty('display', 'none', 'important');\r\n  } else {\r\n    target.style.setProperty('display', 'block', 'important');\r\n  }\r\n});\r\n\r\nlet radios = document.querySelectorAll('.content-left-content-radio-item .content-left-content-radio-item-text>span:first-child');\r\n\r\nradios.forEach((item) => {\r\n  item.addEventListener('click', (e) => {\r\n    if (!e.target.classList.contains('checked')) {\r\n      radios.forEach((item2) => {\r\n        if (item2.classList.contains('checked')) {\r\n          item2.classList.remove('checked');\r\n        }\r\n      });\r\n      e.target.classList.add('checked');\r\n    }\r\n  });\r\n});"
+        }
+    ]
+}
