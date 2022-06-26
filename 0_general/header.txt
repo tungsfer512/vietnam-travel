@@ -1,7 +1,7 @@
 <div class="container">
   <div class="header-left">
     <div class="header-left-logo">
-      <a href="../index.html">
+      <a href="./index.html">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360"
           zoomAndPan="magnify" viewBox="0 0 270 135.000003" height="180" preserveAspectRatio="xMidYMid meet"
           version="1.0">
@@ -685,7 +685,7 @@
       <div class="header-right-item-dropdown" style="width: 400px; height: max-content; padding: 0;">
         <div class="header-right-item-dropdown-cart">
           <div class="header-right-item-dropdown-cart-content">
-            <a href="../6_detail/activity.html" class="header-right-item-dropdown-cart-content-item">
+            <a href="./6_detail/activity.html" class="header-right-item-dropdown-cart-content-item">
               <div class="header-right-item-dropdown-cart-content-item-img">
                 <img src="assets/images/item1.webp" alt="">
               </div>
@@ -697,7 +697,7 @@
                 <span>₫ 109000</span>
               </div>
             </a>
-            <a href="../6_detail/activity.html" class="header-right-item-dropdown-cart-content-item">
+            <a href="./6_detail/activity.html" class="header-right-item-dropdown-cart-content-item">
               <div class="header-right-item-dropdown-cart-content-item-img">
                 <img src="assets/images/item1.webp" alt="">
               </div>
@@ -709,7 +709,7 @@
                 <span>₫ 109000</span>
               </div>
             </a>
-            <a href="../6_detail/activity.html" class="header-right-item-dropdown-cart-content-item">
+            <a href="./6_detail/activity.html" class="header-right-item-dropdown-cart-content-item">
               <div class="header-right-item-dropdown-cart-content-item-img">
                 <img src="assets/images/item1.webp" alt="">
               </div>
@@ -721,7 +721,7 @@
                 <span>₫ 109000</span>
               </div>
             </a>
-            <a href="../6_detail/activity.html" class="header-right-item-dropdown-cart-content-item">
+            <a href="./6_detail/activity.html" class="header-right-item-dropdown-cart-content-item">
               <div class="header-right-item-dropdown-cart-content-item-img">
                 <img src="assets/images/item1.webp" alt="">
               </div>
@@ -739,7 +739,7 @@
               <span>Tổng tiền (1 items):</span>
               <span>₫ 109000</span>
             </span>
-            <span><a href="../8_user/cart.html">Xem giỏ hàng</a></span>
+            <span><a href="./8_user/cart.html">Xem giỏ hàng</a></span>
           </div>
         </div>
       </div>
@@ -755,7 +755,7 @@
       <div class="header-right-item-dropdown"
         style="width: 250px; height: max-content; right: 0; left: unset; padding: 0;">
         <div class="header-right-item-dropdown-user">
-          <a href="../8_user/ordered.html" class="header-right-item-dropdown-user-item">
+          <a href="./8_user/ordered.html" class="header-right-item-dropdown-user-item">
             <div class="header-right-item-dropdown-user-item-icon">
               <svg data-v-548257a2="" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"
                 class="klook-symbol-gray-800">
@@ -926,107 +926,107 @@
               <div class="wanna-go-right-second-content">
                 <div class="wanna-go-right-second-content-row">
                   <div class="wanna-go-right-second-content-row-left">
-                    <a href="../1_place/country.html">Hong kong & ma cao</a>
+                    <a href="./1_place/country.html">Hong kong & ma cao</a>
                   </div>
                   <div class="wanna-go-right-second-content-row-right">
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
                   </div>
                 </div>
                 <div class="wanna-go-right-second-content-row">
                   <div class="wanna-go-right-second-content-row-left">
-                    <a href="../1_place/country.html">Hong kong & ma cao</a>
+                    <a href="./1_place/country.html">Hong kong & ma cao</a>
                   </div>
                   <div class="wanna-go-right-second-content-row-right">
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
                   </div>
                 </div>
                 <div class="wanna-go-right-second-content-row">
                   <div class="wanna-go-right-second-content-row-left">
-                    <a href="../1_place/country.html">Hong kong & ma cao</a>
+                    <a href="./1_place/country.html">Hong kong & ma cao</a>
                   </div>
                   <div class="wanna-go-right-second-content-row-right">
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
                   </div>
                 </div>
                 <div class="wanna-go-right-second-content-row">
                   <div class="wanna-go-right-second-content-row-left">
-                    <a href="../1_place/country.html">Hong kong & ma cao</a>
+                    <a href="./1_place/country.html">Hong kong & ma cao</a>
                   </div>
                   <div class="wanna-go-right-second-content-row-right">
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
                   </div>
                 </div>
                 <div class="wanna-go-right-second-content-row">
                   <div class="wanna-go-right-second-content-row-left">
-                    <a href="../1_place/country.html">Hong kong & ma cao</a>
+                    <a href="./1_place/country.html">Hong kong & ma cao</a>
                   </div>
                   <div class="wanna-go-right-second-content-row-right">
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
-                    <span><a href="../1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
+                    <span><a href="./1_place/city.html">da nawng</a></span>
                   </div>
                 </div>
               </div>
@@ -1043,27 +1043,27 @@
             <div class="all-col-heading">
               <img src="./assets/images/header-all-icon-1.png" alt="">
               <span>
-                <a href="../3_experiences/home.html">Vui chơi & giải trí</a>
+                <a href="./3_experiences/home.html">Vui chơi & giải trí</a>
               </span>
             </div>
             <div class="all-col-content">
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Điểm tham quan</a>
+                <a href="./3_experiences/home.html">Điểm tham quan</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Tour & ngắm cảnh</a>
+                <a href="./3_experiences/home.html">Tour & ngắm cảnh</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Thể thao & hoạt động ngoài trời</a>
+                <a href="./3_experiences/home.html">Thể thao & hoạt động ngoài trời</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Thư giãn</a>
+                <a href="./3_experiences/home.html">Thư giãn</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Vui chơi & giải trí</a>
+                <a href="./3_experiences/home.html">Vui chơi & giải trí</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Hoạt động & thể thao dưới nước</a>
+                <a href="./3_experiences/home.html">Hoạt động & thể thao dưới nước</a>
               </div>
             </div>
           </div>
@@ -1071,15 +1071,15 @@
             <div class="all-col-heading">
               <img src="./assets/images/header-all-icon-2.png" alt="">
               <span>
-                <a href="../2_hotel/home.html">Lưu trú</a>
+                <a href="./2_hotel/home.html">Lưu trú</a>
               </span>
             </div>
             <div class="all-col-content">
               <div class="all-col-content-item">
-                <a href="../2_hotel/home.html">Tìm khách sạn</a>
+                <a href="./2_hotel/home.html">Tìm khách sạn</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../2_hotel/search-coupon.html">Ưu đãi khách sạn</a>
+                <a href="./2_hotel/search-coupon.html">Ưu đãi khách sạn</a>
               </div>
             </div>
           </div>
@@ -1087,57 +1087,57 @@
             <div class="all-col-heading">
               <img src="./assets/images/header-all-icon-3.png" alt="">
               <span>
-                <a href="../11_vehicle/">Di chuyển</a>
+                <a href="./11_vehicle/">Di chuyển</a>
               </span>
             </div>
             <div class="all-col-content">
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Tàu hoả</a>
+                <a href="./3_experiences/home.html">Tàu hoả</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Vé tàu Nhật Bản</a>
+                <a href="./3_experiences/home.html">Vé tàu Nhật Bản</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Vé tàu Châu Âu</a>
+                <a href="./3_experiences/home.html">Vé tàu Châu Âu</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Thuê xe tự lái</a>
+                <a href="./3_experiences/home.html">Thuê xe tự lái</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Di chuyển sân bay</a>
+                <a href="./3_experiences/home.html">Di chuyển sân bay</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Xe riêng đưa đón sân bay</a>
+                <a href="./3_experiences/home.html">Xe riêng đưa đón sân bay</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Tàu & xe buýt sân bay</a>
+                <a href="./3_experiences/home.html">Tàu & xe buýt sân bay</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Xe buýt & vé tàu</a>
+                <a href="./3_experiences/home.html">Xe buýt & vé tàu</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Xe buýt liên tỉnh Châu Âu</a>
+                <a href="./3_experiences/home.html">Xe buýt liên tỉnh Châu Âu</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Tàu cao tốc Việt Nam</a>
+                <a href="./3_experiences/home.html">Tàu cao tốc Việt Nam</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Thuê xe riêng</a>
+                <a href="./3_experiences/home.html">Thuê xe riêng</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Thuê xe gồm tài xế</a>
+                <a href="./3_experiences/home.html">Thuê xe gồm tài xế</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Giao thông công cộng</a>
+                <a href="./3_experiences/home.html">Giao thông công cộng</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Vé xe</a>
+                <a href="./3_experiences/home.html">Vé xe</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Thẻ di chuyển</a>
+                <a href="./3_experiences/home.html">Thẻ di chuyển</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Thuê xe máy</a>
+                <a href="./3_experiences/home.html">Thuê xe máy</a>
               </div>
             </div>
           </div>
@@ -1145,15 +1145,15 @@
             <div class="all-col-heading">
               <img src="./assets/images/header-all-icon-4.png" alt="">
               <span>
-                <a href="../3_experiences/home.html">Khám phá nhiều hơn nữa</a>
+                <a href="./3_experiences/home.html">Khám phá nhiều hơn nữa</a>
               </span>
             </div>
             <div class="all-col-content">
               <div class="all-col-content-item">
-                <a href="../4_restaurant/home.html">Ẩm thực & Nhà hàng</a>
+                <a href="./4_restaurant/home.html">Ẩm thực & Nhà hàng</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../7_wifi-sim/home.html">WiFi & SIM</a>
+                <a href="./7_wifi-sim/home.html">WiFi & SIM</a>
               </div>
             </div>
           </div>
@@ -1167,22 +1167,22 @@
           <div class="all-col">
             <div class="all-col-content">
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Điểm tham quan</a>
+                <a href="./3_experiences/home.html">Điểm tham quan</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Tour & ngắm cảnh</a>
+                <a href="./3_experiences/home.html">Tour & ngắm cảnh</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Thể thao & hoạt động ngoài trời</a>
+                <a href="./3_experiences/home.html">Thể thao & hoạt động ngoài trời</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Thư giãn</a>
+                <a href="./3_experiences/home.html">Thư giãn</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Vui chơi & giải trí</a>
+                <a href="./3_experiences/home.html">Vui chơi & giải trí</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Hoạt động & thể thao dưới nước</a>
+                <a href="./3_experiences/home.html">Hoạt động & thể thao dưới nước</a>
               </div>
             </div>
           </div>
@@ -1196,52 +1196,52 @@
           <div class="all-col">
             <div class="all-col-content">
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Tàu hoả</a>
+                <a href="./3_experiences/home.html">Tàu hoả</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Vé tàu Nhật Bản</a>
+                <a href="./3_experiences/home.html">Vé tàu Nhật Bản</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Vé tàu Châu Âu</a>
+                <a href="./3_experiences/home.html">Vé tàu Châu Âu</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Thuê xe tự lái</a>
+                <a href="./3_experiences/home.html">Thuê xe tự lái</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Di chuyển sân bay</a>
+                <a href="./3_experiences/home.html">Di chuyển sân bay</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Xe riêng đưa đón sân bay</a>
+                <a href="./3_experiences/home.html">Xe riêng đưa đón sân bay</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Tàu & xe buýt sân bay</a>
+                <a href="./3_experiences/home.html">Tàu & xe buýt sân bay</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Xe buýt & vé tàu</a>
+                <a href="./3_experiences/home.html">Xe buýt & vé tàu</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Xe buýt liên tỉnh Châu Âu</a>
+                <a href="./3_experiences/home.html">Xe buýt liên tỉnh Châu Âu</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Tàu cao tốc Việt Nam</a>
+                <a href="./3_experiences/home.html">Tàu cao tốc Việt Nam</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Thuê xe riêng</a>
+                <a href="./3_experiences/home.html">Thuê xe riêng</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Thuê xe gồm tài xế</a>
+                <a href="./3_experiences/home.html">Thuê xe gồm tài xế</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Giao thông công cộng</a>
+                <a href="./3_experiences/home.html">Giao thông công cộng</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Vé xe</a>
+                <a href="./3_experiences/home.html">Vé xe</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Thẻ di chuyển</a>
+                <a href="./3_experiences/home.html">Thẻ di chuyển</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../3_experiences/home.html">Thuê xe máy</a>
+                <a href="./3_experiences/home.html">Thuê xe máy</a>
               </div>
             </div>
           </div>
@@ -1255,10 +1255,10 @@
           <div class="all-col">
             <div class="all-col-content">
               <div class="all-col-content-item">
-                <a href="../2_hotels/hotels.html">Tìm khách sạn</a>
+                <a href="./2_hotels/hotels.html">Tìm khách sạn</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../2_hotels/search-coupon.html">Ưu đãi khách sạn</a>
+                <a href="./2_hotels/search-coupon.html">Ưu đãi khách sạn</a>
               </div>
             </div>
           </div>
@@ -1272,10 +1272,10 @@
           <div class="all-col">
             <div class="all-col-content">
               <div class="all-col-content-item">
-                <a href="../4_restaurant/home.html">Ẩm thực & Nhà hàng</a>
+                <a href="./4_restaurant/home.html">Ẩm thực & Nhà hàng</a>
               </div>
               <div class="all-col-content-item">
-                <a href="../7_wifi-sim/home.html">WiFi & SIM</a>
+                <a href="./7_wifi-sim/home.html">WiFi & SIM</a>
               </div>
             </div>
           </div>
@@ -1289,7 +1289,7 @@
       <div class="header-bot-right-item-img">
         <img src="assets/images/nav2.png" alt="">
       </div>
-      <span><a href="../8_user/gift_card.html">Phiếu tặng quà Việt Nam Travel</a></span>
+      <span><a href="./8_user/gift_card.html">Phiếu tặng quà Việt Nam Travel</a></span>
     </div>
   </div>
 </div>
@@ -2304,7 +2304,7 @@ ${userDropdown.title}
     let right = `<div class="wanna-go-right-first">`;
     wannaRightFirstData.forEach((wannaRightFirstDataItem) => {
       right += `
-<a href="../1_place/city.html" class="wanna-go-right-first-item">
+<a href="./1_place/city.html" class="wanna-go-right-first-item">
 <span>${wannaRightFirstDataItem.name}</span>
 </a>
 `;
@@ -2340,12 +2340,12 @@ ${userDropdown.title}
           x += `<div class="wanna-go-right-second-content-row">`;
           x += `
     <div class="wanna-go-right-second-content-row-left">
-      <a href="../1_place/country.html">${country.country}</a>
+      <a href="./1_place/country.html">${country.country}</a>
     </div>
     <div class="wanna-go-right-second-content-row-right">
   `;
           country.cities.forEach((city) => {
-            x += `<span><a href="../1_place/city.html">${city}</a></span>`;
+            x += `<span><a href="./1_place/city.html">${city}</a></span>`;
           });
           x += `</div>`;
           x += `</div>`;
