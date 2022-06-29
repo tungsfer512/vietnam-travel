@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 53,
+            "activePatchIndex": 54,
             "patches": [
                 {
                     "date": 1656071433927,
@@ -220,6 +220,10 @@
                 {
                     "date": 1656150436520,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n \t\t\tfont-size: 16px;\r\n \t\t\tline-height: 24px;\r\n \t\t\tcolor: $textBlack;\r\n \t\t\tfont-weight: 500;\r\n-\t\t\t\r\n+\t\t\t@\r\n \t\t}\r\n \t\t&-desc {\r\n \t\t\tpadding-top: 6px;\r\n \t\t\tfont-size: 12px;\r\n"
+                },
+                {
+                    "date": 1656336245764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n \tmargin: 0 12px;\r\n \t@include transition(transform, 0.2s, ease-in-out);\r\n \r\n \t&::before {\r\n-\t\tcontent: \"\"\r\n+\t\tcontent: \r\n \t}\r\n \r\n \t&:hover {\r\n \t\ttransform: translateY(-5px);\r\n"
                 }
             ],
             "date": 1656071433927,

@@ -8,6 +8,9 @@
 	&-item {
 		width: 100%;
 		height: 480px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 	&-content {
 		position: absolute;
@@ -1018,8 +1021,8 @@
 				top: 79px;
 				width: 237px;
 				height: 321px;
-				background-size: cover;
-
+				background-size: contain;
+				background-repeat: no-repeat;
 				&-list {
 					width: 100%;
 					padding: 0 20px;
@@ -1068,7 +1071,7 @@
 					font-size: 14px;
 					line-height: 1.44;
 					font-weight: 400;
-					-webkit-line-clamp: 3;
+					-webkit-line-clamp: 5;
 					display: -webkit-box;
 					-webkit-box-orient: vertical;
 					text-overflow: ellipsis;

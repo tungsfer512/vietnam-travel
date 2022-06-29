@@ -48,6 +48,9 @@ a {
   left: 0;
   right: 0;
   z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header .container {
   display: flex;
@@ -59,13 +62,14 @@ a {
   align-items: center;
   justify-content: center;
   height: 60px;
+  z-index: 100000;
 }
 .header-left-logo {
-  height: 60px;
+  height: 115px;
   width: 150px;
 }
 .header-left-logo svg {
-  height: 100%;
+  height: 115px;
   width: 100%;
 }
 .header-left-search {
@@ -207,10 +211,11 @@ a {
   align-items: center;
 }
 .header-right-item-dropdown-download-1-logo {
-  background-image: url(https://cdn.klook.com/s/dist_web/experience/dist_web/img/desktop-common-e7e119.png);
-  background-position: -848px -78px;
-  width: 40px;
-  height: 40px;
+  background-image: url(../../assets/images/logo.png);
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
 }
 .header-right-item-dropdown-download-1-content {
   margin-left: 12px;
@@ -234,10 +239,12 @@ a {
   align-items: center;
 }
 .header-right-item-dropdown-download-2-qrcode {
-  background-image: url(https://cdn.klook.com/s/dist_web/experience/dist_web/img/desktop-common-e7e119.png);
+  background-image: url(../../assets/images/download.png);
   background-position: -483px -200px;
   width: 98px;
   height: 98px;
+  background-position: center;
+  background-size: cover;
 }
 .header-right-item-dropdown-download-2-store-chplay {
   background-image: url(https://cdn.klook.com/s/dist_web/experience/dist_web/img/desktop-common-e7e119.png);

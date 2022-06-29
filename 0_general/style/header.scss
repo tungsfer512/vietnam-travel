@@ -11,6 +11,9 @@
 	left: 0;
 	right: 0;
 	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	.container {
 		display: flex;
 		justify-content: space-between;
@@ -23,14 +26,19 @@
 		align-items: center;
 		justify-content: center;
 		height: 60px;
+		z-index: 100000;
 	}
 	&-left {
 		&-logo {
-			height: 60px;
+			height: 115px;
 			width: 150px;
 			svg {
-				height: 100%;
+				height: 115px;
 				width: 100%;
+				image {
+					// height: 115px;
+				}
+				// width: 100%;
 			}
 		}
 		&-search {
@@ -174,10 +182,12 @@
 						justify-content: space-between;
 						align-items: center;
 						&-logo {
-							background-image: url(https://cdn.klook.com/s/dist_web/experience/dist_web/img/desktop-common-e7e119.png);
-							background-position: -848px -78px;
-							width: 40px;
-							height: 40px;
+							background-image: url(../../assets/images/logo.png);
+							background-position: center;
+							width: 50px;
+							height: 50px;
+							background-size: cover;
+
 						}
 						&-content {
 							margin-left: 12px;
@@ -203,10 +213,13 @@
 						justify-content: space-between;
 						align-items: center;
 						&-qrcode {
-							background-image: url(https://cdn.klook.com/s/dist_web/experience/dist_web/img/desktop-common-e7e119.png);
+							background-image: url(../../assets/images/download.png);
 							background-position: -483px -200px;
 							width: 98px;
 							height: 98px;
+							background-position: center;
+							background-size: cover;
+
 						}
 						&-store {
 							&-chplay {
