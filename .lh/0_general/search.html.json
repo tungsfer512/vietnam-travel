@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1656067930280,
@@ -44,6 +44,14 @@
                 {
                     "date": 1656105446355,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n \r\n     <link rel=\"stylesheet\" href=\"../0_general/style/css/header.css\">\r\n     <link rel=\"stylesheet\" href=\"../0_general/style/css/footer.css\">\r\n     <link rel=\"stylesheet\" href=\"./style/css/search.css\">\r\n+    <link rel=\"shortcut icon\" href=\"./assets/images/logo_favicon.png\" type=\"image/x-icon\">\r\n   </head>\r\n \r\n   <body>\r\n     <div class=\"site-container\">\r\n@@ -1348,8 +1349,8 @@\n         $(\"#header\").load(\"../0_general/header.txt\");\r\n         $(\"#footer\").load(\"../0_general/footer.html\");\r\n       });\r\n     </script>\r\n-    <script src=\"./\"></script>\r\n+    <script src=\"./js/search.js\"></script>\r\n   </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656560453269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1345,9 +1345,9 @@\n \r\n     <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>\r\n     <script>\r\n       $(document).ready(function () {\r\n-        $(\"#header\").load(\"../0_general/header.txt\");\r\n+        $(\"#header\").load(\"../0_general/header.html\");\r\n         $(\"#footer\").load(\"../0_general/footer.html\");\r\n       });\r\n     </script>\r\n     <script src=\"./js/search.js\"></script>\r\n"
+                },
+                {
+                    "date": 1656560464798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1345,9 +1345,9 @@\n \r\n     <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>\r\n     <script>\r\n       $(document).ready(function () {\r\n-        $(\"#header\").load(\"../0_general/header.html\");\r\n+        $(\"#header\").load(\"../0_general/header.txt\");\r\n         $(\"#footer\").load(\"../0_general/footer.html\");\r\n       });\r\n     </script>\r\n     <script src=\"./js/search.js\"></script>\r\n"
                 }
             ],
             "date": 1656067930280,
