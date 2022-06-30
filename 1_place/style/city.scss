@@ -1741,14 +1741,12 @@
 }
 
 .about-city {
-	border: $primaryBorder;
 	padding: 20px;
 	border-radius: 6px;
 	.about {
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;
-		border-bottom: $primaryBorder;
 		.desc {
 			flex: 2;
 			&-heading {

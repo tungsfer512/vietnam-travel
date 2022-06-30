@@ -1,0 +1,26 @@
+{
+    "sourceFile": "2_hotels/style/_variable.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1656612351249,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1656612378190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,15 @@\n+$primaryColor: #ff5b00;\r\n \r\n-\r\n-$primaryColor: #ff5b00;\r\n $whiteBackground: #ffffff;\r\n-$backgroundColor: #fafafa;\r\n-\r\n $primaryBorder: 1px solid #e0e0e0;\r\n \r\n $textBlack: #212121;\r\n-$textBlue: #437dff;\r\n $textBlackLight: #333333;\r\n $textGray: #757575;\r\n $textGrayLight: #999999;\r\n $textOrange: #ff5b00;\r\n+$textRed: #550100;\r\n $textWhite: #ffffff;\r\n \r\n \r\n $primaryButtonColor: #ff5b00;\r\n@@ -21,18 +18,8 @@\n \r\n $primaryBackgroundColor: #f5f5f5;\r\n $primaryHoverBackgroundColor: #eeeeee;\r\n \r\n-$primaryBoxShadow: 0 6px 12px 0 rgb(0 0 0 / 12%), 0 -1px 2px 0 rgb(0 0 0 / 8%);\r\n-\r\n-\r\n-$primaryButtonColor: #ff5b00;\r\n-$primaryHoverButtonColor: #e05000;\r\n-\r\n-\r\n-$primaryBackgroundColor: #f5f5f5;\r\n-$primaryHoverBackgroundColor: #eeeeee;\r\n-\r\n $boxShadow: 0 4px 20px 0 rgb(0 0 0 / 8%);\r\n $primaryBoxShadow: 0 6px 12px 0 rgb(0 0 0 / 12%), 0 -1px 2px 0 rgb(0 0 0 / 8%);\r\n \r\n input[type=\"number\"]::-webkit-inner-spin-button,\r\n"
+                },
+                {
+                    "date": 1656612482478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n $primaryBorder: 1px solid #e0e0e0;\r\n \r\n $textBlack: #212121;\r\n $textBlackLight: #333333;\r\n+$textBlue: #437dff;\r\n $textGray: #757575;\r\n $textGrayLight: #999999;\r\n $textOrange: #ff5b00;\r\n $textRed: #550100;\r\n"
+                }
+            ],
+            "date": 1656612351249,
+            "name": "Commit-0",
+            "content": "\r\n\r\n$primaryColor: #ff5b00;\r\n$whiteBackground: #ffffff;\r\n$backgroundColor: #fafafa;\r\n\r\n$primaryBorder: 1px solid #e0e0e0;\r\n\r\n$textBlack: #212121;\r\n$textBlue: #437dff;\r\n$textBlackLight: #333333;\r\n$textGray: #757575;\r\n$textGrayLight: #999999;\r\n$textOrange: #ff5b00;\r\n$textWhite: #ffffff;\r\n\r\n\r\n$primaryButtonColor: #ff5b00;\r\n$primaryHoverButtonColor: #e05000;\r\n\r\n\r\n$primaryBackgroundColor: #f5f5f5;\r\n$primaryHoverBackgroundColor: #eeeeee;\r\n\r\n$primaryBoxShadow: 0 6px 12px 0 rgb(0 0 0 / 12%), 0 -1px 2px 0 rgb(0 0 0 / 8%);\r\n\r\n\r\n$primaryButtonColor: #ff5b00;\r\n$primaryHoverButtonColor: #e05000;\r\n\r\n\r\n$primaryBackgroundColor: #f5f5f5;\r\n$primaryHoverBackgroundColor: #eeeeee;\r\n\r\n$boxShadow: 0 4px 20px 0 rgb(0 0 0 / 8%);\r\n$primaryBoxShadow: 0 6px 12px 0 rgb(0 0 0 / 12%), 0 -1px 2px 0 rgb(0 0 0 / 8%);\r\n\r\ninput[type=\"number\"]::-webkit-inner-spin-button,\r\ninput[type=\"number\"]::-webkit-outer-spin-button {\r\n  -webkit-appearance: none;\r\n  -moz-appearance: none;\r\n  appearance: none;\r\n  margin: 0;\r\n}\r\n\r\ninput[type=\"number\"] {\r\n  -moz-appearance: textfield;\r\n}\r\n\r\n.hotel-title {\r\n  width: 1160px;\r\n  margin: 0 auto;\r\n  display: flex;\r\n  padding: 40px 0 24px;\r\n\r\n  &-content {\r\n    font-size: 24px;\r\n    line-height: 1.18;\r\n    font-weight: 600;\r\n    position: relative;\r\n    padding: 0;\r\n    padding-left: 24px;\r\n    -webkit-box-flex: 1;\r\n    flex-grow: 1;\r\n    color: #212121;\r\n    margin: 0;\r\n\r\n    &::before {\r\n      margin-top: 4px;\r\n      display: inline-block;\r\n      content: \"\";\r\n      position: absolute;\r\n      left: 0;\r\n      top: 0;\r\n      width: 6px;\r\n      height: 24px;\r\n      background-color: #ff5b00;\r\n      border-radius: 4px;\r\n      margin-right: 16px;\r\n    }\r\n  }\r\n}\r\n\r\n.line-sticky {\r\n  width: 1160px;\r\n  margin: 0 auto;\r\n  position: relative;\r\n  z-index: 1;\r\n  display: flex;\r\n  transition-property: transform;\r\n  box-sizing: content-box;\r\n  padding: 16px 0;\r\n\r\n  &-btn{\r\n    display: flex;\r\n    -webkit-box-align: center;\r\n    align-items: center;\r\n    height: 36px;\r\n    padding: 0 16px;\r\n    font-size: 14px;\r\n    line-height: 1.44;\r\n    color: #212121;\r\n    margin-right: 12px;\r\n    font-weight: normal;\r\n    max-width: 378.667px;\r\n    cursor: pointer;\r\n    border-radius: 6px;\r\n    border: 1px solid #e0e0e0;\r\n    background: none;\r\n \r\n    &:focus{\r\n      background-color: $textOrange;\r\n      color: $textWhite;\r\n    }\r\n  }\r\n\r\n}\r\n\r\n.btn{\r\n  display: flex;\r\n  -webkit-box-align: center;\r\n  align-items: center;\r\n  justify-content: center;\r\n  height: 36px;\r\n  padding: 0 16px;\r\n  font-size: 14px;\r\n  line-height: 1.44;\r\n  color: #212121;\r\n  margin-right: 12px;\r\n  font-weight: normal;\r\n  max-width: 378.667px;\r\n  cursor: pointer;\r\n  border-radius: 6px;\r\n  border: 1px solid #e0e0e0;\r\n  background: none;\r\n\r\n  &:focus{\r\n    background-color: $textOrange;\r\n    color: $textWhite;\r\n  }\r\n}"
+        }
+    ]
+}

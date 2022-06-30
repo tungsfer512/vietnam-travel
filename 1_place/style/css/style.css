@@ -47,6 +47,7 @@ a {
 }
 
 .item {
+  position: relative;
   border: 1px solid #e0e0e0;
   background-color: #ffffff;
   display: block;
@@ -54,11 +55,59 @@ a {
   border-radius: 8px;
   overflow: hidden;
   margin: 0 12px;
-  transition: transform 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.item::before {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: -60px;
+  width: 40px;
+  height: 40px;
+  background: url("../../assets/images/love-before.png") no-repeat center/cover;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #ff5b00;
+  z-index: 1000;
+}
+.item::after {
+  content: "";
+  position: absolute;
+  top: 60px;
+  right: -60px;
+  width: 40px;
+  height: 40px;
+  background: url("../../assets/images/cart-after.png") no-repeat center/cover;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #ff5b00;
+  z-index: 1000;
+}
+@keyframes LtoR {
+  from {
+    left: -60px;
+  }
+  to {
+    left: 20px;
+  }
+}
+@keyframes RtoL {
+  from {
+    right: -60px;
+  }
+  to {
+    right: 20px;
+  }
 }
 .item:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.12), 0 -1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.item:hover::before {
+  animation: LtoR 0.5s ease-in-out forwards;
+}
+.item:hover::after {
+  animation: RtoL 0.5s ease-in-out forwards;
 }
 .item-img {
   width: 100%;
@@ -1831,7 +1880,6 @@ a {
 }
 
 .about-city {
-  border: 1px solid #e0e0e0;
   padding: 20px;
   border-radius: 6px;
 }
@@ -1839,7 +1887,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  border-bottom: 1px solid #e0e0e0;
 }
 .about-city .about .desc {
   flex: 2;

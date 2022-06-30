@@ -1,10 +1,11 @@
-@import "./css/variable";
-@import "./css/mixins";
-@import "./css/common";
+@import "./_variable";
+@import "./_mixins";
+@import "./_common";
 
-@import "./css/hotel.scss";
-@import "./css/hoteldetail.scss";
-@import "./css/item.scss";
-@import "./css/image-grid.scss";
-@import "./css/item_hotel_detail.scss";
-@import "./css/item-search.scss";
+@import "./hotel.scss";
+@import "./hoteldetail.scss";
+@import "./item.scss";
+@import "./image-grid.scss";
+@import "./item_hotel_detail.scss";
+@import "./item-search.scss";
+@import "./search.scss";
