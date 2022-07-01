@@ -721,9 +721,9 @@ body {
             border-radius: 10px;
             padding: 0 6px;
             height: 20px;
-            position: absolute;
-            top: 95px;
-            left: 16px;
+            // position: absolute;
+            // top: 95px;
+            // left: 16px;
             font-size: 12px;
             font-weight: 700;
 
@@ -732,12 +732,12 @@ body {
                 line-height: 17px;
                 color: $textGray;
 
-                >span:first-child {
-                    font-size: 12px;
-                    line-height: 17px;
-                    color: $textOrange;
-                    font-weight: 600;
-                }
+                // >span:first-child {
+                //     font-size: 12px;
+                //     line-height: 17px;
+                //     color: $textOrange;
+                //     font-weight: 600;
+                // }
 
                 >span {
                     font-size: 10px;

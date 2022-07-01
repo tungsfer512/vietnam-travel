@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1656612567359,
@@ -20,6 +20,14 @@
                 {
                     "date": 1656612604204,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n     width: 100%;\r\n \r\n     .container {\r\n         width: 100%;\r\n-        width: 1160px;\r\n+        min-width: 1160px;\r\n         position: relative;\r\n \r\n         &-top {\r\n             height: 360px;\r\n"
+                },
+                {
+                    "date": 1656639740126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -720,11 +720,11 @@\n             color: $textOrange;\r\n             border-radius: 10px;\r\n             padding: 0 6px;\r\n             height: 20px;\r\n-            position: absolute;\r\n-            top: 95px;\r\n-            left: 16px;\r\n+            // position: absolute;\r\n+            // top: 95px;\r\n+            // left: 16px;\r\n             font-size: 12px;\r\n             font-weight: 700;\r\n \r\n             >span {\r\n"
+                },
+                {
+                    "date": 1656639777727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -731,14 +731,14 @@\n                 font-size: 12px;\r\n                 line-height: 17px;\r\n                 color: $textGray;\r\n \r\n-                >span:first-child {\r\n-                    font-size: 12px;\r\n-                    line-height: 17px;\r\n-                    color: $textOrange;\r\n-                    font-weight: 600;\r\n-                }\r\n+                // >span:first-child {\r\n+                //     font-size: 12px;\r\n+                //     line-height: 17px;\r\n+                //     color: $textOrange;\r\n+                //     font-weight: 600;\r\n+                // }\r\n \r\n                 >span {\r\n                     font-size: 10px;\r\n                     line-height: 15px;\r\n"
                 }
             ],
             "date": 1656612567359,
