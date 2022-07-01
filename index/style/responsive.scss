@@ -54,7 +54,7 @@
 
     .container-body-row-blogs {
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
 
         .container-body-row-blogs-item {
             flex: none;
@@ -66,7 +66,7 @@
 @media screen and (max-width: 480px) {
 
     .slick-arrow {
-        display: none;
+        display: none !important;
     }
 
     .container-body-row-download-and-desc {
