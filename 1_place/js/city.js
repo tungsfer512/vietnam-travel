@@ -12,7 +12,7 @@ $('.hightlight-slider').slick({
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 768,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2
@@ -22,7 +22,8 @@ $('.hightlight-slider').slick({
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay:true
       }
     }
   ],

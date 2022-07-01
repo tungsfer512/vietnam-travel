@@ -212,7 +212,7 @@
 	&-body {
 		margin-top: 48px;
 		width: 100%;
-		max-width: 1160px;
+		max-width: 1190px;
 		margin: 0 auto;
 
 		.pd-12 {
@@ -235,8 +235,8 @@
 
 				h2 {
 					font-weight: 600;
-					font-size: 24px;
-					line-height: 28px;
+					font-size: 28px;
+					line-height: 36px;
 					color: #212121;
 				}
 			}
@@ -614,7 +614,6 @@
 				padding: 30px 40px;
 				overflow: hidden;
 				background-size: cover;
-				border: 1px solid #e0e0e0;
 			}
 
 			&-download {
@@ -663,6 +662,7 @@
 
 				&-image {
 					width: 371px;
+					cursor: pointer;
 
 					> img {
 						width: 100%;
@@ -676,15 +676,17 @@
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
+				gap: 20px;
 
 				&-item {
-					flex: 0 0 370px;
+					flex: 0 0 355px;
 					display: flex;
 					align-items: center;
 					gap: 15px;
 					padding: 20px;
 					border-radius: 10px;
 					border: $primaryBorder;
+					cursor: pointer;
 
 					> span {
 						font-size: 26px;

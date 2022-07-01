@@ -3,14 +3,16 @@
 	margin: 0 auto;
 	&-body {
 		width: 100%;
-		min-width: 1160px;
+		max-width: 1190px;
+		margin: 0 auto;
 
 		&-row {
-			width: 1160px;
+			max-width: 1190px;
+			width: 100%;
 			margin: 0 auto;
 
 			&-title {
-				padding: 72px 0 32px;
+				padding: 40px 15px 0px;
 				display: -webkit-box;
 				display: flex;
 				-webkit-box-align: end;
@@ -752,15 +754,17 @@
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
+				gap: 20px;
 
 				&-item {
-					flex: 0 0 370px;
+					flex: 0 0 355px;
 					display: flex;
 					align-items: center;
 					gap: 15px;
 					padding: 20px;
 					border-radius: 10px;
 					border: $primaryBorder;
+					cursor: pointer;
 
 					> span {
 						font-size: 26px;
@@ -1754,7 +1758,6 @@
 	display: grid;
 	grid-template-columns: repeat(3, auto);
 	grid-template-rows: 230px 230px;
-	gap: 4px;
 	position: relative;
 	cursor: pointer;
 	margin-top: 20px;
@@ -1773,13 +1776,10 @@
 		}
 		&-1 {
 			grid-area: 1 / 1 / 3 / 3;
-			border-radius: 8px 0 0 8px;
 		}
 		&-2 {
-			border-radius: 0 8px 0 0;
 		}
 		&-3 {
-			border-radius: 0 0 8px 0;
 		}
 
 		img {
@@ -2014,7 +2014,7 @@
 
 @media screen and (max-width: 480px) {
 	.slick-arrow {
-		display: none;
+		display: none !important;
 	}
 
 	.container-body-row-download-and-desc {
