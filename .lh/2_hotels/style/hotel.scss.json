@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1656612567359,
@@ -28,6 +28,10 @@
                 {
                     "date": 1656639777727,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -731,14 +731,14 @@\n                 font-size: 12px;\r\n                 line-height: 17px;\r\n                 color: $textGray;\r\n \r\n-                >span:first-child {\r\n-                    font-size: 12px;\r\n-                    line-height: 17px;\r\n-                    color: $textOrange;\r\n-                    font-weight: 600;\r\n-                }\r\n+                // >span:first-child {\r\n+                //     font-size: 12px;\r\n+                //     line-height: 17px;\r\n+                //     color: $textOrange;\r\n+                //     font-weight: 600;\r\n+                // }\r\n \r\n                 >span {\r\n                     font-size: 10px;\r\n                     line-height: 15px;\r\n"
+                },
+                {
+                    "date": 1656640019576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -774,12 +774,8 @@\n             >span {\r\n                 font-size: 12px;\r\n                 line-height: 17px;\r\n                 color: $textGray;\r\n-\r\n-                &:first-of-type {\r\n-                    text-decoration: line-through;\r\n-                }\r\n             }\r\n \r\n             div {\r\n                 display: flex;\r\n"
                 }
             ],
             "date": 1656612567359,

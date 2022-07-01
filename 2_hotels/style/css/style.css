@@ -782,9 +782,6 @@ body {
   line-height: 17px;
   color: #757575;
 }
-.item-content-price > span:first-of-type {
-  text-decoration: line-through;
-}
 .item-content-price div {
   display: flex;
   justify-content: space-between;
