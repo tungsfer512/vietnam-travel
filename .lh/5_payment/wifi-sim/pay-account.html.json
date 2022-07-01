@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1656071072196,
@@ -20,6 +20,10 @@
                 {
                     "date": 1656171869705,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \r\n     <link rel=\"stylesheet\" href=\"../../0_general/style/css/header.css\">\r\n     <link rel=\"stylesheet\" href=\"../../0_general/style/css/footer.css\">\r\n     <link rel=\"stylesheet\" href=\"../style/css/style.css\">\r\n-    <link rel=\"shortcut icon\" href=\"./assets/images/logo_favicon.png\" type=\"image/x-icon\">\r\n+    <link rel=\"shortcut icon\" href=\"../assets/images/logo_favicon.png\" type=\"image/x-icon\">\r\n   </head>\r\n \r\n   <body>\r\n     <div class=\"site-container\">\r\n@@ -530,9 +530,9 @@\n                         dụng</a>\r\n                       và <a href=\"#\">Chính sách hoàn huỷ</a></span>\r\n                     <span>\r\n                       <span>₫ 1,692,000</span>\r\n-                      <span><a href=\"../0_global/index.html\">Thanh toán ngay</a></span>\r\n+                      <span><a href=\"../../index.html\">Thanh toán ngay</a></span>\r\n                     </span>\r\n                   </div>\r\n                 </div>\r\n               </div>\r\n"
+                },
+                {
+                    "date": 1656643202039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,8 @@\n \r\n     <link rel=\"stylesheet\" href=\"../../0_general/style/css/header.css\">\r\n     <link rel=\"stylesheet\" href=\"../../0_general/style/css/footer.css\">\r\n     <link rel=\"stylesheet\" href=\"../style/css/style.css\">\r\n-    <link rel=\"shortcut icon\" href=\"../assets/images/logo_favicon.png\" type=\"image/x-icon\">\r\n   </head>\r\n \r\n   <body>\r\n     <div class=\"site-container\">\r\n"
                 }
             ],
             "date": 1656071072196,

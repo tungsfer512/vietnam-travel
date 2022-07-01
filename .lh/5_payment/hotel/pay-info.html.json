@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1656071049546,
@@ -16,6 +16,10 @@
                 {
                     "date": 1656105673390,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \r\n     <link rel=\"stylesheet\" href=\"../../0_general/style/css/header.css\">\r\n     <link rel=\"stylesheet\" href=\"../../0_general/style/css/footer.css\">\r\n     <link rel=\"stylesheet\" href=\"../style/css/style.css\">\r\n-    <link rel=\"shortcut icon\" href=\"./assets/images/logo_favicon.png\" type=\"image/x-icon\">\r\n+    <link rel=\"shortcut icon\" href=\"../assets/images/logo_favicon.png\" type=\"image/x-icon\">\r\n   </head>\r\n \r\n   <body>\r\n     <div class=\"site-container\">\r\n"
+                },
+                {
+                    "date": 1656643189924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,8 @@\n \r\n     <link rel=\"stylesheet\" href=\"../../0_general/style/css/header.css\">\r\n     <link rel=\"stylesheet\" href=\"../../0_general/style/css/footer.css\">\r\n     <link rel=\"stylesheet\" href=\"../style/css/style.css\">\r\n-    <link rel=\"shortcut icon\" href=\"../assets/images/logo_favicon.png\" type=\"image/x-icon\">\r\n   </head>\r\n \r\n   <body>\r\n     <div class=\"site-container\">\r\n"
                 }
             ],
             "date": 1656071049546,

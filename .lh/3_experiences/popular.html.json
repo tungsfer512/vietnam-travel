@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 34,
+            "activePatchIndex": 35,
             "patches": [
                 {
                     "date": 1656098754096,
@@ -144,6 +144,10 @@
                 {
                     "date": 1656171031576,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -692,8 +692,8 @@\n         $(\"#header\").load(\"../0_general/header.txt\");\r\n         $(\"#footer\").load(\"../0_general/footer.html\");\r\n       });\r\n     </script>\r\n-    <script src=\"./js/index.js\"></script>\r\n+    <script src=\"./js/.js\"></script>\r\n   </body>\r\n \r\n </html>\r\n"
+                },
+                {
+                    "date": 1656643169131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,8 @@\n     <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\" />\r\n     <link rel=\"stylesheet\" href=\"../0_general/style/css/header.css\">\r\n     <link rel=\"stylesheet\" href=\"../0_general/style/css/footer.css\">\r\n     <link rel=\"stylesheet\" href=\"./style/css/style.css\">\r\n-    <link rel=\"shortcut icon\" href=\"./assets/images/logo_favicon.png\" type=\"image/x-icon\">\r\n   </head>\r\n \r\n   <body>\r\n     <div class=\"site-container\">\r\n@@ -692,8 +691,8 @@\n         $(\"#header\").load(\"../0_general/header.txt\");\r\n         $(\"#footer\").load(\"../0_general/footer.html\");\r\n       });\r\n     </script>\r\n-    <script src=\"./js/.js\"></script>\r\n+    <script src=\"./js/popular.js\"></script>\r\n   </body>\r\n \r\n </html>\r\n"
                 }
             ],
             "date": 1656098754096,
