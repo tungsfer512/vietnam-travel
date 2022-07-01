@@ -1,0 +1,108 @@
+@media screen and (max-width: 1024px) {
+    .container-body-row-download-and-desc {
+
+        // flex-direction: column;
+        .container-body-row-download {
+            flex: 0 0 50%;
+        }
+
+        .container-body-row-desc {
+            flex: 0 0 50%;
+            padding-left: 20px;
+        }
+    }
+
+    .container-body-row-blogs-item {
+        flex: 0 0 30%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .top-slider-content .slider-search-form,
+    .container .slider-search-form-dropdown {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .top-slider-content .slider-search-form {
+        top: -60px;
+    }
+
+    .container-body-row-download-and-desc {
+        flex-direction: column;
+
+        .container-body-row-download {
+            flex: none;
+            width: 100%;
+            height: 390px;
+        }
+
+        .container-body-row-desc {
+            width: 100%;
+            flex: none;
+            padding: 20px 0;
+            gap: 20px;
+        }
+    }
+
+    .top-slider-content .slider-search-form,
+    .container .slider-search-form-dropdown {
+        width: 360px;
+    }
+
+    .container-body-row-blogs {
+        flex-direction: column;
+        gap: 20px;
+
+        .container-body-row-blogs-item {
+            flex: none;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .slick-arrow {
+        display: none;
+    }
+
+    .container-body-row-download-and-desc {
+        flex-direction: column;
+
+        .container-body-row-download {
+            flex: none;
+            width: 100%;
+            height: 300px;
+        }
+
+        .container-body-row-desc-image {
+            width: 300px;
+        }
+    }
+
+    .top-slider-content .slider-search-form,
+    .container .slider-search-form-dropdown {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .container-body-row-download-and-desc {
+        flex-direction: column;
+
+        .container-body-row-download {
+            flex: none;
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+    .top-slider-content .slider-search-form,
+    .container .slider-search-form-dropdown {
+        width: 240px;
+    }
+}

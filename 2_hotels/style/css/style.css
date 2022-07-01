@@ -2820,6 +2820,9 @@ a {
   .list-right-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .list-right-pagination span:nth-of-type(4), .list-right-pagination span:nth-of-type(5), .list-right-pagination span:nth-of-type(6), .list-right-pagination span:nth-of-type(7) {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

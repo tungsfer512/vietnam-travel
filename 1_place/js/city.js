@@ -1,58 +1,35 @@
-
-
-$('.f3_experiences-slider').slick({
-  slidesToShow: 2,
-  slidesToScroll: 2,
-  // autoplay: true,
-  // autoplaySpeed: 2000,
-  infinite: false,
-  nextArrow: `<span class="material-icons slick-next">
-      chevron_right
-      </span>`,
-  prevArrow: `<span class="material-icons slick-prev">
-    chevron_left
-    </span>`
-});
-
-$('.f3_near-slider').slick({
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  // autoplay: true,
-  // autoplaySpeed: 2000,
-  infinite: false,
-  nextArrow: `<span class="material-icons slick-next">
-      chevron_right
-      </span>`,
-  prevArrow: `<span class="material-icons slick-prev">
-    chevron_left
-    </span>`
-});
-$('.f3_comment-slider').slick({
-  slidesToShow: 2,
-  slidesToScroll: 2,
-  // autoplay: true,
-  // autoplaySpeed: 2000,
-  infinite: false,
-  nextArrow: `<span class="material-icons slick-next">
-      chevron_right
-      </span>`,
-  prevArrow: `<span class="material-icons slick-prev">
-    chevron_left
-    </span>`
-});
-
-
-
-var acc = document.getElementsByClassName("accordion");
-var i;
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function () {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
+$('.hightlight-slider').slick({
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
     }
-  });
-}
+  ],
+  nextArrow: `<span class="material-icons slick-next">
+      arrow_forward
+      </span>`,
+  prevArrow: `<span class="material-icons slick-prev">
+    arrow_back
+    </span>`
+});
